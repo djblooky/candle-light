@@ -2,7 +2,7 @@
 
 public class InteractiveObject : MonoBehaviour
 {
-    [Header("Interactable.cs")]
+    [Header("InteractiveObject.cs")]
     public bool displayTextOnHover = true;
     public string hoverText;
 
