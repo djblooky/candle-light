@@ -8,6 +8,31 @@ using UnityEngine;
 public class RushCharacterController : MonoBehaviour
 {
 
+    [Header("Equipment Stuff")]
+
+    public Camera EquipmentCamera;
+
+    public Transform leftHandHolder;
+    public Vector2 leftHandBobIntensity = new Vector2(0.025f, 0.025f);
+    public Vector2 leftHandWalkBobIntensity;
+    public Vector2 leftHandSprintBobIntensity;
+    private Vector3 leftHandParentOrigin;
+    private Vector3 leftHandParentBase;
+
+    public Transform rightHandHolder;
+    public Vector2 rightHandBobIntensity = new Vector2(0.025f, 0.025f);
+    public Vector2 rightHandWalkBobIntensity;
+    public Vector2 rightHandSprintBobIntensity;
+    private Vector3 rightHandParentOrigin;
+    private Vector3 rightHandParentBase;
+
+    // Weapon Variables
+    private float movementCounter;  //weapon bob var
+    private float idleCounter;      //weapon bob var
+    private float sprintCounter;   //weapon bob var
+    private Vector3 targetHeldItemBobLeft;
+    private Vector3 targetHeldItemBobRight;
+
     public static RushCharacterController current; //Just call RushController.current to access the current player's variables from any other script!
 
     /*
@@ -154,6 +179,12 @@ public class RushCharacterController : MonoBehaviour
 
     void Start()
     {
+
+        leftHandParentOrigin = leftHandHolder.localPosition;
+        leftHandParentBase = leftHandParentOrigin;
+
+        rightHandParentOrigin = rightHandHolder.localPosition;
+        rightHandParentBase = rightHandParentOrigin;
 
         FOV = playerCamera.fieldOfView;
 
@@ -790,6 +821,37 @@ public class RushCharacterController : MonoBehaviour
 
         ///
 
+        /// EQUIPMENT BOB
+        /// should be at end of update
+
+        if (Input.GetAxis(walkAxis) == 0 && Input.GetAxis(strafeAxis) == 0)
+        {
+            SetHeldItemBob(idleCounter, leftHandBobIntensity.x, leftHandBobIntensity.y);
+            idleCounter += Time.deltaTime;
+            leftHandHolder.localPosition = Vector3.Lerp(leftHandHolder.localPosition, targetHeldItemBobLeft, Time.deltaTime * 2f);
+
+            SetHeldItemBob(idleCounter, rightHandBobIntensity.x, rightHandBobIntensity.y);
+            idleCounter += Time.deltaTime;
+            rightHandHolder.localPosition = Vector3.Lerp(rightHandHolder.localPosition, targetHeldItemBobRight, Time.deltaTime * 2f);
+
+        }
+        else if (!isSprinting)
+        {
+            SetHeldItemBob(movementCounter, 0.035f, 0.035f);
+            movementCounter += Time.deltaTime * 3f;
+            leftHandHolder.localPosition = Vector3.Lerp(leftHandHolder.localPosition, targetHeldItemBobLeft, Time.deltaTime * 6f);
+            rightHandHolder.localPosition = Vector3.Lerp(rightHandHolder.localPosition, targetHeldItemBobRight, Time.deltaTime * 6f);
+
+        }
+        else if (isSprinting)
+        {
+
+            SetHeldItemBob(sprintCounter, 0.05f, 0.05f);
+            sprintCounter += Time.deltaTime * 6f;
+            leftHandHolder.localPosition = Vector3.Lerp(leftHandHolder.localPosition, targetHeldItemBobLeft, Time.deltaTime * 9f);
+            rightHandHolder.localPosition = Vector3.Lerp(rightHandHolder.localPosition, targetHeldItemBobRight, Time.deltaTime * 9f);
+        }
+
     }
 
     public static void RushStepEventHandler(AudioClip sound)
@@ -896,6 +958,13 @@ public class RushCharacterController : MonoBehaviour
                 break;
         }
     }
+
+    private void SetHeldItemBob(float parameterZ, float xIntensity, float yIntensity)
+    {
+        targetHeldItemBobLeft = leftHandParentBase + new Vector3(Mathf.Cos(parameterZ) * xIntensity, Mathf.Sin(parameterZ * 2) * yIntensity, 0);
+        targetHeldItemBobRight = rightHandParentBase + new Vector3(Mathf.Cos(parameterZ) * xIntensity, Mathf.Sin(parameterZ * 2) * yIntensity, 0);
+    }
+
 
     private void OnDrawGizmos()
     {
