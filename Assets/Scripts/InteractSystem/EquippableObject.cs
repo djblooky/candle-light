@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EquippableObject : InteractiveObject
 {
-
+    public Vector3 EquippedRotation;
 
     public override void Interact()
     {
