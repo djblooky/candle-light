@@ -7,4 +7,5 @@ public class Door : Openable
         animator = GetComponentInParent<Animator>();
         audioSource = GetComponent<AudioSource>();
     }
+
 }

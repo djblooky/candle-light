@@ -13,8 +13,10 @@ public class PlaceObjectTrigger : InteractiveObject
     {
         base.OnHoveredOver(i);
 
-        if(EquipmentManager.current.leftHandEquipped)
-            hoverText = "place " + EquipmentManager.current.currentLeftObject.name + "?"; //can also use name from InteractiveObject component instead
+        if (EquipmentManager.current.leftHandEquipped)
+            hoverText = "place " + EquipmentManager.current.currentLeftObject.name + "?"; //TODO: can also use name from InteractiveObject component instead
+        else
+            hoverText = "";
     }
 
     public override void Interact()

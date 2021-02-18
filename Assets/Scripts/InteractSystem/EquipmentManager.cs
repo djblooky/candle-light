@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
 {
+    public static event Action ObjectPlaced;
+
     public static EquipmentManager current;
     public GameObject leftHandEquipmentHolder, rightHandEquipmentHolder;
     public bool leftHandEquipped = false, rightHandEquipped = false;
@@ -10,7 +13,7 @@ public class EquipmentManager : MonoBehaviour
     private float lerpDuration = 1f;
     private float lerpTimeElapsed = 0;
     private EquippableObject objectToEquip = null, objectToPlace = null;
-    PlaceObjectTrigger nextSpotToPlace;
+    private PlaceObjectTrigger nextSpotToPlace;
 
     private void Start()
     {
@@ -39,19 +42,20 @@ public class EquipmentManager : MonoBehaviour
                 nextSpotToPlace = PlayerRaycast.objectLookingAt as PlaceObjectTrigger;
                 objectToPlace = currentLeftObject;
                 objectToPlace.tag = "Untagged"; //no longer interactive
+                nextSpotToPlace.tag = "Untagged";
             }
-                
         }
     }
 
     private void MoveObjectToPlace()
     {
         objectToPlace.transform.position = Vector3.Lerp(objectToPlace.transform.position, nextSpotToPlace.transform.position, lerpTimeElapsed / lerpDuration);
-        
+
         lerpTimeElapsed += Time.deltaTime;
 
         if (lerpTimeElapsed >= lerpDuration - 0.7) //once it's done lerping
         {
+            ObjectPlaced?.Invoke(); //TODO: remove this and create invoke an event when the lock flames are lit instead
             UnequipObject();
             lerpTimeElapsed = 0;
         }
