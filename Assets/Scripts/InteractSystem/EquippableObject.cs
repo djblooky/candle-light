@@ -3,7 +3,7 @@
 public class EquippableObject : InteractiveObject
 {
     [Header("EquippableObject.cs")]
-    public Vector3 EquippedRotation;
+    public Vector3 EquippedRotation, PlacedRotation;
 
     public override void Interact()
     {
