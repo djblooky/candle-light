@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class EndDoor : Openable
 {
@@ -47,7 +48,14 @@ public class EndDoor : Openable
         {
             isLocked = false;
             doorModel.GetComponent<Renderer>().enabled = false; //TODO: remove this because door will animate instead
+            StartCoroutine(SetDoorInactiveAfterDelay());
         }
+    }
+
+    IEnumerator SetDoorInactiveAfterDelay()
+    {
+        yield return new WaitForSeconds(lockUnlockedClip.length);
+        Destroy(gameObject);
     }
 
     private void OnEnable()
