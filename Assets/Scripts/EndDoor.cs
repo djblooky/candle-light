@@ -4,16 +4,16 @@ public class EndDoor : Openable
 {
     public int LocksRemaining
     {
-        get { return locksRemaining; }
+        get { return _locksRemaining; }
         set
         {
             //TODO: update locksRemaining anim param
-            locksRemaining = value;
+            _locksRemaining = value;
         }
     }
 
     [Header("EndDoor.cs")]
-    [SerializeField] private int locksRemaining = 3;
+    [SerializeField] private int _locksRemaining = 3;
     [SerializeField] private AudioClip lockUnlockedClip;
     [SerializeField] private GameObject doorModel;
 
@@ -43,7 +43,7 @@ public class EndDoor : Openable
 
     private void CheckForUnlockedDoor()
     {
-        if (locksRemaining <= 0)
+        if (_locksRemaining <= 0)
         {
             isLocked = false;
             doorModel.GetComponent<Renderer>().enabled = false; //TODO: remove this because door will animate instead

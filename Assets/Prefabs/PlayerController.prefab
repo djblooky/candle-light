@@ -143,87 +143,6 @@ MonoBehaviour:
   minFactor: 1
   moveRange: 0.1
   speed: 0.1
---- !u!114 &5464483406486249750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4476762168050687982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7ca3e28eb6dfaf4b93581d43dedca6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftHandEquipmentHolder: {fileID: 5984578300476921920}
-  rightHandEquipmentHolder: {fileID: 4851702237230607689}
-  leftHandEquipped: 0
-  rightHandEquipped: 0
-  currentLeftObject: {fileID: 0}
-  currentRightObject: {fileID: 0}
---- !u!114 &4242763277846891820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4476762168050687982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b48b00073c83d4eb3577631dce2da3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DeathCount: 0
-  CandleScale: 1
-  CandlePivotPointer: {fileID: 2329345369434381736}
---- !u!114 &1535845452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4478673370011727780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 686b30cc4b097a44ebc907ebe146e180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanceToSee: 3
---- !u!114 &1672144927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4478673370011727780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdcd06815c47d30489f70df42db56a48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frustumSettings:
-    baseSettings: {fileID: 11400000, guid: 9571429cb98eac84ebb4bf88947d2f45, type: 2}
-    qualitySettings: {fileID: 11400000, guid: 20fb94a00170d9249925d158350d8dd9, type: 2}
---- !u!114 &1672144933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4478673370011727780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47efa44fec78c254489271219d144ce2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candleOnLightingDensity: 5
-  candleOnAmbientLightingStrength: 0
-  candleOffLightingDensity: 0.25
-  candleOffAmbientLightingStrength: 0.9
-  candleSpotLight: {fileID: 1807908116}
-  auraQualitySettings: {fileID: 11400000, guid: 20fb94a00170d9249925d158350d8dd9,
-    type: 2}
-  auraBaseSettings: {fileID: 11400000, guid: 9571429cb98eac84ebb4bf88947d2f45, type: 2}
 --- !u!1 &729079686732881253
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +219,89 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &4242763277846891820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476762168050687982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b48b00073c83d4eb3577631dce2da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addToCandleDurationAfterRespawn: 0
+  CandleScale: 1
+  BurnDurationSeconds: 300
+  BurnSecondsRemaining: 0
+  CandlePivotPointer: {fileID: 2329345369434381736}
+--- !u!114 &5464483406486249750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476762168050687982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ca3e28eb6dfaf4b93581d43dedca6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftHandEquipmentHolder: {fileID: 5984578300476921920}
+  rightHandEquipmentHolder: {fileID: 4851702237230607689}
+  leftHandEquipped: 0
+  rightHandEquipped: 0
+  currentLeftObject: {fileID: 0}
+  currentRightObject: {fileID: 0}
+--- !u!114 &1535845452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478673370011727780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686b30cc4b097a44ebc907ebe146e180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceToSee: 3
+--- !u!114 &1672144927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478673370011727780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd06815c47d30489f70df42db56a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frustumSettings:
+    baseSettings: {fileID: 11400000, guid: 9571429cb98eac84ebb4bf88947d2f45, type: 2}
+    qualitySettings: {fileID: 11400000, guid: 20fb94a00170d9249925d158350d8dd9, type: 2}
+--- !u!114 &1672144933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478673370011727780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47efa44fec78c254489271219d144ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  candleOnLightingDensity: 5
+  candleOnAmbientLightingStrength: 0
+  candleOffLightingDensity: 0.25
+  candleOffAmbientLightingStrength: 1.5
+  candleSpotLight: {fileID: 1807908116}
+  auraQualitySettings: {fileID: 11400000, guid: 20fb94a00170d9249925d158350d8dd9,
+    type: 2}
+  auraBaseSettings: {fileID: 11400000, guid: 9571429cb98eac84ebb4bf88947d2f45, type: 2}
 --- !u!1 &4851702237230607689
 GameObject:
   m_ObjectHideFlags: 0
