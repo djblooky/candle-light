@@ -4944,13 +4944,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5936514451171164481}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.15, z: 0}
-  m_LocalScale: {x: 0.51227, y: 0.24615474, z: 0.51227}
+  m_LocalRotation: {x: -0, y: -0.26015064, z: -0, w: 0.96556807}
+  m_LocalPosition: {x: 0, y: 0.112500004, z: 0}
+  m_LocalScale: {x: 0.51227, y: 0.24615476, z: 0.51227}
   m_Children:
   - {fileID: 3070624802603271587}
   - {fileID: 5936514451771673477}
-  m_Father: {fileID: 5936514452125473453}
+  m_Father: {fileID: 2984320434513969540}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5936514451171164482
@@ -5110,7 +5110,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_Children:
-  - {fileID: 5936514451171164480}
+  - {fileID: 2984320434513969540}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -30.158, z: 0}
@@ -5351,3 +5351,34 @@ MonoBehaviour:
   customCookieDistanceFalloffPower: 2
   customAngularFalloffThreshold: 0.8
   customAngularFalloffPower: 2
+--- !u!1 &7748093451851924753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2984320434513969540}
+  m_Layer: 0
+  m_Name: Candle_Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2984320434513969540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748093451851924753}
+  m_LocalRotation: {x: -0, y: 0.26015064, z: -0, w: 0.96556807}
+  m_LocalPosition: {x: 0, y: 0.0375, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5936514451171164480}
+  m_Father: {fileID: 5936514452125473453}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
