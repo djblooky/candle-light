@@ -17,7 +17,7 @@ public class EndDoor : Openable
     [SerializeField] private AudioClip lockUnlockedClip;
     [SerializeField] private GameObject doorModel;
 
-    private AudioSource audioSource;
+    private new AudioSource audioSource;
 
     private void Start()
     {
