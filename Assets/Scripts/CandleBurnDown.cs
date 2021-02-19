@@ -5,6 +5,9 @@ public class CandleBurnDown : MonoBehaviour
 {
     public static event Action CandleBurnedOut;
 
+    [Tooltip("When set to false, the candle will stay lit infinitely")]
+    [SerializeField] private bool candleCanBurnDown = true;
+
     [SerializeField] private bool addToCandleDurationAfterRespawn;
 
     [SerializeField] private float CandleScale = 1f;
@@ -19,7 +22,6 @@ public class CandleBurnDown : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         if (Input.GetKey(KeyCode.LeftShift) && CandleScale > 0f && EquipmentManager.current.rightHandEquipped)
         {
             BurnSecondsRemaining -= 2 * Time.deltaTime;
