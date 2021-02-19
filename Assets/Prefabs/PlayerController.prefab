@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1807908117
 Transform:
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.1792453, g: 0.16426049, b: 0.118369535, a: 1}
   m_Intensity: 1.6025251
-  m_Range: 2.653707
+  m_Range: 3.7278183
   m_SpotAngle: 125
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -345,7 +345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4851702237230607689}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.3, z: 0.3}
+  m_LocalPosition: {x: 0.3, y: -0.3, z: 0.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1852952813170393620}
@@ -448,6 +448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerController
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
+        type: 3}
+      propertyPath: field of view
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
         type: 3}
