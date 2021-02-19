@@ -1877,6 +1877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b788c9efb51977f4c9042f7a9bd11ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 1326228711}
   delayBeforeDeathAnim: 5
   delayBeforeDeathReset: 2
   RespawnPoint: {x: 4.8, y: 0.25, z: -13.5}
@@ -41708,6 +41709,12 @@ Transform:
   m_Father: {fileID: 1019776006}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1326228711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4478673370011727780, guid: f805f6b7ae485ee4192ba04b4970a64a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672144925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1332395962
 Mesh:
   m_ObjectHideFlags: 0
@@ -52781,7 +52788,7 @@ PrefabInstance:
     - target: {fileID: 4242763277846891820, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
       propertyPath: BurnDurationSeconds
-      value: 5
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4476762168050687982, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
