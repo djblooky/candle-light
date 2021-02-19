@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
 {
-    public static event Action ObjectPlaced;
+    public static event Action ObjectPlaced, CandlePickedUp;
 
     public static EquipmentManager current;
     public GameObject leftHandEquipmentHolder, rightHandEquipmentHolder;
@@ -97,6 +97,7 @@ public class EquipmentManager : MonoBehaviour
             objectToEquip.transform.SetParent(rightHandEquipmentHolder.transform);
             rightHandEquipped = true;
             currentRightObject = objectToEquip;
+            CandlePickedUp?.Invoke();
         }
         else //child to right hand
         {
