@@ -32,7 +32,7 @@ public class LightController : MonoBehaviour
         auraBaseSettings.ambientLightingStrength = candleOnAmbientLightingStrength;
     }
 
-    private void OnCandleGoesOut()
+    private void OnCandleBurnedOut()
     {
         candleSpotLight.SetActive(false);
         auraQualitySettings.displayVolumetricLightingBuffer = true;
@@ -48,11 +48,12 @@ public class LightController : MonoBehaviour
     private void OnEnable()
     {
         EquipmentManager.CandlePickedUp += OnCandlePickedUp;
-        //TODO: subscribe OnCandleGoesOut from Dwight's script
+        CandleBurnDown.CandleBurnedOut += OnCandleBurnedOut;
     }
 
     private void OnDisable()
     {
         EquipmentManager.CandlePickedUp -= OnCandlePickedUp;
+        CandleBurnDown.CandleBurnedOut -= OnCandleBurnedOut;
     }
 }

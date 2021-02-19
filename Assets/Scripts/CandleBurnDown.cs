@@ -1,103 +1,67 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CandleBurnDown : MonoBehaviour
 {
+    public static event Action CandleBurnedOut;
 
-    public int DeathCount = 0;
-    public float CandleScale = 1;
-    public GameObject CandlePivotPointer;
-    public float CandleDurationSeconds = 300;
-    public float CandleDurationSecondsLIVE;
-    public GameObject DeathMaskPointer;
-    private CanvasGroup canvasGroup;
-    private bool hold = false;
-    private bool dyinganim = false;
+    [SerializeField] private bool addToCandleDurationAfterRespawn;
 
+    [SerializeField] private float CandleScale = 1f;
+    [SerializeField] private float BurnDurationSeconds = 300f;
+    [SerializeField] private float BurnSecondsRemaining;
+    [SerializeField] private GameObject CandlePivotPointer;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-
-        CandleDurationSecondsLIVE = CandleDurationSeconds;
-        canvasGroup = DeathMaskPointer.GetComponent<CanvasGroup>();
-        canvasGroup.alpha = 0;
-        canvasGroup.blocksRaycasts = false;
-        canvasGroup.interactable = false;
+        BurnSecondsRemaining = BurnDurationSeconds;
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
 
-        if (Input.GetKey(KeyCode.LeftShift) && CandleScale > 0f && !hold)
+        if (Input.GetKey(KeyCode.LeftShift) && CandleScale > 0f && EquipmentManager.current.rightHandEquipped)
         {
-            CandleDurationSecondsLIVE -= 2 *Time.deltaTime;
+            BurnSecondsRemaining -= 2 * Time.deltaTime;
         }
-        else if (CandleScale > 0f && !hold)
+        else if (CandleScale > 0f && EquipmentManager.current.rightHandEquipped)
         {
-            CandleDurationSecondsLIVE -= 1 * Time.deltaTime;
+            BurnSecondsRemaining -= 1 * Time.deltaTime;
         }
 
-        CandleScale = CandleDurationSecondsLIVE / CandleDurationSeconds;
+        CandleScale = BurnSecondsRemaining / BurnDurationSeconds;
 
         CandlePivotPointer.transform.localScale = new Vector3(1f, CandleScale, 1f);
 
-        if (CandleScale <= 0.1f && !hold)
+        if (CandleScale <= 0.1f && EquipmentManager.current.rightHandEquipped)
         {
-            TriggerDeath();
-            DeathCount++;
+            CandleBurnedOut?.Invoke();
+            //ResetCandle()
         }
-
-        if (dyinganim)
-        {
-            canvasGroup.alpha += 0.005f;
-            if (canvasGroup.alpha >= .95)
-            {
-                dyinganim = false;
-                Invoke("DeathReset", 2f);
-            }
-        }
-
     }
 
-    private void TriggerDeath()
+    public void ResetCandle()
     {
+        if (addToCandleDurationAfterRespawn)
+            BurnSecondsRemaining = BurnDurationSeconds + (RespawnManager.DeathCount * 10); //TODO: remove magic number
+        else
+            BurnSecondsRemaining = BurnDurationSeconds;
 
-        hold = true;
-
-        CandlePivotPointer.transform.localScale = new Vector3(0f, 0f, 0f);
-
-        //trigger audio que for pre-death
-
-        Invoke("DeathAnim", 5f);
-
-    }
-
-    private void DeathAnim()
-    {
-
-        dyinganim = true;
-
-    }
-
-    private void DeathReset()
-    {
-
-        dyinganim = false;
-        hold = false;
-        CandleDurationSecondsLIVE = CandleDurationSeconds + (DeathCount * 10);
-        CandleDurationSeconds = CandleDurationSecondsLIVE;
-        canvasGroup.alpha = 0f;
+        BurnDurationSeconds = BurnSecondsRemaining;
         CandleScale = 1;
 
-        //gameObject.transform.position = new Vector3(4.86f,0.25f,-13.58f);
-        SceneManager.LoadScene("Prototype");////////////////////////////////////////////////////////////////HARD CODED TEMP, NEED TO FIX
-        Debug.Log("ahhh");
-
+        
+       // EquipmentManager.current.rightHandEquipped = false;
+        //TODO: equiptment manager unequip candle
     }
 
+    private void OnEnable()
+    {
+        RespawnManager.DeathReset += ResetCandle;
+    }
 
+    private void OnDisable()
+    {
+        RespawnManager.DeathReset -= ResetCandle;
+    }
 }

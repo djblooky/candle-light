@@ -5133,6 +5133,7 @@ MonoBehaviour:
   EquippedRotation: {x: 0, y: 165, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
   pickUpObjectText: 
+  RespawnPoint: {x: 6, y: 1, z: -13}
 --- !u!65 &3577878958204045202
 BoxCollider:
   m_ObjectHideFlags: 0

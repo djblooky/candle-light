@@ -1859,6 +1859,29 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &66269820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4476762168050687982, guid: f805f6b7ae485ee4192ba04b4970a64a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672144925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &66269825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66269820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b788c9efb51977f4c9042f7a9bd11ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeDeathAnim: 5
+  delayBeforeDeathReset: 2
+  RespawnPoint: {x: 4.8, y: 0.25, z: -13.5}
+  DeathMaskPointer: {fileID: 1464929167}
+  CandlePivotPointer: {fileID: 1640188847}
 --- !u!1 &80514269
 GameObject:
   m_ObjectHideFlags: 0
@@ -15786,6 +15809,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 448612145873216551, guid: eba1511537b410a4998d2e123399d5f2,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1346529072889966315, guid: eba1511537b410a4998d2e123399d5f2,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -28478,7 +28506,7 @@ MonoBehaviour:
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
   animator: {fileID: 0}
-  locksRemaining: 2
+  _locksRemaining: 3
   lockUnlockedClip: {fileID: 8300000, guid: 08d6df9dac621b74d960be55684d20e5, type: 3}
   doorModel: {fileID: 881247514}
 --- !u!82 &881247521
@@ -54593,6 +54621,11 @@ PrefabInstance:
       propertyPath: CandlePivotPointer
       value: 
       objectReference: {fileID: 1640188847}
+    - target: {fileID: 4242763277846891820, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: BurnDurationSeconds
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4476762168050687982, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
       propertyPath: m_Name
