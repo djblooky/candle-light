@@ -72,8 +72,8 @@ public class RespawnManager : MonoBehaviour
 
     private void OnCandleBurnedOut()
     {
-            TriggerDeath();
-             DeathCount++;
+         TriggerDeath();
+         DeathCount++;
     }
 
     private void OnEnable()

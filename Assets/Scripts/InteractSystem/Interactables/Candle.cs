@@ -4,6 +4,8 @@ public class Candle : EquippableObject
 {
     public Vector3 RespawnPoint;
 
+
+
     private void OnCandleBurnedOut()
     {
         gameObject.transform.SetParent(null);
