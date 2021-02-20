@@ -54308,6 +54308,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3941675079642535583, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941675079642535583, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: field of view
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941675079642535583, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4242763277846891820, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
       propertyPath: DeathMaskPointer
@@ -54382,6 +54397,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497587215602076192, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: field of view
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497587215602076192, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497587215602076192, guid: f805f6b7ae485ee4192ba04b4970a64a,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f805f6b7ae485ee4192ba04b4970a64a, type: 3}
