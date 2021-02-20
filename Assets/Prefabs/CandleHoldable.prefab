@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7657950074193706257}
   - component: {fileID: 5855700070333251324}
   - component: {fileID: 3846527317011397375}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drip_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3724844244205118956}
   - component: {fileID: 7958461704538640891}
   - component: {fileID: 1219080551532589817}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CandleTray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 1346529072889966315}
   - component: {fileID: 3627401558937518020}
   - component: {fileID: 6636430859722256255}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Candle_Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4955,7 +4955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3070624802603271587}
   - component: {fileID: 5220621964534147314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drip_Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5008,7 +5008,7 @@ GameObject:
   - component: {fileID: 5936514451171164480}
   - component: {fileID: 5936514451171164482}
   - component: {fileID: 5936514451171164483}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5088,7 +5088,7 @@ GameObject:
   - component: {fileID: 5936514451771673477}
   - component: {fileID: 5936514451771673479}
   - component: {fileID: 5936514451771673476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5169,7 +5169,7 @@ GameObject:
   - component: {fileID: 5936514452125473453}
   - component: {fileID: 4079333124508809430}
   - component: {fileID: 3577878958204045202}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CandleHoldable
   m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
@@ -5235,7 +5235,7 @@ GameObject:
   - component: {fileID: 2145546047874323831}
   - component: {fileID: 9204896095204525934}
   - component: {fileID: 3779257405239825410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drip_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5314,7 +5314,7 @@ GameObject:
   - component: {fileID: 8906046708111666118}
   - component: {fileID: 448612145873216551}
   - component: {fileID: 1298867382351404765}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Aura Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5438,7 +5438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2984320434513969540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Candle_Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

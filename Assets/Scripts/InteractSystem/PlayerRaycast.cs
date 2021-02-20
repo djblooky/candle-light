@@ -9,8 +9,8 @@ public class PlayerRaycast : MonoBehaviour
     public static GameObject lastObjectInteractedWith;
     public static InteractiveObject objectLookingAt;
 
-    [SerializeField]
-    private float distanceToSee = 3;
+    [SerializeField] private float distanceToSee = 3;
+    [SerializeField] private LayerMask layerMask;
 
     private void Update()
     {
@@ -21,7 +21,7 @@ public class PlayerRaycast : MonoBehaviour
     {
         Debug.DrawRay(transform.position, transform.forward * distanceToSee, Color.red);
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, distanceToSee)) //if ray hit something
+        if (Physics.Raycast(transform.position, transform.forward, out hit, distanceToSee, layerMask)) //if ray hit something
         {
             if (hit.collider.CompareTag("InteractiveObject")) //if the thing it hit was interactable
             {
