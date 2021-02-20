@@ -19,9 +19,9 @@ public class LightController : MonoBehaviour
     private void Start()
     {
         candleSpotLight.SetActive(false);
-        auraQualitySettings.displayVolumetricLightingBuffer = true;
-        auraBaseSettings.density = candleOffLightingDensity;
-        auraBaseSettings.ambientLightingStrength = candleOffAmbientLightingStrength;
+        auraQualitySettings.displayVolumetricLightingBuffer = false;
+        auraBaseSettings.density = candleOnLightingDensity;
+        auraBaseSettings.ambientLightingStrength = candleOnAmbientLightingStrength;
     }
 
     private void OnCandlePickedUp()
