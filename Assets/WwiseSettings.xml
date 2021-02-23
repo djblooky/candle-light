@@ -10,5 +10,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2019.2.9.7459</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../../Wwise/Game Studio II/baer_candlelight/baer_candlelight.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../baer_candlelight_Wwise/baer_candlelight.wproj</WwiseProjectPath>
 </WwiseSettings>
