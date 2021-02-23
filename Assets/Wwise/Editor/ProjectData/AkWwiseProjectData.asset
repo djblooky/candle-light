@@ -230,8 +230,30 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585879021793213023
+    m_lastTime: -8585875558051579928
     List:
+    - name: Clock_Tick
+      guid: 01971f71e41d1249ba5fba1bf7800f08
+      id: 2719257531
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Clock_Tick
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Clock_Tick
+    - name: Door_Open
+      guid: eac5a12f4476f944bb934149c0864fbb
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Door_Open
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Door_Open
     - name: Footstep_Switch
       guid: bcd02c7c1cd54341a212ff4444e72d9b
       id: 442453602
@@ -241,6 +263,79 @@ MonoBehaviour:
       - ElementName: Footstep_Switch
         ObjectType: 7
       Path: Default Work Unit\Footstep_Switch
+    - name: General SoundBanks
+      guid: 780773f7e97f5e4b960cb7669d468c71
+      id: 3055111603
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      Path: Default Work Unit\General SoundBanks
+    - name: Key_PickUp
+      guid: d2cb35b7a641594abf3c252a75b2e23f
+      id: 761761105
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Key_PickUp
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Key_PickUp
+    - name: Key_Unlock
+      guid: ca99f183758c564caa52721814f5ad4f
+      id: 2054027409
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Key_Unlock
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Key_Unlock
+    - name: Menu SoundBanks
+      guid: 31b43ed1dcacd44e8f46630dfd204e09
+      id: 1860739902
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu SoundBanks
+        ObjectType: 4
+      Path: Default Work Unit\Menu SoundBanks
+    - name: Menu_GameStart
+      guid: 7d25436205f1944e9b6839f91f4ecb35
+      id: 3860585191
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu SoundBanks
+        ObjectType: 4
+      - ElementName: Menu_GameStart
+        ObjectType: 7
+      Path: Default Work Unit\Menu SoundBanks\Menu_GameStart
+    - name: Menu_MouseOver
+      guid: 7e35abf00032844fa74e3fefd348bc6d
+      id: 547805114
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu SoundBanks
+        ObjectType: 4
+      - ElementName: Menu_MouseOver
+        ObjectType: 7
+      Path: Default Work Unit\Menu SoundBanks\Menu_MouseOver
+    - name: Menu_Select
+      guid: 30204b95a642cb468a9983b0bd368a85
+      id: 4203375351
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu SoundBanks
+        ObjectType: 4
+      - ElementName: Menu_Select
+        ObjectType: 7
+      Path: Default Work Unit\Menu SoundBanks\Menu_Select
     - name: Music_Switch
       guid: 2548aafaccf58a4982bd172cb575df97
       id: 2724869341
@@ -258,8 +353,36 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585879021793272486
+    m_lastTime: -8585875558051659392
     List:
+    - name: Clock_Tick
+      guid: 55271ce1bc9a6d468f8c936f43869ee1
+      id: 2719257531
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      - ElementName: Clock_Tick
+        ObjectType: 3
+      Path: Default Work Unit\General SFX Events\Clock_Tick
+      maxAttenuation: 0
+      maxDuration: 66.39229
+      minDuration: 66.39229
+    - name: Door_Open
+      guid: a9190fe519bd794ca824adcf7cb6090b
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      - ElementName: Door_Open
+        ObjectType: 3
+      Path: Default Work Unit\General SFX Events\Door_Open
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
     - name: Footstep_Switch
       guid: 835389442b873940a7c171a56a46c9c0
       id: 442453602
@@ -270,8 +393,102 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Footstep_Switch
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.729778
+      minDuration: 0.089211
+    - name: General SFX Events
+      guid: 324e70c114044f42b4d889eee1214a00
+      id: 471171385
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      Path: Default Work Unit\General SFX Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Key_PickUp
+      guid: b0826cb4ac2f3948b26434fd7b5496f6
+      id: 761761105
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      - ElementName: Key_PickUp
+        ObjectType: 3
+      Path: Default Work Unit\General SFX Events\Key_PickUp
+      maxAttenuation: 0
+      maxDuration: 0.937506
+      minDuration: 0.937506
+    - name: Key_Unlock
+      guid: 33d4370b91dc1149b8cf275e50bf719c
+      id: 2054027409
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      - ElementName: Key_Unlock
+        ObjectType: 3
+      Path: Default Work Unit\General SFX Events\Key_Unlock
+      maxAttenuation: 0
+      maxDuration: 1.033288
+      minDuration: 1.033288
+    - name: Menu Events
+      guid: 9f2eccee0c25f740b0999c9b134531cd
+      id: 1247142219
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu Events
+        ObjectType: 4
+      Path: Default Work Unit\Menu Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu_GameStart
+      guid: 2ae0895026333f489fc47f22af6ba21e
+      id: 3860585191
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu Events
+        ObjectType: 4
+      - ElementName: Menu_GameStart
+        ObjectType: 3
+      Path: Default Work Unit\Menu Events\Menu_GameStart
+      maxAttenuation: 0
+      maxDuration: 2.25
+      minDuration: 2.25
+    - name: Menu_MouseOver
+      guid: b9e102596d90244f801cbaa2a1217013
+      id: 547805114
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu Events
+        ObjectType: 4
+      - ElementName: Menu_MouseOver
+        ObjectType: 3
+      Path: Default Work Unit\Menu Events\Menu_MouseOver
+      maxAttenuation: 0
+      maxDuration: 0.562517
+      minDuration: 0.562517
+    - name: Menu_Select
+      guid: 279b333dbdcabf46886922bef014824d
+      id: 4203375351
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu Events
+        ObjectType: 4
+      - ElementName: Menu_Select
+        ObjectType: 3
+      Path: Default Work Unit\Menu Events\Menu_Select
+      maxAttenuation: 0
+      maxDuration: 0.937506
+      minDuration: 0.937506
     - name: Music_Switch
       guid: 9a356941c39ffb4dafe698c75fedaaa9
       id: 2724869341
@@ -530,6 +747,13 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585880866639286832
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /baer_candlelight
+  - /baer_candlelight/Events
+  - /baer_candlelight/Events/Default Work Unit
+  - /baer_candlelight/Events/Default Work Unit/General SFX Events
+  - /baer_candlelight/SoundBanks
+  - /baer_candlelight/SoundBanks/Default Work Unit
+  - /baer_candlelight/SoundBanks/Default Work Unit/General SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
