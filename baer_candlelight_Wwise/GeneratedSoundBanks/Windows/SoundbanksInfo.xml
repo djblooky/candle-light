@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\</ProjectRoot>
+		<SourceFilesRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="442453602" Language="SFX" Hash="413837334">
+			<ObjectPath>\SoundBanks\Default Work Unit\Footstep_Switch</ObjectPath>
+			<ShortName>Footstep_Switch</ShortName>
+			<Path>Footstep_Switch.bnk</Path>
+			<IncludedEvents>
+				<Event Id="442453602" Name="Footstep_Switch" ObjectPath="\Events\Default Work Unit\Footstep_Switch" DurationType="OneShot" DurationMin="0.089211" DurationMax="0.729778">
+					<IncludedMemoryFiles>
+						<File Id="40148872" Language="SFX">
+							<ShortName>mudFeet_2.wav</ShortName>
+							<Path>SFX\mudFeet_2_10C4C929.wem</Path>
+						</File>
+						<File Id="87954863" Language="SFX">
+							<ShortName>sfx_player_footsteps_var1.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var1_10C4C929.wem</Path>
+						</File>
+						<File Id="94816179" Language="SFX">
+							<ShortName>sfx_player_footsteps_var6.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var6_10C4C929.wem</Path>
+						</File>
+						<File Id="332333951" Language="SFX">
+							<ShortName>baer_TriggeringSFX_footstep1.wav</ShortName>
+							<Path>SFX\baer_TriggeringSFX_footstep1_10C4C929.wem</Path>
+						</File>
+						<File Id="361907471" Language="SFX">
+							<ShortName>sfx_guard_footsteps_var1.wav</ShortName>
+							<Path>SFX\sfx_guard_footsteps_var1_10C4C929.wem</Path>
+						</File>
+						<File Id="413908220" Language="SFX">
+							<ShortName>baer_TriggeringSFX_footstep2.wav</ShortName>
+							<Path>SFX\baer_TriggeringSFX_footstep2_10C4C929.wem</Path>
+						</File>
+						<File Id="419972623" Language="SFX">
+							<ShortName>sfx_guard_footsteps_var0.wav</ShortName>
+							<Path>SFX\sfx_guard_footsteps_var0_10C4C929.wem</Path>
+						</File>
+						<File Id="469251039" Language="SFX">
+							<ShortName>sfx_guard_footsteps_var3.wav</ShortName>
+							<Path>SFX\sfx_guard_footsteps_var3_10C4C929.wem</Path>
+						</File>
+						<File Id="588087610" Language="SFX">
+							<ShortName>baer_TriggeringSFX_footstep3.wav</ShortName>
+							<Path>SFX\baer_TriggeringSFX_footstep3_10C4C929.wem</Path>
+						</File>
+						<File Id="621566878" Language="SFX">
+							<ShortName>sfx_player_footsteps_var0.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var0_10C4C929.wem</Path>
+						</File>
+						<File Id="637077410" Language="SFX">
+							<ShortName>sfx_guard_footsteps_var2.wav</ShortName>
+							<Path>SFX\sfx_guard_footsteps_var2_10C4C929.wem</Path>
+						</File>
+						<File Id="692892707" Language="SFX">
+							<ShortName>sfx_guard_footsteps_var4.wav</ShortName>
+							<Path>SFX\sfx_guard_footsteps_var4_10C4C929.wem</Path>
+						</File>
+						<File Id="703166007" Language="SFX">
+							<ShortName>sfx_player_footsteps_var4.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var4_10C4C929.wem</Path>
+						</File>
+						<File Id="763832885" Language="SFX">
+							<ShortName>sfx_player_footsteps_var2.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var2_10C4C929.wem</Path>
+						</File>
+						<File Id="778924892" Language="SFX">
+							<ShortName>sfx_player_footsteps_var5.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var5_10C4C929.wem</Path>
+						</File>
+						<File Id="890280397" Language="SFX">
+							<ShortName>mudFeet_3.wav</ShortName>
+							<Path>SFX\mudFeet_3_10C4C929.wem</Path>
+						</File>
+						<File Id="987171830" Language="SFX">
+							<ShortName>sfx_player_footsteps_var3.wav</ShortName>
+							<Path>SFX\sfx_player_footsteps_var3_10C4C929.wem</Path>
+						</File>
+						<File Id="1010431733" Language="SFX">
+							<ShortName>mudFeet_1.wav</ShortName>
+							<Path>SFX\mudFeet_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{9965CA26-DB05-4A21-ADD2-8E493C3D8716}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}">
+							<Media>
+								<File Id="87954863"/>
+								<File Id="94816179"/>
+								<File Id="621566878"/>
+								<File Id="703166007"/>
+								<File Id="763832885"/>
+								<File Id="778924892"/>
+								<File Id="987171830"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9965CA26-DB05-4A21-ADD2-8E493C3D8716}">
+							<Media>
+								<File Id="361907471"/>
+								<File Id="419972623"/>
+								<File Id="469251039"/>
+								<File Id="637077410"/>
+								<File Id="692892707"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9B2B4BBF-3A35-42AF-A3BF-7C694D7F66A9}">
+							<Media>
+								<File Id="332333951"/>
+								<File Id="413908220"/>
+								<File Id="588087610"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{16B5322E-8465-48E9-8DB9-3D70CD97D995}">
+							<Media>
+								<File Id="40148872"/>
+								<File Id="890280397"/>
+								<File Id="1010431733"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="442453602" Name="Footstep_Switch" ObjectPath="\Switches\Default Work Unit\Footstep_Switch">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Wood"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Carpet"/>
+						<Switch Id="1531833962" Name="Squish" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Squish"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Concrete"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="535830432" Language="SFX" Hash="1542747079">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Door_Open</ObjectPath>
+			<ShortName>Door_Open</ShortName>
+			<Path>Door_Open.bnk</Path>
+			<IncludedEvents>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\General SFX Events\Door_Open" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="844244266" Language="SFX">
+							<ShortName>sfx_house_doorOpen.wav</ShortName>
+							<Path>SFX\sfx_house_doorOpen_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="547805114" Language="SFX" Hash="3113473838">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_MouseOver</ObjectPath>
+			<ShortName>Menu_MouseOver</ShortName>
+			<Path>Menu_MouseOver.bnk</Path>
+			<IncludedEvents>
+				<Event Id="547805114" Name="Menu_MouseOver" ObjectPath="\Events\Default Work Unit\Menu Events\Menu_MouseOver" DurationType="OneShot" DurationMin="0.562517" DurationMax="0.562517">
+					<IncludedMemoryFiles>
+						<File Id="422925308" Language="SFX">
+							<ShortName>sfx_menu_menuMouseOver.wav</ShortName>
+							<Path>SFX\sfx_menu_menuMouseOver_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="761761105" Language="SFX" Hash="2674006317">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_PickUp</ObjectPath>
+			<ShortName>Key_PickUp</ShortName>
+			<Path>Key_PickUp.bnk</Path>
+			<IncludedEvents>
+				<Event Id="761761105" Name="Key_PickUp" ObjectPath="\Events\Default Work Unit\General SFX Events\Key_PickUp" DurationType="OneShot" DurationMin="0.937506" DurationMax="0.937506">
+					<IncludedMemoryFiles>
+						<File Id="940491739" Language="SFX">
+							<ShortName>sfx_house_keyPickUp.wav</ShortName>
+							<Path>SFX\sfx_house_keyPickUp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2091269345">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2054027409" Language="SFX" Hash="2448646354">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_Unlock</ObjectPath>
+			<ShortName>Key_Unlock</ShortName>
+			<Path>Key_Unlock.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2054027409" Name="Key_Unlock" ObjectPath="\Events\Default Work Unit\General SFX Events\Key_Unlock" DurationType="OneShot" DurationMin="1.033288" DurationMax="1.033288">
+					<IncludedMemoryFiles>
+						<File Id="961441037" Language="SFX">
+							<ShortName>sfx_house_keyUnlock.wav</ShortName>
+							<Path>SFX\sfx_house_keyUnlock_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2719257531" Language="SFX" Hash="2901915024">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Clock_Tick</ObjectPath>
+			<ShortName>Clock_Tick</ShortName>
+			<Path>Clock_Tick.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2719257531" Name="Clock_Tick" ObjectPath="\Events\Default Work Unit\General SFX Events\Clock_Tick" DurationType="OneShot" DurationMin="66.392288" DurationMax="66.392288">
+					<IncludedMemoryFiles>
+						<File Id="355615834" Language="SFX">
+							<ShortName>sfx_house_clockTick.wav</ShortName>
+							<Path>SFX\sfx_house_clockTick_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2724869341" Language="SFX" Hash="2837709177">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
+			<ShortName>Music_Switch</ShortName>
+			<Path>Music_Switch.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2724869341" Name="Music_Switch" ObjectPath="\Events\Default Work Unit\Music_Switch" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="100068964" Language="SFX">
+							<ShortName>mus_menu_loop.wav</ShortName>
+							<Path>SFX\mus_menu_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="655697665" Language="SFX">
+							<ShortName>mus_house_gameStart.wav</ShortName>
+							<Path>SFX\mus_house_gameStart_D79FB2B7.wem</Path>
+						</File>
+						<File Id="693220448" Language="SFX">
+							<ShortName>mus_house_death.wav</ShortName>
+							<Path>SFX\mus_house_death_D79FB2B7.wem</Path>
+						</File>
+						<File Id="843782473" Language="SFX">
+							<ShortName>amb_house_explore_loop.wav</ShortName>
+							<Path>SFX\amb_house_explore_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="902195368" Language="SFX">
+							<ShortName>mus_house_candleRunningOut_loop.wav</ShortName>
+							<Path>SFX\mus_house_candleRunningOut_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{50012B26-55C3-4083-9567-A3D0F115547C}">
+							<Media>
+								<File Id="902195368"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{18EF26EA-9B1B-47A2-AB53-DDF4B623F987}">
+							<Media>
+								<File Id="693220448"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D20000E7-7F4D-43D2-9DC4-693895A1CDE8}">
+							<Media>
+								<File Id="655697665"/>
+								<File Id="843782473"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7C530ECC-B1DC-469A-91BA-E08C340224BA}">
+							<Media>
+								<File Id="100068964"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2724869341" Name="Music_Switch" ObjectPath="\States\Default Work Unit\Music_Switch">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Switch\None"/>
+						<State Id="733168346" Name="Game_Start" ObjectPath="\States\Default Work Unit\Music_Switch\Game_Start"/>
+						<State Id="2305435894" Name="Candle_RunningOut" ObjectPath="\States\Default Work Unit\Music_Switch\Candle_RunningOut"/>
+						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Music_Switch\Death"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music_Switch\Menu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3860585191" Language="SFX" Hash="771862394">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_GameStart</ObjectPath>
+			<ShortName>Menu_GameStart</ShortName>
+			<Path>Menu_GameStart.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3860585191" Name="Menu_GameStart" ObjectPath="\Events\Default Work Unit\Menu Events\Menu_GameStart" DurationType="OneShot" DurationMin="2.250000" DurationMax="2.250000">
+					<IncludedMemoryFiles>
+						<File Id="270581454" Language="SFX">
+							<ShortName>sfx_menu_gameStart.wav</ShortName>
+							<Path>SFX\sfx_menu_gameStart_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4203375351" Language="SFX" Hash="2921586628">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_Select</ObjectPath>
+			<ShortName>Menu_Select</ShortName>
+			<Path>Menu_Select.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4203375351" Name="Menu_Select" ObjectPath="\Events\Default Work Unit\Menu Events\Menu_Select" DurationType="OneShot" DurationMin="0.937506" DurationMax="0.937506">
+					<IncludedMemoryFiles>
+						<File Id="412135843" Language="SFX">
+							<ShortName>sfx_menu_menuSelect.wav</ShortName>
+							<Path>SFX\sfx_menu_menuSelect_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{631D5F28-C24D-4F92-A678-316F1B9E6FD9}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{631D5F28-C24D-4F92-A678-316F1B9E6FD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music_Switch" ID="{FAAA4825-F5CC-498A-82BD-172CB575DF97}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Switch" ID="{4169359A-9FC3-4DFB-AFE6-98C75FEDAAA9}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Footstep_Switch" ID="{7C2CD0BC-D51C-4143-A212-FF4444E72D9B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep_Switch" ID="{44895383-872B-4039-A7C1-71A56A46C9C0}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<Folder Name="Menu SoundBanks" ID="{D13EB431-ACDC-4ED4-8F46-630DFD204E09}" ShortID="544900182">
+					<ChildrenList>
+						<SoundBank Name="Menu_MouseOver" ID="{F0AB357E-3200-4F84-A74E-3FEFD348BC6D}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Menu_MouseOver" ID="{5902E1B9-906D-4F24-801C-BAA2A1217013}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Menu_Select" ID="{954B2030-42A6-46CB-8A99-83B0BD368A85}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Menu_Select" ID="{3D339B27-CABD-46BF-8869-22BEF014824D}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Menu_GameStart" ID="{6243257D-F105-4E94-9B68-39F91F4ECB35}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Menu_GameStart" ID="{5089E02A-3326-483F-9FC4-7F22AF6BA21E}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General SoundBanks" ID="{F7730778-7FE9-4B5E-960C-B7669D468C71}" ShortID="436998862">
+					<ChildrenList>
+						<SoundBank Name="Door_Open" ID="{2FA1C5EA-7644-44F9-BB93-4149C0864FBB}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Door_Open" ID="{E50F19A9-BD19-4C79-A824-ADCF7CB6090B}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Key_PickUp" ID="{B735CBD2-41A6-4A59-BF3C-252A75B2E23F}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Key_PickUp" ID="{B46C82B0-2FAC-4839-B264-34FD7B5496F6}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Key_Unlock" ID="{83F199CA-8C75-4C56-AA52-721814F5AD4F}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Key_Unlock" ID="{0B37D433-DC91-4911-B8CF-275E50BF719C}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Clock_Tick" ID="{711F9701-1DE4-4912-BA5F-BA1BF7800F08}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Clock_Tick" ID="{E11C2755-9ABC-466D-8F8C-936F43869EE1}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

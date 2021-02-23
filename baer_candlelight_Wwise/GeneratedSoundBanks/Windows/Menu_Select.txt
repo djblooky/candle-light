@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4203375351	Menu_Select			\Default Work Unit\Menu Events\Menu_Select	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	412135843	sfx_menu_menuSelect	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_menu_menuSelect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu SFX\sfx_menu_menuSelect		165440
+

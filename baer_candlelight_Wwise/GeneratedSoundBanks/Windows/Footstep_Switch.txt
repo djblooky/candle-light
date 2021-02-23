@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	442453602	Footstep_Switch			\Default Work Unit\Footstep_Switch	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	442453602	Footstep_Switch			\Default Work Unit\Footstep_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Footstep_Switch			
+	1531833962	Squish	Footstep_Switch			
+	2058049674	Wood	Footstep_Switch			
+	2412606308	Carpet	Footstep_Switch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40148872	mudFeet_2	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\mudFeet_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Squish Feet\mudFeet_2		102464
+	87954863	sfx_player_footsteps_var1	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var1		27712
+	94816179	sfx_player_footsteps_var6	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var6		21568
+	332333951	baer_TriggeringSFX_footstep1	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\baer_TriggeringSFX_footstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Carpet Feet\baer_TriggeringSFX_footstep1		114752
+	361907471	sfx_guard_footsteps_var1	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_guard_footsteps_var1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Wood Feet\sfx_guard_footsteps_var1		50752
+	413908220	baer_TriggeringSFX_footstep2	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\baer_TriggeringSFX_footstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Carpet Feet\baer_TriggeringSFX_footstep2		104608
+	419972623	sfx_guard_footsteps_var0	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_guard_footsteps_var0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Wood Feet\sfx_guard_footsteps_var0		54848
+	469251039	sfx_guard_footsteps_var3	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_guard_footsteps_var3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Wood Feet\sfx_guard_footsteps_var3		49984
+	588087610	baer_TriggeringSFX_footstep3	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\baer_TriggeringSFX_footstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Carpet Feet\baer_TriggeringSFX_footstep3		88128
+	621566878	sfx_player_footsteps_var0	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var0		22080
+	637077410	sfx_guard_footsteps_var2	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_guard_footsteps_var2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Wood Feet\sfx_guard_footsteps_var2		54080
+	692892707	sfx_guard_footsteps_var4	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_guard_footsteps_var4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Wood Feet\sfx_guard_footsteps_var4		48704
+	703166007	sfx_player_footsteps_var4	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var4		17728
+	763832885	sfx_player_footsteps_var2	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var2		24384
+	778924892	sfx_player_footsteps_var5	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var5		18752
+	890280397	mudFeet_3	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\mudFeet_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Squish Feet\mudFeet_3		63552
+	987171830	sfx_player_footsteps_var3	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_player_footsteps_var3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Con Feet\sfx_player_footsteps_var3		19520
+	1010431733	mudFeet_1	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\mudFeet_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep Switch Container\Squish Feet\mudFeet_1		108608
+
