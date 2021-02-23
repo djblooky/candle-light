@@ -123,7 +123,7 @@ Animator:
   m_GameObject: {fileID: 5888173016960172288}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: abd134fd5f7c0ac4291061aab9b8c60f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -271,9 +271,10 @@ GameObject:
   - component: {fileID: 8517411823798194358}
   - component: {fileID: 8887186172477072831}
   - component: {fileID: 7095492897295680771}
-  m_Layer: 0
+  - component: {fileID: 8561289515822550254}
+  m_Layer: 9
   m_Name: Door_Door_Inside
-  m_TagString: Untagged
+  m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,3 +362,16 @@ MonoBehaviour:
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
   animator: {fileID: 5605899978448064206}
+--- !u!65 &8561289515822550254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7488712023482836604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 85.64477, y: 188.92345, z: 4.677612}
+  m_Center: {x: -0.046508785, y: 102.419044, z: -0.029724}
