@@ -24,7 +24,6 @@ public class SpawnEffect : MonoBehaviour {
         main.duration = spawnEffectTime;
 
         ps.Play();
-
     }
 	
 	void Update ()
