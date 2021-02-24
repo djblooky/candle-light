@@ -18,11 +18,11 @@ public class EndDoor : Openable
     [SerializeField] private AudioClip lockUnlockedClip;
     [SerializeField] private GameObject doorModel;
 
-    private new AudioSource audioSource;
+    private AudioSource lockAudioSource;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        lockAudioSource = GetComponent<AudioSource>();
         isLocked = true;
     }
 
@@ -31,7 +31,7 @@ public class EndDoor : Openable
     /// </summary>
     private void OnLockUnlocked()
     {
-        audioSource.PlayOneShot(lockUnlockedClip);
+        lockAudioSource.PlayOneShot(lockUnlockedClip);
         LocksRemaining--;
         RemovePadlock();
         CheckForUnlockedDoor();
