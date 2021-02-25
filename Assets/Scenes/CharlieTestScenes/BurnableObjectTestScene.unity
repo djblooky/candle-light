@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 135968968}
   - component: {fileID: 135968970}
   - component: {fileID: 135968969}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Embers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20627,7 +20627,7 @@ GameObject:
   - component: {fileID: 508505869}
   - component: {fileID: 508505871}
   - component: {fileID: 508505870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52100,7 +52100,7 @@ GameObject:
   - component: {fileID: 1300895533}
   - component: {fileID: 1300895538}
   - component: {fileID: 1300895532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BurnableCube
   m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
@@ -52455,7 +52455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: 
+  hoverText: burn cube?
   objectName: 
   audioSource: {fileID: 0}
   fadeIn:
@@ -52492,7 +52492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301686394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Flames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63037,9 +63037,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1821313478}
     m_Modifications:
+    - target: {fileID: 1063051830369628, guid: bb98861c48ad2024ca93498c7dd93a6c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1901245927194888, guid: bb98861c48ad2024ca93498c7dd93a6c, type: 3}
       propertyPath: m_Name
       value: LargeFlames
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901245927194888, guid: bb98861c48ad2024ca93498c7dd93a6c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1901245927194888, guid: bb98861c48ad2024ca93498c7dd93a6c, type: 3}
       propertyPath: m_IsActive
@@ -67505,7 +67513,7 @@ GameObject:
   - component: {fileID: 1821313478}
   - component: {fileID: 1821313480}
   - component: {fileID: 1821313479}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Flakes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
