@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587272, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1714,11 +1714,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b788c9efb51977f4c9042f7a9bd11ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 1326228711}
+  playerCamera: {fileID: 0}
   delayBeforeDeathAnim: 5
-  delayBeforeDeathReset: 2
-  RespawnPoint: {x: 4.8, y: 0.25, z: -13.5}
-  DeathMaskPointer: {fileID: 1464929167}
+  delayBeforeRespawn: 2
+  RespawnPosition: {x: 4.86, y: 0.25, z: -13.58}
+  RespawnRotation: {x: 0, y: 90, z: 0}
   CandlePivotPointer: {fileID: 1640188847}
 --- !u!114 &66269826
 MonoBehaviour:
@@ -14368,7 +14368,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2526
+  m_Name: pb_Mesh-43300
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -48468,7 +48468,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2738
+  m_Name: pb_Mesh-43446
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -58838,7 +58838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2724
+  m_Name: pb_Mesh-43428
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -67337,7 +67337,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2512
+  m_Name: pb_Mesh-43282
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
