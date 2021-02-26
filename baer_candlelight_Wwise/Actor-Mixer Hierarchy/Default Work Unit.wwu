@@ -19,7 +19,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Con Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}" ShortID="911683325">
+						<RandomSequenceContainer Name="Blood Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}" ShortID="911683325">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -34,10 +34,10 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -50,21 +50,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="sfx_player_footsteps_var0" ID="{DDFFF4B2-F7EC-405E-862E-A45630AD4F4F}" ShortID="582937623">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{5B63E27C-2EAF-4870-B4D3-DA2EA467B468}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="300"/>
-															<Property Name="Min" Type="Real64" Value="-300"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
+								<Sound Name="sfx_character_footstepsBlood_var0" ID="{095AB963-94D7-4FF2-BDB4-7631C1C9E8F1}" ShortID="593844323">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -74,28 +60,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var0" ID="{94CACE95-5931-461D-A28A-EB9A04D03C5A}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var0" ID="{D48D036A-A930-4466-A0D6-EA718CE8AFA9}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var0.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="621566878"/>
+												<MediaID ID="144699973"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var0" ID="{94CACE95-5931-461D-A28A-EB9A04D03C5A}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var0" ID="{D48D036A-A930-4466-A0D6-EA718CE8AFA9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_player_footsteps_var1" ID="{DEF87FC3-66D4-490E-9425-1DECE74CCD31}" ShortID="468935804">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{9A187CDE-1181-46D2-9B58-2777F3B810C7}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
+								<Sound Name="sfx_character_footstepsBlood_var1" ID="{E3DF3C75-D601-457C-AB97-3A1B7EF47E5C}" ShortID="361348998">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -105,19 +82,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var1" ID="{3B4636A0-AFA7-4504-B87E-FB78794980B2}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var1" ID="{2A51F00F-7092-4123-892C-7DD65A7CE380}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var1.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="87954863"/>
+												<MediaID ID="160855787"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var1" ID="{3B4636A0-AFA7-4504-B87E-FB78794980B2}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var1" ID="{2A51F00F-7092-4123-892C-7DD65A7CE380}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_player_footsteps_var2" ID="{38567A13-CE80-4685-8451-64E808736020}" ShortID="73173734">
+								<Sound Name="sfx_character_footstepsBlood_var2" ID="{09BD7D95-A288-4F1E-8D66-15E1B3C6EC98}" ShortID="461260599">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -127,19 +104,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var2" ID="{EB7436B9-FF60-46DF-930B-2CE7AA6715EB}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var2" ID="{97A02186-2FC1-4D7F-8CBC-B41A42B50145}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var2.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="763832885"/>
+												<MediaID ID="578019906"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var2" ID="{EB7436B9-FF60-46DF-930B-2CE7AA6715EB}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var2" ID="{97A02186-2FC1-4D7F-8CBC-B41A42B50145}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_player_footsteps_var3" ID="{16CC0EF4-6B4A-448C-815B-BEA0854D7CE7}" ShortID="702006627">
+								<Sound Name="sfx_character_footstepsBlood_var3" ID="{798BDF22-111A-4720-9576-8E8F084742FC}" ShortID="856706512">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -149,19 +126,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var3" ID="{CB84C56F-0ED1-4CC1-8147-3F5B77202061}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var3" ID="{F1878AC1-B2D8-49C1-892E-E492B749535B}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var3.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="987171830"/>
+												<MediaID ID="889114129"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var3" ID="{CB84C56F-0ED1-4CC1-8147-3F5B77202061}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var3" ID="{F1878AC1-B2D8-49C1-892E-E492B749535B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_player_footsteps_var4" ID="{D79B8DBC-DD90-45A2-B0F7-92EC4D7C1EAE}" ShortID="917157816">
+								<Sound Name="sfx_character_footstepsBlood_var4" ID="{9E22E95F-B31D-483D-8E53-0BA41BE05D03}" ShortID="830384950">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -171,19 +148,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var4" ID="{4F00D584-4DFA-4475-B4B8-60D75AB42215}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var4" ID="{64E7DED5-69C5-4FC2-8FD1-8EE16E04BA44}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var4.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var4.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="703166007"/>
+												<MediaID ID="1020690894"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var4" ID="{4F00D584-4DFA-4475-B4B8-60D75AB42215}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var4" ID="{64E7DED5-69C5-4FC2-8FD1-8EE16E04BA44}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_player_footsteps_var5" ID="{1CB17C7B-18EB-4EC0-B8CD-C76FA9AB6E7B}" ShortID="167938308">
+								<Sound Name="sfx_character_footstepsBlood_var5" ID="{9691EF83-7CF1-4DD5-B644-DEDA88A7B809}" ShortID="236449938">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -193,38 +170,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var5" ID="{65BB781B-7544-41E1-8DF2-BA1010DFAA5E}">
+										<AudioFileSource Name="sfx_character_footstepsBlood_var5" ID="{592C15BC-A1D6-457A-B753-3F9C1E68A9AE}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var5.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsBlood_var5.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="778924892"/>
+												<MediaID ID="591113436"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var5" ID="{65BB781B-7544-41E1-8DF2-BA1010DFAA5E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_player_footsteps_var6" ID="{8CB6CF7D-BBE8-4067-8E01-30B8A4EAD3C2}" ShortID="652972797">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_player_footsteps_var6" ID="{0FC7448E-9351-41F3-9421-59C5DD568A60}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_player_footsteps_var6.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="94816179"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_player_footsteps_var6" ID="{0FC7448E-9351-41F3-9421-59C5DD568A60}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsBlood_var5" ID="{592C15BC-A1D6-457A-B753-3F9C1E68A9AE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -247,7 +202,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -260,7 +215,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="sfx_guard_footsteps_var0" ID="{B8DCF025-3448-43D5-8E16-5FF5A34C3E2B}" ShortID="754521432">
+								<Sound Name="sfx_character_footstepsWood_var0" ID="{EA67C6D3-BBE4-43C6-AC10-42A6231ED4BC}" ShortID="766482781">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -270,19 +225,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_guard_footsteps_var0" ID="{EBCC4ED4-3ADD-46E7-9A87-980FFE577A51}">
+										<AudioFileSource Name="sfx_character_footstepsWood_var0" ID="{E07AA855-D317-497B-86D5-C2B765C7EFC9}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_guard_footsteps_var0.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsWood_var0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="419972623"/>
+												<MediaID ID="812384679"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_guard_footsteps_var0" ID="{EBCC4ED4-3ADD-46E7-9A87-980FFE577A51}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsWood_var0" ID="{E07AA855-D317-497B-86D5-C2B765C7EFC9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_guard_footsteps_var1" ID="{0B06B91C-E243-4ED5-9670-0B7DB0E38EEB}" ShortID="987351061">
+								<Sound Name="sfx_character_footstepsWood_var1" ID="{BA3F4B4B-C831-419F-AB4D-1EA4E6CA3581}" ShortID="124765281">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -292,19 +247,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_guard_footsteps_var1" ID="{E2D44033-56FE-4C2F-8753-951491D779C5}">
+										<AudioFileSource Name="sfx_character_footstepsWood_var1" ID="{ADD1212B-9C3A-4EF0-ABB2-17320E4BA0FE}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_guard_footsteps_var1.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsWood_var1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="361907471"/>
+												<MediaID ID="422823436"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_guard_footsteps_var1" ID="{E2D44033-56FE-4C2F-8753-951491D779C5}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsWood_var1" ID="{ADD1212B-9C3A-4EF0-ABB2-17320E4BA0FE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_guard_footsteps_var2" ID="{8A3AD660-6C37-438C-977F-2EAC180A48EC}" ShortID="766809901">
+								<Sound Name="sfx_character_footstepsWood_var2" ID="{AB3C240F-A452-48B6-BD45-FB44418498C4}" ShortID="83207276">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -314,19 +269,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_guard_footsteps_var2" ID="{AF6A2AA2-C27C-45F3-91D0-1FE31613C893}">
+										<AudioFileSource Name="sfx_character_footstepsWood_var2" ID="{F6F53141-20E9-427E-A30E-D3046A90F210}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_guard_footsteps_var2.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsWood_var2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="637077410"/>
+												<MediaID ID="81877567"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_guard_footsteps_var2" ID="{AF6A2AA2-C27C-45F3-91D0-1FE31613C893}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsWood_var2" ID="{F6F53141-20E9-427E-A30E-D3046A90F210}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_guard_footsteps_var3" ID="{2EA6BCE6-A140-4DDF-8C26-6209C3F4A7E1}" ShortID="240554588">
+								<Sound Name="sfx_character_footstepsWood_var3" ID="{42DBEC24-7D86-4693-B200-838886FD24ED}" ShortID="713279467">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -336,19 +291,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_guard_footsteps_var3" ID="{330CDD4E-A56A-4F83-9F37-CAB58E1472DA}">
+										<AudioFileSource Name="sfx_character_footstepsWood_var3" ID="{E7C5DC46-7F4F-4A12-A47E-E7CDE503825C}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_guard_footsteps_var3.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsWood_var3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="469251039"/>
+												<MediaID ID="567512323"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_guard_footsteps_var3" ID="{330CDD4E-A56A-4F83-9F37-CAB58E1472DA}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsWood_var3" ID="{E7C5DC46-7F4F-4A12-A47E-E7CDE503825C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="sfx_guard_footsteps_var4" ID="{5E10B03D-5BDF-468D-9121-7F56DAFCBA59}" ShortID="220309829">
+								<Sound Name="sfx_character_footstepsWood_var4" ID="{508080E4-F926-4716-805F-5B057863B286}" ShortID="766463311">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -358,16 +313,38 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_guard_footsteps_var4" ID="{7A18E751-6612-4352-8903-9ACBB2D65E98}">
+										<AudioFileSource Name="sfx_character_footstepsWood_var4" ID="{B838B09C-5261-4BA9-8C85-87E0596381BF}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_guard_footsteps_var4.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsWood_var4.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="692892707"/>
+												<MediaID ID="702254361"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_guard_footsteps_var4" ID="{7A18E751-6612-4352-8903-9ACBB2D65E98}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsWood_var4" ID="{B838B09C-5261-4BA9-8C85-87E0596381BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsWood_var5" ID="{AD29F278-513B-4FFA-B70D-0E99524F0F79}" ShortID="75368570">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsWood_var5" ID="{3BCED9D2-6BC2-491F-88B1-8414402F11F6}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsWood_var5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="990815223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsWood_var5" ID="{3BCED9D2-6BC2-491F-88B1-8414402F11F6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -387,6 +364,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -397,7 +375,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="baer_TriggeringSFX_footstep1" ID="{6099E4F4-9BB0-48AB-8C1D-F6534A57A794}" ShortID="1063079365">
+								<Sound Name="sfx_character_footstepsCarpet_var0" ID="{CDEF60A7-8563-46C8-8E50-9020B73DF60E}" ShortID="830664583">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -407,19 +385,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="baer_TriggeringSFX_footstep1" ID="{D32CCBCF-1F08-41FB-B296-C8B78E89FC8F}">
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var0" ID="{019648E0-3789-4C5E-A6F8-679F8352959A}">
 											<Language>SFX</Language>
-											<AudioFile>baer_TriggeringSFX_footstep1.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsCarpet_var0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="332333951"/>
+												<MediaID ID="522930070"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="baer_TriggeringSFX_footstep1" ID="{D32CCBCF-1F08-41FB-B296-C8B78E89FC8F}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var0" ID="{019648E0-3789-4C5E-A6F8-679F8352959A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="baer_TriggeringSFX_footstep2" ID="{37D44C51-0DAC-4D48-8B0E-80BAB367AF4E}" ShortID="685786197">
+								<Sound Name="sfx_character_footstepsCarpet_var1" ID="{05A2891C-A9CD-48E2-803B-F7828DD45450}" ShortID="55210620">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -429,19 +407,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="baer_TriggeringSFX_footstep2" ID="{1602B80E-552E-47EA-BE2A-5F5152DC13D9}">
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var1" ID="{F3B7CA5D-6D68-4D3F-8BA7-86F9638E9123}">
 											<Language>SFX</Language>
-											<AudioFile>baer_TriggeringSFX_footstep2.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsCarpet_var1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="413908220"/>
+												<MediaID ID="25046496"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="baer_TriggeringSFX_footstep2" ID="{1602B80E-552E-47EA-BE2A-5F5152DC13D9}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var1" ID="{F3B7CA5D-6D68-4D3F-8BA7-86F9638E9123}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="baer_TriggeringSFX_footstep3" ID="{DAEEB0B0-5D9A-4331-9CB1-B01B11EF7295}" ShortID="126366954">
+								<Sound Name="sfx_character_footstepsCarpet_var2" ID="{8685DC3B-D3E8-4DD1-A6B8-236A373B1896}" ShortID="848698364">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -451,16 +429,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="baer_TriggeringSFX_footstep3" ID="{2D8AE047-D815-443A-98A3-5D5BDB7E45E2}">
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var2" ID="{D0C5EA74-435C-421C-AE5F-2C4E7DACEF73}">
 											<Language>SFX</Language>
-											<AudioFile>baer_TriggeringSFX_footstep3.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsCarpet_var2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="588087610"/>
+												<MediaID ID="469361865"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="baer_TriggeringSFX_footstep3" ID="{2D8AE047-D815-443A-98A3-5D5BDB7E45E2}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var2" ID="{D0C5EA74-435C-421C-AE5F-2C4E7DACEF73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsCarpet_var3" ID="{71886BE5-5E8A-4169-AC73-070CA30DEFE5}" ShortID="884349159">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var3" ID="{F309F752-4380-4748-B8E8-27E611DCEE17}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsCarpet_var3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1015017269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var3" ID="{F309F752-4380-4748-B8E8-27E611DCEE17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsCarpet_var4" ID="{EA034587-B935-4574-99F2-61BBA362262F}" ShortID="689284563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var4" ID="{9E0444F7-140E-4E3D-9E11-C8725AE88150}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsCarpet_var4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841762160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var4" ID="{9E0444F7-140E-4E3D-9E11-C8725AE88150}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsCarpet_var5" ID="{E69A3504-F31B-4A6F-90C7-ED3B7FDDF567}" ShortID="1046832856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsCarpet_var5" ID="{8D781E00-D41E-41BE-8FC0-F4A581C46063}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsCarpet_var5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366658387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsCarpet_var5" ID="{8D781E00-D41E-41BE-8FC0-F4A581C46063}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -480,6 +524,12 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -490,7 +540,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="mudFeet_1" ID="{D2347F52-E4B6-43CB-8114-3BDBAE3C1D9A}" ShortID="366419777">
+								<Sound Name="sfx_character_footstepsSquish_var0" ID="{38D83782-5BA2-4353-945D-91C5B5A5A8A8}" ShortID="877410455">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -500,19 +550,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="mudFeet_1" ID="{CBB7F728-820F-46B1-9B3E-0837083F8160}">
+										<AudioFileSource Name="sfx_character_footstepsSquish_var0" ID="{3044DC6A-F4AE-4CFD-BF9C-D126BF701501}">
 											<Language>SFX</Language>
-											<AudioFile>mudFeet_1.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsSquish_var0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1010431733"/>
+												<MediaID ID="297596586"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="mudFeet_1" ID="{CBB7F728-820F-46B1-9B3E-0837083F8160}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsSquish_var0" ID="{3044DC6A-F4AE-4CFD-BF9C-D126BF701501}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="mudFeet_2" ID="{0B03C702-C6AA-4F86-954E-6BEB70763051}" ShortID="953921542">
+								<Sound Name="sfx_character_footstepsSquish_var1" ID="{4944E334-0675-44C4-BBF2-10BE83972401}" ShortID="503350225">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -522,19 +572,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="mudFeet_2" ID="{92261DCB-8AEE-4DA7-A51D-98D86E11CF14}">
+										<AudioFileSource Name="sfx_character_footstepsSquish_var1" ID="{B747A871-D29A-4256-9C37-BD63B2083A0C}">
 											<Language>SFX</Language>
-											<AudioFile>mudFeet_2.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsSquish_var1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="40148872"/>
+												<MediaID ID="61579268"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="mudFeet_2" ID="{92261DCB-8AEE-4DA7-A51D-98D86E11CF14}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsSquish_var1" ID="{B747A871-D29A-4256-9C37-BD63B2083A0C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="mudFeet_3" ID="{25867805-94F9-48C1-B897-38B4D9781EFB}" ShortID="558121846">
+								<Sound Name="sfx_character_footstepsSquish_var2" ID="{BC1DE77B-869F-4EEE-97E7-736C0B7E3164}" ShortID="665006361">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
@@ -544,16 +594,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="mudFeet_3" ID="{4DF61DD1-2741-4923-9940-7050DACDA2D6}">
+										<AudioFileSource Name="sfx_character_footstepsSquish_var2" ID="{C5A8A7E7-9C23-4236-94DB-CE0603E90FC6}">
 											<Language>SFX</Language>
-											<AudioFile>mudFeet_3.wav</AudioFile>
+											<AudioFile>sfx_character_footstepsSquish_var2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="890280397"/>
+												<MediaID ID="860673339"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="mudFeet_3" ID="{4DF61DD1-2741-4923-9940-7050DACDA2D6}" Platform="Linked"/>
+										<ActiveSource Name="sfx_character_footstepsSquish_var2" ID="{C5A8A7E7-9C23-4236-94DB-CE0603E90FC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsSquish_var3" ID="{DD9DC945-2588-4C52-98E3-8B53FE3AFB13}" ShortID="435637240">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsSquish_var3" ID="{9FC62A83-9041-4459-89E6-9E61CAD71320}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsSquish_var3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="57996871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsSquish_var3" ID="{9FC62A83-9041-4459-89E6-9E61CAD71320}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsSquish_var4" ID="{52CD9A3B-24C2-4782-9A9D-3C0361B691F8}" ShortID="2445912">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsSquish_var4" ID="{7496B2FA-03A9-481E-9F94-97A33F25FAE6}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsSquish_var4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359605009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsSquish_var4" ID="{7496B2FA-03A9-481E-9F94-97A33F25FAE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_character_footstepsSquish_var5" ID="{6F9ED0A6-C19C-4534-80E2-DD04FF59B3A7}" ShortID="597832622">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_footstepsSquish_var5" ID="{B7344883-5215-40ED-98E8-30F6FC738AF3}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_footstepsSquish_var5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408025858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_footstepsSquish_var5" ID="{B7344883-5215-40ED-98E8-30F6FC738AF3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -565,7 +681,7 @@
 								<ItemRef Name="Wood Feet" ID="{061B5932-0933-47FD-8262-1A546692CACE}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Con Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}"/>
+								<ItemRef Name="Blood Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Squish Feet" ID="{3FC22F75-201B-4444-ACE9-331E9DDFBC79}"/>
@@ -585,12 +701,14 @@
 								<SwitchRef Name="Squish" ID="{16B5322E-8465-48E9-8DB9-3D70CD97D995}"/>
 								<ItemList>
 									<ItemRef Name="Squish Feet" ID="{3FC22F75-201B-4444-ACE9-331E9DDFBC79}"/>
+									<ItemRef Name="Carpet Feet" ID="{D85A62DC-829F-4708-A8A0-BDF24CA79F16}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Concrete" ID="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}"/>
+								<SwitchRef Name="Blood" ID="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}"/>
 								<ItemList>
-									<ItemRef Name="Con Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}"/>
+									<ItemRef Name="Blood Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}"/>
+									<ItemRef Name="Wood Feet" ID="{061B5932-0933-47FD-8262-1A546692CACE}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
@@ -690,6 +808,28 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="sfx_house_keyPickUp" ID="{9D06C7E0-3E17-4BE9-B929-5DF481D1DEDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_house_burnObject" ID="{DA1DA53C-23E6-4E4A-BD0C-F3ED8C04F1F8}" ShortID="543233327">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_house_burnObject" ID="{6A26F8FD-C44A-468E-9E4B-B7B5C356B798}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_house_burnObject.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791935687"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_house_burnObject" ID="{6A26F8FD-C44A-468E-9E4B-B7B5C356B798}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

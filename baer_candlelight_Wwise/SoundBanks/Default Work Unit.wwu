@@ -72,8 +72,22 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="Burn_Object" ID="{617993B2-1554-4310-A24B-98B1952F80B8}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Burn_Object" ID="{812FA27B-103A-4C70-9FF1-1CCEC2FF57DD}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
+				<SoundBank Name="Phonograph_Play" ID="{89977357-65F6-4EE4-8BF5-BC0C6E92B0C0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Phonograph_Play" ID="{E7F183AB-9D11-4094-B53F-D2E93B1D7827}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

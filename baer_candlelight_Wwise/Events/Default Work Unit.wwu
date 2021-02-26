@@ -108,8 +108,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Burn_Object" ID="{812FA27B-103A-4C70-9FF1-1CCEC2FF57DD}">
+							<ChildrenList>
+								<Action Name="" ID="{EBAD4225-D34A-4625-8967-9736DF5F2F0E}" ShortID="264411027">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_burnObject" ID="{DA1DA53C-23E6-4E4A-BD0C-F3ED8C04F1F8}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Phonograph_Play" ID="{E7F183AB-9D11-4094-B53F-D2E93B1D7827}">
+					<ChildrenList>
+						<Action Name="" ID="{8606BB48-4988-4133-882C-261CEA4B9684}" ShortID="41737911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phonograph" ID="{B4317277-3BD5-4306-A0B8-053BB24B12F8}" WorkUnitID="{D8765DD3-4778-4F82-8A15-0BC87EDA97CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

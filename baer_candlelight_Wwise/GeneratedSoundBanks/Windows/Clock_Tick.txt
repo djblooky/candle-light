@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	2719257531	Clock_Tick			\Default Work Unit\General SFX Events\Clock_Tick	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	355615834	sfx_house_clockTick	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_house_clockTick_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_clockTick		11711664
+	355615834	sfx_house_clockTick	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\sfx_house_clockTick_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_clockTick		11711664
 

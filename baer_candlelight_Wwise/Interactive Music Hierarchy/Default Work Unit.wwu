@@ -577,6 +577,117 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<Folder Name="Non-Interactive Music" ID="{EC58F700-89FA-41AF-BD6A-DCAD2226E8DF}" ShortID="461259125">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Phonograph" ID="{B4317277-3BD5-4306-A0B8-053BB24B12F8}" ShortID="771314581">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="soundDesign_midterm_ragtimePiano" ID="{8FDF2230-DA83-4F65-8AD8-72ABFB7B83A5}" ShortID="385510860">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="soundDesign_midterm_ragtimePiano" ID="{25AFAEA4-3851-4DA9-ABE0-3A4BBD23A0EB}" ShortID="1060559091">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="soundDesign_midterm_ragtimePiano" ID="{A3388CEB-1D9F-4189-97CD-70AEDA7CA8E8}">
+													<Language>SFX</Language>
+													<AudioFile>soundDesign_midterm_ragtimePiano.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="528790863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{458553DD-297D-48A2-A530-96B440ED6870}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EE6AD799-A7E5-4D51-B73E-20BE048027AC}">
+													<ClipList>
+														<MusicClip Name="soundDesign_midterm_ragtimePiano" ID="{F242D7E6-4800-4F8A-B043-FBE0338AB525}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="soundDesign_midterm_ragtimePiano" ID="{A3388CEB-1D9F-4189-97CD-70AEDA7CA8E8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6585F5D4-FC61-4323-80A1-F6B76BEBE900}"/>
+										<MusicCue Name="Exit Cue" ID="{EA436508-EE1F-4F4E-9410-F527B176BA0D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="24000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C0112F43-B6BC-4D96-8D37-817F587D8B88}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F8100B77-7559-4870-916D-53401DFB28FE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A27F1696-3360-4BFF-8273-730EE5E927A9}" ShortID="819849956">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{585FB2B0-1E64-4AA7-B836-80D138C09A30}" ShortID="606281754">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="soundDesign_midterm_ragtimePiano" ID="{8FDF2230-DA83-4F65-8AD8-72ABFB7B83A5}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

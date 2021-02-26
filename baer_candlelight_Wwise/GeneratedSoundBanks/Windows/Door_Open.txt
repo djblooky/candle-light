@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	535830432	Door_Open			\Default Work Unit\General SFX Events\Door_Open	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	844244266	sfx_house_doorOpen	C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\SFX\sfx_house_doorOpen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_doorOpen		176464
+	844244266	sfx_house_doorOpen	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\sfx_house_doorOpen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_doorOpen		176464
 

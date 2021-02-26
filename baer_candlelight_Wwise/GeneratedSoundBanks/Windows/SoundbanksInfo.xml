@@ -1,130 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\</ProjectRoot>
-		<SourceFilesRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="442453602" Language="SFX" Hash="413837334">
+		<SoundBank Id="442453602" Language="SFX" Hash="650404572">
 			<ObjectPath>\SoundBanks\Default Work Unit\Footstep_Switch</ObjectPath>
 			<ShortName>Footstep_Switch</ShortName>
 			<Path>Footstep_Switch.bnk</Path>
 			<IncludedEvents>
-				<Event Id="442453602" Name="Footstep_Switch" ObjectPath="\Events\Default Work Unit\Footstep_Switch" DurationType="OneShot" DurationMin="0.089211" DurationMax="0.729778">
+				<Event Id="442453602" Name="Footstep_Switch" ObjectPath="\Events\Default Work Unit\Footstep_Switch" DurationType="OneShot" DurationMin="0.307148" DurationMax="1.042337">
 					<IncludedMemoryFiles>
-						<File Id="40148872" Language="SFX">
-							<ShortName>mudFeet_2.wav</ShortName>
-							<Path>SFX\mudFeet_2_10C4C929.wem</Path>
+						<File Id="25046496" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var1.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var1_10C4C929.wem</Path>
 						</File>
-						<File Id="87954863" Language="SFX">
-							<ShortName>sfx_player_footsteps_var1.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var1_10C4C929.wem</Path>
+						<File Id="57996871" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var3.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var3_10C4C929.wem</Path>
 						</File>
-						<File Id="94816179" Language="SFX">
-							<ShortName>sfx_player_footsteps_var6.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var6_10C4C929.wem</Path>
+						<File Id="61579268" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var1.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var1_10C4C929.wem</Path>
 						</File>
-						<File Id="332333951" Language="SFX">
-							<ShortName>baer_TriggeringSFX_footstep1.wav</ShortName>
-							<Path>SFX\baer_TriggeringSFX_footstep1_10C4C929.wem</Path>
+						<File Id="81877567" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var2.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var2_10C4C929.wem</Path>
 						</File>
-						<File Id="361907471" Language="SFX">
-							<ShortName>sfx_guard_footsteps_var1.wav</ShortName>
-							<Path>SFX\sfx_guard_footsteps_var1_10C4C929.wem</Path>
+						<File Id="144699973" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var0.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var0_10C4C929.wem</Path>
 						</File>
-						<File Id="413908220" Language="SFX">
-							<ShortName>baer_TriggeringSFX_footstep2.wav</ShortName>
-							<Path>SFX\baer_TriggeringSFX_footstep2_10C4C929.wem</Path>
+						<File Id="160855787" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var1.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var1_10C4C929.wem</Path>
 						</File>
-						<File Id="419972623" Language="SFX">
-							<ShortName>sfx_guard_footsteps_var0.wav</ShortName>
-							<Path>SFX\sfx_guard_footsteps_var0_10C4C929.wem</Path>
+						<File Id="297596586" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var0.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var0_10C4C929.wem</Path>
 						</File>
-						<File Id="469251039" Language="SFX">
-							<ShortName>sfx_guard_footsteps_var3.wav</ShortName>
-							<Path>SFX\sfx_guard_footsteps_var3_10C4C929.wem</Path>
+						<File Id="359605009" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var4.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var4_10C4C929.wem</Path>
 						</File>
-						<File Id="588087610" Language="SFX">
-							<ShortName>baer_TriggeringSFX_footstep3.wav</ShortName>
-							<Path>SFX\baer_TriggeringSFX_footstep3_10C4C929.wem</Path>
+						<File Id="366658387" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var5.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var5_10C4C929.wem</Path>
 						</File>
-						<File Id="621566878" Language="SFX">
-							<ShortName>sfx_player_footsteps_var0.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var0_10C4C929.wem</Path>
+						<File Id="408025858" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var5.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var5_10C4C929.wem</Path>
 						</File>
-						<File Id="637077410" Language="SFX">
-							<ShortName>sfx_guard_footsteps_var2.wav</ShortName>
-							<Path>SFX\sfx_guard_footsteps_var2_10C4C929.wem</Path>
+						<File Id="422823436" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var1.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var1_10C4C929.wem</Path>
 						</File>
-						<File Id="692892707" Language="SFX">
-							<ShortName>sfx_guard_footsteps_var4.wav</ShortName>
-							<Path>SFX\sfx_guard_footsteps_var4_10C4C929.wem</Path>
+						<File Id="469361865" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var2.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var2_10C4C929.wem</Path>
 						</File>
-						<File Id="703166007" Language="SFX">
-							<ShortName>sfx_player_footsteps_var4.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var4_10C4C929.wem</Path>
+						<File Id="522930070" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var0.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var0_10C4C929.wem</Path>
 						</File>
-						<File Id="763832885" Language="SFX">
-							<ShortName>sfx_player_footsteps_var2.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var2_10C4C929.wem</Path>
+						<File Id="567512323" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var3.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var3_10C4C929.wem</Path>
 						</File>
-						<File Id="778924892" Language="SFX">
-							<ShortName>sfx_player_footsteps_var5.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var5_10C4C929.wem</Path>
+						<File Id="578019906" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var2.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var2_10C4C929.wem</Path>
 						</File>
-						<File Id="890280397" Language="SFX">
-							<ShortName>mudFeet_3.wav</ShortName>
-							<Path>SFX\mudFeet_3_10C4C929.wem</Path>
+						<File Id="591113436" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var5.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var5_10C4C929.wem</Path>
 						</File>
-						<File Id="987171830" Language="SFX">
-							<ShortName>sfx_player_footsteps_var3.wav</ShortName>
-							<Path>SFX\sfx_player_footsteps_var3_10C4C929.wem</Path>
+						<File Id="702254361" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var4.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var4_10C4C929.wem</Path>
 						</File>
-						<File Id="1010431733" Language="SFX">
-							<ShortName>mudFeet_1.wav</ShortName>
-							<Path>SFX\mudFeet_1_10C4C929.wem</Path>
+						<File Id="812384679" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var0.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var0_10C4C929.wem</Path>
+						</File>
+						<File Id="841762160" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var4.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var4_10C4C929.wem</Path>
+						</File>
+						<File Id="860673339" Language="SFX">
+							<ShortName>sfx_character_footstepsSquish_var2.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsSquish_var2_10C4C929.wem</Path>
+						</File>
+						<File Id="889114129" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var3.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var3_10C4C929.wem</Path>
+						</File>
+						<File Id="990815223" Language="SFX">
+							<ShortName>sfx_character_footstepsWood_var5.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsWood_var5_10C4C929.wem</Path>
+						</File>
+						<File Id="1015017269" Language="SFX">
+							<ShortName>sfx_character_footstepsCarpet_var3.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsCarpet_var3_10C4C929.wem</Path>
+						</File>
+						<File Id="1020690894" Language="SFX">
+							<ShortName>sfx_character_footstepsBlood_var4.wav</ShortName>
+							<Path>SFX\sfx_character_footstepsBlood_var4_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{9965CA26-DB05-4A21-ADD2-8E493C3D8716}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}">
 							<Media>
-								<File Id="87954863"/>
-								<File Id="94816179"/>
-								<File Id="621566878"/>
-								<File Id="703166007"/>
-								<File Id="763832885"/>
-								<File Id="778924892"/>
-								<File Id="987171830"/>
+								<File Id="144699973"/>
+								<File Id="160855787"/>
+								<File Id="578019906"/>
+								<File Id="591113436"/>
+								<File Id="889114129"/>
+								<File Id="1020690894"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9965CA26-DB05-4A21-ADD2-8E493C3D8716}">
 							<Media>
-								<File Id="361907471"/>
-								<File Id="419972623"/>
-								<File Id="469251039"/>
-								<File Id="637077410"/>
-								<File Id="692892707"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{9B2B4BBF-3A35-42AF-A3BF-7C694D7F66A9}">
-							<Media>
-								<File Id="332333951"/>
-								<File Id="413908220"/>
-								<File Id="588087610"/>
+								<File Id="81877567"/>
+								<File Id="422823436"/>
+								<File Id="567512323"/>
+								<File Id="702254361"/>
+								<File Id="812384679"/>
+								<File Id="990815223"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{16B5322E-8465-48E9-8DB9-3D70CD97D995}">
 							<Media>
-								<File Id="40148872"/>
-								<File Id="890280397"/>
-								<File Id="1010431733"/>
+								<File Id="25046496"/>
+								<File Id="366658387"/>
+								<File Id="469361865"/>
+								<File Id="522930070"/>
+								<File Id="841762160"/>
+								<File Id="1015017269"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{16B5322E-8465-48E9-8DB9-3D70CD97D995}">
+							<Media>
+								<File Id="57996871"/>
+								<File Id="61579268"/>
+								<File Id="297596586"/>
+								<File Id="359605009"/>
+								<File Id="408025858"/>
+								<File Id="860673339"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -136,12 +166,12 @@
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Wood"/>
 						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Carpet"/>
 						<Switch Id="1531833962" Name="Squish" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Squish"/>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Concrete"/>
+						<Switch Id="3934470635" Name="Blood" ObjectPath="\Switches\Default Work Unit\Footstep_Switch\Blood"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="535830432" Language="SFX" Hash="1542747079">
+		<SoundBank Id="535830432" Language="SFX" Hash="3579989997">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Door_Open</ObjectPath>
 			<ShortName>Door_Open</ShortName>
 			<Path>Door_Open.bnk</Path>
@@ -156,7 +186,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="547805114" Language="SFX" Hash="3113473838">
+		<SoundBank Id="547805114" Language="SFX" Hash="625722698">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_MouseOver</ObjectPath>
 			<ShortName>Menu_MouseOver</ShortName>
 			<Path>Menu_MouseOver.bnk</Path>
@@ -171,7 +201,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="761761105" Language="SFX" Hash="2674006317">
+		<SoundBank Id="761761105" Language="SFX" Hash="2396740968">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_PickUp</ObjectPath>
 			<ShortName>Key_PickUp</ShortName>
 			<Path>Key_PickUp.bnk</Path>
@@ -186,12 +216,42 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
+		<SoundBank Id="778631128" Language="SFX" Hash="429608749">
+			<ObjectPath>\SoundBanks\Default Work Unit\Phonograph_Play</ObjectPath>
+			<ShortName>Phonograph_Play</ShortName>
+			<Path>Phonograph_Play.bnk</Path>
+			<IncludedEvents>
+				<Event Id="778631128" Name="Phonograph_Play" ObjectPath="\Events\Default Work Unit\Phonograph_Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="528790863" Language="SFX">
+							<ShortName>soundDesign_midterm_ragtimePiano.wav</ShortName>
+							<Path>SFX\soundDesign_midterm_ragtimePiano_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2091269345">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2054027409" Language="SFX" Hash="2448646354">
+		<SoundBank Id="1399404176" Language="SFX" Hash="1129867519">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Burn_Object</ObjectPath>
+			<ShortName>Burn_Object</ShortName>
+			<Path>Burn_Object.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1399404176" Name="Burn_Object" ObjectPath="\Events\Default Work Unit\General SFX Events\Burn_Object" DurationType="OneShot" DurationMin="5.500000" DurationMax="5.500000">
+					<IncludedMemoryFiles>
+						<File Id="791935687" Language="SFX">
+							<ShortName>sfx_house_burnObject.wav</ShortName>
+							<Path>SFX\sfx_house_burnObject_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2054027409" Language="SFX" Hash="1703070432">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_Unlock</ObjectPath>
 			<ShortName>Key_Unlock</ShortName>
 			<Path>Key_Unlock.bnk</Path>
@@ -206,7 +266,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2719257531" Language="SFX" Hash="2901915024">
+		<SoundBank Id="2719257531" Language="SFX" Hash="2402613381">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Clock_Tick</ObjectPath>
 			<ShortName>Clock_Tick</ShortName>
 			<Path>Clock_Tick.bnk</Path>
@@ -221,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="2837709177">
+		<SoundBank Id="2724869341" Language="SFX" Hash="2121603583">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>
@@ -286,7 +346,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3860585191" Language="SFX" Hash="771862394">
+		<SoundBank Id="3860585191" Language="SFX" Hash="2978544301">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_GameStart</ObjectPath>
 			<ShortName>Menu_GameStart</ShortName>
 			<Path>Menu_GameStart.bnk</Path>
@@ -301,7 +361,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4203375351" Language="SFX" Hash="2921586628">
+		<SoundBank Id="4203375351" Language="SFX" Hash="1077905983">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_Select</ObjectPath>
 			<ShortName>Menu_Select</ShortName>
 			<Path>Menu_Select.bnk</Path>
