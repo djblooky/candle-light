@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	778631128	Phonograph_Play			\Default Work Unit\Phonograph_Play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	528790863	soundDesign_midterm_ragtimePiano	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\soundDesign_midterm_ragtimePiano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Non-Interactive Music\Phonograph\soundDesign_midterm_ragtimePiano\soundDesign_midterm_ragtimePiano		4233664
+	903865608	mus_house_phonograph_loop	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\mus_house_phonograph_loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Non-Interactive Music\Phonograph\mus_house_phonograph_loop\mus_house_phonograph_loop		4233664
 

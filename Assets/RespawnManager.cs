@@ -23,14 +23,18 @@ public class RespawnManager : MonoBehaviour
 
     private void Start()
     {
+        AkSoundEngine.SetState("Music_Switch", "Game_Start");//set music state for start of game in Wwise
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);
         canvasGroup = DeathMaskPointer.GetComponent<CanvasGroup>();
         canvasGroup.alpha = 0;
         canvasGroup.blocksRaycasts = false;
         canvasGroup.interactable = false;
     }
 
+    
     private void FixedUpdate()
     {
+        
         if (dyinganim)
         {
             canvasGroup.alpha += 0.005f;
@@ -49,6 +53,8 @@ public class RespawnManager : MonoBehaviour
 
         CandlePivotPointer.transform.localScale = new Vector3(0f, 0f, 0f);
 
+        AkSoundEngine.SetState("Music_Switch", "Death");
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);//Wwise Audio Trigger upon death
         //trigger audio que for pre-death
 
         Invoke("DeathAnimationAfterDelay", delayBeforeDeathAnim);
@@ -62,16 +68,19 @@ public class RespawnManager : MonoBehaviour
 
     private void ResetDeath()
     {
+
         canvasGroup.alpha = 0f;
         dyinganim = false;
         DeathReset?.Invoke();
 
 
         gameObject.transform.position = RespawnPoint;
+        AkSoundEngine.SetState("Music_Switch", "Game_Start");//reset music state when respawning
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);
     }
 
     private void OnCandleBurnedOut()
-    {
+    {  
          TriggerDeath();
          DeathCount++;
     }

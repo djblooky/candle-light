@@ -58,7 +58,7 @@
 						<CurrentStateRef Name="Death" ID="{18EF26EA-9B1B-47A2-AB53-DDF4B623F987}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Carpet" ID="{9B2B4BBF-3A35-42AF-A3BF-7C694D7F66A9}"/>
+						<CurrentSwitchRef Name="Blood" ID="{6660EA3E-6A7A-41C2-8806-59E9BF00FF12}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

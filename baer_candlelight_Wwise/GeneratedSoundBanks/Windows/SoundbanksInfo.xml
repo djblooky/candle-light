@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="442453602" Language="SFX" Hash="650404572">
+		<SoundBank Id="442453602" Language="SFX" Hash="917347636">
 			<ObjectPath>\SoundBanks\Default Work Unit\Footstep_Switch</ObjectPath>
 			<ShortName>Footstep_Switch</ShortName>
 			<Path>Footstep_Switch.bnk</Path>
@@ -117,7 +117,7 @@
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{9965CA26-DB05-4A21-ADD2-8E493C3D8716}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}">
+						<SwitchContainer SwitchValue="{6660EA3E-6A7A-41C2-8806-59E9BF00FF12}">
 							<Media>
 								<File Id="144699973"/>
 								<File Id="160855787"/>
@@ -216,16 +216,16 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="778631128" Language="SFX" Hash="429608749">
+		<SoundBank Id="778631128" Language="SFX" Hash="3412061585">
 			<ObjectPath>\SoundBanks\Default Work Unit\Phonograph_Play</ObjectPath>
 			<ShortName>Phonograph_Play</ShortName>
 			<Path>Phonograph_Play.bnk</Path>
 			<IncludedEvents>
 				<Event Id="778631128" Name="Phonograph_Play" ObjectPath="\Events\Default Work Unit\Phonograph_Play" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="528790863" Language="SFX">
-							<ShortName>soundDesign_midterm_ragtimePiano.wav</ShortName>
-							<Path>SFX\soundDesign_midterm_ragtimePiano_D79FB2B7.wem</Path>
+						<File Id="903865608" Language="SFX">
+							<ShortName>mus_house_phonograph_loop.wav</ShortName>
+							<Path>SFX\mus_house_phonograph_loop_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -281,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="2121603583">
+		<SoundBank Id="2724869341" Language="SFX" Hash="3821269127">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>

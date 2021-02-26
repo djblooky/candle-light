@@ -37,7 +37,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -200,11 +200,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -365,6 +360,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -705,7 +705,7 @@
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Blood" ID="{DC3BA33E-7E79-4202-9615-E7C318BAEAEE}"/>
+								<SwitchRef Name="Blood" ID="{6660EA3E-6A7A-41C2-8806-59E9BF00FF12}"/>
 								<ItemList>
 									<ItemRef Name="Blood Feet" ID="{97336E54-0B9D-4708-9485-1A63CDB14D62}"/>
 									<ItemRef Name="Wood Feet" ID="{061B5932-0933-47FD-8262-1A546692CACE}"/>

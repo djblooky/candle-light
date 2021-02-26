@@ -38,6 +38,14 @@ public class CandleBurnDown : MonoBehaviour
             CandleBurnedOut?.Invoke();
             //ResetCandle()
         }
+
+        if (BurnSecondsRemaining <= 66f && BurnSecondsRemaining > 65)
+        {
+            AkSoundEngine.SetState("Music_Switch", "Candle_RunningOut");
+            
+        }
+
+
     }
 
     public void ResetCandle()
@@ -50,8 +58,7 @@ public class CandleBurnDown : MonoBehaviour
         BurnDurationSeconds = BurnSecondsRemaining;
         CandleScale = 1;
 
-        
-       // EquipmentManager.current.rightHandEquipped = false;
+        // EquipmentManager.current.rightHandEquipped = false;
         //TODO: equiptment manager unequip candle
     }
 

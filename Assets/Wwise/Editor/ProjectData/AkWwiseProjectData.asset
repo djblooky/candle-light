@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 11b7c8132400004fb4a4de373062324b
     GuidInternal: 
-    m_lastTime: -8585880866639157181
+    m_lastTime: -8585873076639097550
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585880869260897988
+    m_lastTime: -8585873076639087579
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 82401a02e10f3542acba2fcf3bc21658
     GuidInternal: 
-    m_lastTime: -8585880862435278455
+    m_lastTime: -8585873076650198772
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -230,8 +230,19 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585875558051579928
+    m_lastTime: -8585873039941816497
     List:
+    - name: Burn_Object
+      guid: b293796154151043a24b98b1952f80b8
+      id: 1399404176
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Burn_Object
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Burn_Object
     - name: Clock_Tick
       guid: 01971f71e41d1249ba5fba1bf7800f08
       id: 2719257531
@@ -345,6 +356,15 @@ MonoBehaviour:
       - ElementName: Music_Switch
         ObjectType: 7
       Path: Default Work Unit\Music_Switch
+    - name: Phonograph_Play
+      guid: 57739789f665e44e8bf5bc0c6e92b0c0
+      id: 778631128
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Phonograph_Play
+        ObjectType: 7
+      Path: Default Work Unit\Phonograph_Play
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -353,8 +373,22 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585875558051659392
+    m_lastTime: -8585873070186418114
     List:
+    - name: Burn_Object
+      guid: 7ba22f813a10704c9ff11ccec2ff57dd
+      id: 1399404176
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SFX Events
+        ObjectType: 4
+      - ElementName: Burn_Object
+        ObjectType: 3
+      Path: Default Work Unit\General SFX Events\Burn_Object
+      maxAttenuation: 0
+      maxDuration: 5.5
+      minDuration: 5.5
     - name: Clock_Tick
       guid: 55271ce1bc9a6d468f8c936f43869ee1
       id: 2719257531
@@ -393,8 +427,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Footstep_Switch
       maxAttenuation: 0
-      maxDuration: 0.729778
-      minDuration: 0.089211
+      maxDuration: 1.042337
+      minDuration: 0.307148
     - name: General SFX Events
       guid: 324e70c114044f42b4d889eee1214a00
       id: 471171385
@@ -501,6 +535,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Phonograph_Play
+      guid: ab83f1e7119d9440b53fd2e93b1d7827
+      id: 778631128
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Phonograph_Play
+        ObjectType: 3
+      Path: Default Work Unit\Phonograph_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -509,7 +555,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ddbe94bfb202c64fb065904a17dc1034
     GuidInternal: 
-    m_lastTime: -8585880866638927793
+    m_lastTime: -8585873076659484900
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -518,7 +564,7 @@ MonoBehaviour:
     ParentPath: Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585880869266064146
+    m_lastTime: -8585873076659474543
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -545,7 +591,7 @@ MonoBehaviour:
     ParentPath: Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585880869239315694
+    m_lastTime: -8585873076659464940
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -645,7 +691,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6f23777ae9d2934e9c672b38be1a36a2
     GuidInternal: 
-    m_lastTime: -8585880842527550316
+    m_lastTime: -8585873076639127472
     List:
     - name: Music_Switch
       guid: 8af2e1e12071334f887866bd351d128a
@@ -698,7 +744,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 056e9f6547921843923e1353fe9ae3c4
     GuidInternal: 
-    m_lastTime: -8585878959353490087
+    m_lastTime: -8585873037993816485
     List:
     - name: Footstep_Switch
       guid: 645d65804ae04a499ea4e067037ab037
@@ -710,17 +756,17 @@ MonoBehaviour:
         ObjectType: 11
       Path: Default Work Unit\Footstep_Switch
       values:
+      - name: Blood
+        guid: 3eea60667a6ac241880659e9bf00ff12
+        id: 3934470635
+        PathAndIcons:
+        - ElementName: Blood
+          ObjectType: 10
       - name: Carpet
         guid: bf4b2b9b353aaf42a3bf7c694d7f66a9
         id: 2412606308
         PathAndIcons:
         - ElementName: Carpet
-          ObjectType: 10
-      - name: Concrete
-        guid: 3ea33bdc797e02429615e7c318baeaee
-        id: 841620460
-        PathAndIcons:
-        - ElementName: Concrete
           ObjectType: 10
       - name: Squish
         guid: 2e32b5166584e9488db93d70cd97d995
@@ -745,15 +791,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ca43334bbe2cbf4190b19b2559a6f73c
     GuidInternal: 
-    m_lastTime: -8585880866639286832
+    m_lastTime: -8585873076639107521
     List: []
   ExpandedItems:
   - /baer_candlelight
-  - /baer_candlelight/Events
-  - /baer_candlelight/Events/Default Work Unit
-  - /baer_candlelight/Events/Default Work Unit/General SFX Events
   - /baer_candlelight/SoundBanks
-  - /baer_candlelight/SoundBanks/Default Work Unit
-  - /baer_candlelight/SoundBanks/Default Work Unit/General SoundBanks
+  - /baer_candlelight/States
+  - /baer_candlelight/States/Default Work Unit
+  - /baer_candlelight/States/Default Work Unit/Music_Switch
+  - /baer_candlelight/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
