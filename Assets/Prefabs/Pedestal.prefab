@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 1191444306851889626}
   - component: {fileID: 1191444306851889621}
   - component: {fileID: 1191444306851889630}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlaceObjectTrigger
   m_TagString: InteractiveObject
   m_Icon: {fileID: 0}
