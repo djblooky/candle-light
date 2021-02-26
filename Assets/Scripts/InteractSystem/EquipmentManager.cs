@@ -12,7 +12,7 @@ public class EquipmentManager : MonoBehaviour
 
     private float lerpDuration = 1f;
     private float lerpTimeElapsed = 0;
-    private EquippableObject objectToEquip = null, objectToPlace = null;
+    private EquippableObject objectToEquip = null, objectToUnequip = null;
     private PlaceObjectTrigger nextSpotToPlace;
 
     private void Start()
@@ -29,7 +29,7 @@ public class EquipmentManager : MonoBehaviour
 
         CheckForInteractWithPlaceObjectTrigger();
 
-        if (objectToPlace != null)
+        if (objectToUnequip != null)
             MoveObjectToPlace();
     }
 
@@ -40,8 +40,8 @@ public class EquipmentManager : MonoBehaviour
             if (PlaceObjectTrigger.IsEmpty && leftHandEquipped)
             {
                 nextSpotToPlace = PlayerRaycast.objectLookingAt as PlaceObjectTrigger;
-                objectToPlace = currentLeftObject;
-                objectToPlace.tag = "Untagged"; //no longer interactive
+                objectToUnequip = currentLeftObject;
+                objectToUnequip.tag = "Untagged"; //no longer interactive
                 nextSpotToPlace.tag = "Untagged";
             }
         }
@@ -49,14 +49,15 @@ public class EquipmentManager : MonoBehaviour
 
     private void MoveObjectToPlace()
     {
-        objectToPlace.transform.position = Vector3.Lerp(objectToPlace.transform.position, nextSpotToPlace.transform.position, lerpTimeElapsed / lerpDuration);
+        objectToUnequip.transform.position = Vector3.Lerp(objectToUnequip.transform.position, nextSpotToPlace.transform.position, lerpTimeElapsed / lerpDuration);
 
         lerpTimeElapsed += Time.deltaTime;
 
         if (lerpTimeElapsed >= lerpDuration - 0.7) //once it's done lerping
         {
             ObjectPlaced?.Invoke(); //TODO: remove this and create invoke an event when the lock flames are lit instead
-            UnequipObject();
+            objectToUnequip.transform.SetParent(nextSpotToPlace.transform);
+            UnequipObject(0, true);
             lerpTimeElapsed = 0;
         }
     }
@@ -118,22 +119,46 @@ public class EquipmentManager : MonoBehaviour
         objectToEquip = null;
     }
 
-    private void UnequipObject()
+    private void UnequipObject(int layer, bool leftHand)
     {
-        objectToPlace.transform.SetParent(nextSpotToPlace.transform);
-        leftHandEquipped = false;
-        currentLeftObject = null;
-
-        objectToPlace.gameObject.layer = 0; //set to equipment layer
-        foreach (Transform t in objectToPlace.GetComponentsInChildren<Transform>()) //set children of the object to equipment layer
+        if (leftHand)
         {
-            t.gameObject.layer = 0;
+            leftHandEquipped = false;
+            currentLeftObject = null;
+        }
+        else
+        {
+            rightHandEquipped = false;
+            currentRightObject = null;
         }
 
-        objectToPlace.transform.localPosition = Vector3.zero;
-        objectToPlace.transform.localEulerAngles = objectToPlace.PlacedRotation;
+        objectToUnequip.gameObject.layer = layer; //set to default layer or ignore multiraycast layer
+        foreach (Transform t in objectToUnequip.GetComponentsInChildren<Transform>()) //set children of the object to equipment layer
+        {
+            t.gameObject.layer = layer;
+        }
 
-        objectToPlace = null;
+        objectToUnequip.transform.localPosition = Vector3.zero;
+        objectToUnequip.transform.localEulerAngles = objectToUnequip.PlacedRotation;
+
+        objectToUnequip = null;
         nextSpotToPlace = null;
+    }
+
+    private void OnCandleBurnedOut()
+    {
+        //unequip candle
+        objectToUnequip = currentRightObject;
+        UnequipObject(9, false);
+    }
+
+    private void OnEnable()
+    {
+        CandleBurnDown.CandleBurnedOut += OnCandleBurnedOut;
+    }
+
+    private void OnDisable()
+    {
+        CandleBurnDown.CandleBurnedOut -= OnCandleBurnedOut;
     }
 }

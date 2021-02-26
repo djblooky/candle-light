@@ -18,6 +18,11 @@ public class LightController : MonoBehaviour
 
     private void Start()
     {
+        OnSpawn();
+    }
+
+    void OnSpawn()
+    {
         candleSpotLight.SetActive(false);
         auraQualitySettings.displayVolumetricLightingBuffer = false;
         auraBaseSettings.density = candleOnLightingDensity;
@@ -49,11 +54,13 @@ public class LightController : MonoBehaviour
     {
         EquipmentManager.CandlePickedUp += OnCandlePickedUp;
         CandleBurnDown.CandleBurnedOut += OnCandleBurnedOut;
+        RespawnManager.RespawnTriggered += OnSpawn;
     }
 
     private void OnDisable()
     {
         EquipmentManager.CandlePickedUp -= OnCandlePickedUp;
         CandleBurnDown.CandleBurnedOut -= OnCandleBurnedOut;
+        RespawnManager.RespawnTriggered -= OnSpawn;
     }
 }

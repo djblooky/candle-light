@@ -59,11 +59,11 @@ public class CandleBurnDown : MonoBehaviour
 
     private void OnEnable()
     {
-        RespawnManager.DeathReset += ResetCandle;
+        RespawnManager.RespawnTriggered += ResetCandle;
     }
 
     private void OnDisable()
     {
-        RespawnManager.DeathReset -= ResetCandle;
+        RespawnManager.RespawnTriggered -= ResetCandle;
     }
 }

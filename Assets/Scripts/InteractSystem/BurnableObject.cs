@@ -28,8 +28,13 @@ public class BurnableObject : InteractiveObject
         {
             timer += Time.deltaTime;
             _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
+
+            if (timer > spawnEffectTime)
+            {
+                isBurning = false;
+                Destroy(gameObject);
+            }
         }
-       
     }
 
     public override void Interact()
@@ -37,7 +42,6 @@ public class BurnableObject : InteractiveObject
         base.Interact();
 
         BurnObject();
-        
     }
 
 
@@ -46,6 +50,7 @@ public class BurnableObject : InteractiveObject
     {
         ps.Play();
         isBurning = true;
+        tag = "Untagged";
     }
 
     private void OnEnable()
