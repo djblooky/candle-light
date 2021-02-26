@@ -62,3 +62,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll
+Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll
+Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.dll
