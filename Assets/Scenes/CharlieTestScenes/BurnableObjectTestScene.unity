@@ -63836,10 +63836,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1640188847}
     - target: {fileID: 66269825, guid: f805f6b7ae485ee4192ba04b4970a64a, type: 3}
-      propertyPath: delayBeforeDeathAnim
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 66269825, guid: f805f6b7ae485ee4192ba04b4970a64a, type: 3}
       propertyPath: delayBeforeDeathReset
       value: 1
       objectReference: {fileID: 0}
