@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	761761105	Key_PickUp			\Default Work Unit\General SFX Events\Key_PickUp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	940491739	sfx_house_keyPickUp	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\sfx_house_keyPickUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_keyPickUp		165440
+

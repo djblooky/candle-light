@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class RushCharacterStepEvent : MonoBehaviour
 {
-    public void PlayStepSound(AudioClip sound)
-    {
-        RushCharacterController.RushStepEventHandler(sound);
-    }
+    //public void PlayStepSound(AudioClip sound)
+    //{
+    //    RushCharacterController.RushStepEventHandler(sound);
+    //}
 }

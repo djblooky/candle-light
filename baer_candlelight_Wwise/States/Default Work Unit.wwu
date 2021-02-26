@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7A77236F-D2E9-4E93-9C67-2B38BE1A36A2}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{7A77236F-D2E9-4E93-9C67-2B38BE1A36A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_Switch" ID="{E1E1F28A-7120-4F33-8878-66BD351D128A}">
+					<ChildrenList>
+						<State Name="None" ID="{48162B4A-AF84-4F1E-9945-2EBEC340774D}"/>
+						<State Name="Game_Start" ID="{D20000E7-7F4D-43D2-9DC4-693895A1CDE8}"/>
+						<State Name="Candle_RunningOut" ID="{50012B26-55C3-4083-9567-A3D0F115547C}"/>
+						<State Name="Death" ID="{18EF26EA-9B1B-47A2-AB53-DDF4B623F987}"/>
+						<State Name="Menu" ID="{7C530ECC-B1DC-469A-91BA-E08C340224BA}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

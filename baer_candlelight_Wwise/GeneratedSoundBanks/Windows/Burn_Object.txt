@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1399404176	Burn_Object			\Default Work Unit\General SFX Events\Burn_Object	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	791935687	sfx_house_burnObject	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\sfx_house_burnObject_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\General SFX\sfx_house_burnObject		970264
+

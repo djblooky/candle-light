@@ -18,9 +18,18 @@ public class RespawnManager : MonoBehaviour
 
     [SerializeField] private GameObject CandlePivotPointer;
 
+    private void Start() 
+    {
+        AkSoundEngine.SetState("Music_Switch", "Game_Start");//set music state for start of game in Wwise
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);
+    }
+
     private void TriggerDeath()
     {
         //trigger audio que for pre-death
+        AkSoundEngine.SetState("Music_Switch", "Death");
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);//Wwise Audio Trigger upon death
+        
         //EquipmentManager.current.rightHandEquipped = false;
         Invoke("DeathAnimationAfterDelay", delayBeforeDeathAnim);
     }
@@ -40,6 +49,9 @@ public class RespawnManager : MonoBehaviour
 
     private void Respawn()
     {
+        AkSoundEngine.SetState("Music_Switch", "Game_Start");//reset music state when respawning
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);
+
         RespawnTriggered?.Invoke();
 
         CandlePivotPointer.transform.localScale = new Vector3(0f, 0f, 0f);

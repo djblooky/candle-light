@@ -109,13 +109,13 @@ public class RushCharacterController : MonoBehaviour
     [Tooltip("This value represents how many degrees the zoom changes. The higher this value is, the further in the camera will zoom.")] public float zoomIntensity = 30f;
 
     [Header("Rush - Sounds")]
-    [Tooltip("Whether or not sounds will play from the player.")] public bool enableSounds = true;
+    //[Tooltip("Whether or not sounds will play from the player.")] public bool enableSounds = true;
     [Space]
     [Tooltip("How loud the player's sounds are.")] [Range(0f, 1f)] public float soundVolume = 1f;
     [Tooltip("How long the player will wait before allowing the landing sound to play again. Check m_landingTimer in the code for more details.")] public float landingSoundTimer = 1f;
-    [Tooltip("The sound that plays whenever the player walks. The rate this plays at is scaled based on speed.")] public AudioClip[] walkSounds;
-    [Tooltip("The sound that plays whenever the player jumps.")] public AudioClip jumpingSound;
-    [Tooltip("The sound that plays whenever the player lands on the ground.")] public AudioClip landingSound;
+    //[Tooltip("The sound that plays whenever the player walks. The rate this plays at is scaled based on speed.")] public AudioClip[] walkSounds;
+    //[Tooltip("The sound that plays whenever the player jumps.")] public AudioClip jumpingSound;
+    //[Tooltip("The sound that plays whenever the player lands on the ground.")] public AudioClip landingSound;
 
     [Header("Rush - Animation")]
     [Tooltip("^ Leave this unassigned to ignore animations. ^\n\nExplanation of used animator parameters below:")] public Animator playerAnimator; //This is important, please read the tooltip for a comprehensive list of the animator parameters used.
@@ -174,7 +174,7 @@ public class RushCharacterController : MonoBehaviour
     RaycastHit m_hit; //A cached raycast for performance. The script recycles this often to avoid allocation issues.
 
     private CharacterController m_char; //Reference to the character controller running the player.
-    private AudioSource m_sound; //Reference to the player's audiosource component.
+    //private AudioSource m_sound; //Reference to the player's audiosource component.
                                  ///
 
     void Start()
@@ -198,8 +198,8 @@ public class RushCharacterController : MonoBehaviour
         m_camOriginBaseHeight = m_camOrigin.y;
         m_camPosTracer = m_camOrigin; //This is where the camera truly lies in a given frame.
 
-        m_sound = (GetComponent<AudioSource>() != null) ? GetComponent<AudioSource>() : gameObject.AddComponent<AudioSource>();
-        m_sound.spatialBlend = 0f;
+        //m_sound = (GetComponent<AudioSource>() != null) ? GetComponent<AudioSource>() : gameObject.AddComponent<AudioSource>();
+        //m_sound.spatialBlend = 0f;
 
         if (cursorManagement)
         {
@@ -504,8 +504,8 @@ public class RushCharacterController : MonoBehaviour
                         {
                             if (m_jumpTimer <= 0f)
                             {
-                                if (enableSounds)
-                                    m_sound.PlayOneShot(jumpingSound, soundVolume);
+                                //if (enableSounds)
+                                //    m_sound.PlayOneShot(jumpingSound, soundVolume);
 
                                 switch (jumpMode)
                                 {
@@ -600,12 +600,12 @@ public class RushCharacterController : MonoBehaviour
 
             if (movement.y - m_lastGrav > 5f && m_lastGrav < -5f && isGrounded) //This checks to make sure the player is falling a certain speed before using landing effects.
             {
-                if (enableSounds)
+                //if (enableSounds)
                 {
                     if (m_landingTimer <= 0f)
                     {
-                        m_sound.PlayOneShot(landingSound, soundVolume); //If we're allowed to play sounds on landing, we do it here. The timer is reset to prevent spamming.
-                        m_landingTimer = landingSoundTimer;
+                        //m_sound.PlayOneShot(landingSound, soundVolume); //If we're allowed to play sounds on landing, we do it here. The timer is reset to prevent spamming.
+                        //m_landingTimer = landingSoundTimer;
                     }
                 }
 
@@ -635,14 +635,16 @@ public class RushCharacterController : MonoBehaviour
 
 
                         /// This section is dedicated to step sounds, which play on the lowest part of the camera's viewbob curve. Disabling viewbob doesn't affect the m_walkTime value!
-                        if (enableSounds && !overrideFootsteps)
+                        if (!overrideFootsteps)
                         {
                             if (Mathf.Sin(m_walkTime) < -0.8f)
                             {
                                 if (!m_stepped)
                                 {
-                                    m_sound.PlayOneShot(walkSounds[Random.Range(0, walkSounds.Length)], soundVolume);
+                                    //m_sound.PlayOneShot(walkSounds[Random.Range(0, walkSounds.Length)], soundVolume);
+                                    AkSoundEngine.PostEvent("Footstep_Switch", gameObject); //Wwise Footstep Switch
                                     m_stepped = true;
+                                    
                                 }
                             }
                             else
@@ -854,10 +856,10 @@ public class RushCharacterController : MonoBehaviour
 
     }
 
-    public static void RushStepEventHandler(AudioClip sound)
-    {
-        current.m_sound.PlayOneShot(sound, current.soundVolume);
-    }
+    //public static void RushStepEventHandler(AudioClip sound)
+    //{
+    //    current.m_sound.PlayOneShot(sound, current.soundVolume);
+    //}
 
     private void OnControllerColliderHit(ControllerColliderHit collision)
     {

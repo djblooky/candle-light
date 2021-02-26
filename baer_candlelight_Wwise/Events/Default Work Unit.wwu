@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music_Switch" ID="{4169359A-9FC3-4DFB-AFE6-98C75FEDAAA9}">
+					<ChildrenList>
+						<Action Name="" ID="{48879EF1-F178-4B89-86BB-8AFC0371F47B}" ShortID="319405660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Switch Container" ID="{21AD6E72-57A4-441F-B290-84C7382D0415}" WorkUnitID="{D8765DD3-4778-4F82-8A15-0BC87EDA97CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footstep_Switch" ID="{44895383-872B-4039-A7C1-71A56A46C9C0}">
+					<ChildrenList>
+						<Action Name="" ID="{68356B4B-D4CA-4AA4-A365-F5A766FBA05E}" ShortID="95562196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep Switch Container" ID="{30176E3E-48B3-4B59-A35B-A228F116C015}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Menu Events" ID="{EECC2E9F-250C-40F7-B099-9C9B134531CD}" ShortID="20190494">
+					<ChildrenList>
+						<Event Name="Menu_MouseOver" ID="{5902E1B9-906D-4F24-801C-BAA2A1217013}">
+							<ChildrenList>
+								<Action Name="" ID="{5C860A6D-5583-4F15-A8AB-E3E751CD63A2}" ShortID="1068531494">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_menu_menuMouseOver" ID="{2ADE9501-31ED-4F64-AC06-CD9D4C8BCAC3}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_GameStart" ID="{5089E02A-3326-483F-9FC4-7F22AF6BA21E}">
+							<ChildrenList>
+								<Action Name="" ID="{305B70C6-CEC4-49DE-B3E1-551FBF6A38EA}" ShortID="697255578">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_menu_gameStart" ID="{C2A19CC5-C6B7-4FFD-9FAB-8F77B2B7C652}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Select" ID="{3D339B27-CABD-46BF-8869-22BEF014824D}">
+							<ChildrenList>
+								<Action Name="" ID="{F1C6E18B-BF94-4ED4-B52C-C29829E88A47}" ShortID="962246054">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_menu_menuSelect" ID="{B423B3F5-B3DC-4582-90DB-CCDA5D932191}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General SFX Events" ID="{C1704E32-0414-424F-B4D8-89EEE1214A00}" ShortID="577479829">
+					<ChildrenList>
+						<Event Name="Key_PickUp" ID="{B46C82B0-2FAC-4839-B264-34FD7B5496F6}">
+							<ChildrenList>
+								<Action Name="" ID="{8DDE9E94-46B0-40A0-80E8-00D694ABAA46}" ShortID="809102965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_keyPickUp" ID="{8EF7DA4F-CD5E-4E66-8E78-22A417C2F197}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Key_Unlock" ID="{0B37D433-DC91-4911-B8CF-275E50BF719C}">
+							<ChildrenList>
+								<Action Name="" ID="{1A1BFAF3-D386-43F7-A0B6-A8FE1BA940F3}" ShortID="442097053">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_keyUnlock" ID="{48390652-9361-4C3A-9212-E3E286CCE7F9}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door_Open" ID="{E50F19A9-BD19-4C79-A824-ADCF7CB6090B}">
+							<ChildrenList>
+								<Action Name="" ID="{F2D18D86-B6DB-461F-BE79-0B998C312265}" ShortID="56090133">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_doorOpen" ID="{0F6191F7-0017-4C3B-942D-19FF6F73C3CF}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Clock_Tick" ID="{E11C2755-9ABC-466D-8F8C-936F43869EE1}">
+							<ChildrenList>
+								<Action Name="" ID="{C22516AB-6DE3-429B-9632-671358F581E5}" ShortID="623357659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_clockTick" ID="{0E07B5C8-82E8-4734-AA4F-7D73071D02B4}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Burn_Object" ID="{812FA27B-103A-4C70-9FF1-1CCEC2FF57DD}">
+							<ChildrenList>
+								<Action Name="" ID="{EBAD4225-D34A-4625-8967-9736DF5F2F0E}" ShortID="264411027">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_house_burnObject" ID="{DA1DA53C-23E6-4E4A-BD0C-F3ED8C04F1F8}" WorkUnitID="{15C72284-FD57-4BDF-A158-800045F9EDF7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Phonograph_Play" ID="{E7F183AB-9D11-4094-B53F-D2E93B1D7827}">
+					<ChildrenList>
+						<Action Name="" ID="{8606BB48-4988-4133-882C-261CEA4B9684}" ShortID="41737911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phonograph" ID="{B4317277-3BD5-4306-A0B8-053BB24B12F8}" WorkUnitID="{D8765DD3-4778-4F82-8A15-0BC87EDA97CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
