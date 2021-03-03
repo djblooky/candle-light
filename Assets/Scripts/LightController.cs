@@ -12,7 +12,7 @@ public class LightController : MonoBehaviour
     [SerializeField] private float candleOffAmbientLightingStrength = 0.9f;
 
     [Header("Components")]
-    [SerializeField] private GameObject candleSpotLight;
+    [SerializeField] private GameObject candleSpotLight, shadowPointLight;
     [SerializeField] private AuraQualitySettings auraQualitySettings;
     [SerializeField] private AuraBaseSettings auraBaseSettings;
 
@@ -23,6 +23,7 @@ public class LightController : MonoBehaviour
 
     void OnSpawn()
     {
+        shadowPointLight.SetActive(false);
         candleSpotLight.SetActive(false);
         auraQualitySettings.displayVolumetricLightingBuffer = false;
         auraBaseSettings.density = candleOnLightingDensity;
@@ -31,6 +32,7 @@ public class LightController : MonoBehaviour
 
     private void OnCandlePickedUp()
     {
+        shadowPointLight.SetActive(true);
         candleSpotLight.SetActive(true);
         auraQualitySettings.displayVolumetricLightingBuffer = false;
         auraBaseSettings.density = candleOnLightingDensity;
@@ -39,6 +41,7 @@ public class LightController : MonoBehaviour
 
     private void OnCandleBurnedOut()
     {
+        shadowPointLight.SetActive(false);
         candleSpotLight.SetActive(false);
         auraQualitySettings.displayVolumetricLightingBuffer = true;
         auraBaseSettings.density = candleOffLightingDensity;

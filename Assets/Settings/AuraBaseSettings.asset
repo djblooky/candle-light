@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59306422a2ca4454aabce3daa79c3334, type: 3}
   m_Name: AuraBaseSettings
   m_EditorClassIdentifier: 
-  useDensity: 0
+  useDensity: 1
   density: 5
   useScattering: 0
-  scattering: 0.25
-  useAmbientLighting: 0
+  scattering: 0
+  useAmbientLighting: 1
   ambientLightingStrength: 0
   useColor: 0
   color: {r: 0.5, g: 0.12235001, b: 0.24709009, a: 1}
   colorStrength: 1
   useTint: 0
-  tint: {r: 0.16642208, g: 0.0000010132779, b: 0.999999, a: 1}
+  tint: {r: 0.17646998, g: 0.0000010132779, b: 0.999999, a: 1}
   tintStrength: 1
   useExtinction: 0
   extinction: 0.75
