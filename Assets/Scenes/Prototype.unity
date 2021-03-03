@@ -1696,80 +1696,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &66269820 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4476762168050687982, guid: f805f6b7ae485ee4192ba04b4970a64a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1672144925}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &66269825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66269820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b788c9efb51977f4c9042f7a9bd11ae9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
-  delayBeforeDeathAnim: 5
-  delayBeforeRespawn: 2
-  RespawnPosition: {x: 4.86, y: 0.25, z: -13.58}
-  RespawnRotation: {x: 0, y: 90, z: 0}
-  CandlePivotPointer: {fileID: 1640188847}
---- !u!114 &66269826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66269820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 662fd61e956ec804b9460b537dc2e50c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f2511ee3df618c44197561e810648cbe,
-      type: 2}
-  decodeBank: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
---- !u!114 &66269827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66269820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 662fd61e956ec804b9460b537dc2e50c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 39d0de821cbf66e40b659b586b5437bd,
-      type: 2}
-  decodeBank: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!1 &80514269
 GameObject:
   m_ObjectHideFlags: 0
@@ -55616,6 +55542,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66269825, guid: f805f6b7ae485ee4192ba04b4970a64a, type: 3}
+      propertyPath: CandlePivotPointer
+      value: 
+      objectReference: {fileID: 1640188847}
     - target: {fileID: 1852952813170393627, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
       propertyPath: m_IsActive

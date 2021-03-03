@@ -38,6 +38,7 @@ public class RespawnManager : MonoBehaviour
     {
         playerCamera.GetComponent<SphereCollider>().enabled = true;
         var camRB = playerCamera.GetComponent<Rigidbody>();
+        camRB.isKinematic = false;
         camRB.useGravity = true;
         camRB.AddForce(Vector3.forward, ForceMode.Impulse);
 
@@ -62,6 +63,7 @@ public class RespawnManager : MonoBehaviour
         GetComponent<RushCharacterController>().enabled = true;
         playerCamera.GetComponent<SphereCollider>().enabled = false;
         playerCamera.GetComponent<Rigidbody>().useGravity = false;
+        playerCamera.GetComponent<Rigidbody>().isKinematic = true;
         playerCamera.GetComponent<PlayerRaycast>().enabled = true;
 
         //set camera back to correct spot
