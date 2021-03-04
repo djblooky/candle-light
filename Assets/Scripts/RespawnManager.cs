@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class RespawnManager : MonoBehaviour
 {
@@ -8,7 +7,7 @@ public class RespawnManager : MonoBehaviour
 
     public static int DeathCount = 0;
 
-    [SerializeField] GameObject playerCamera;
+    [SerializeField] private GameObject playerCamera;
 
     [SerializeField] private float delayBeforeDeathAnim = 5f;
     [SerializeField] private float delayBeforeRespawn = 2f;
@@ -18,7 +17,7 @@ public class RespawnManager : MonoBehaviour
 
     [SerializeField] private GameObject CandlePivotPointer;
 
-    private void Start() 
+    private void Start()
     {
         AkSoundEngine.SetState("Music_Switch", "Game_Start");//set music state for start of game in Wwise
         AkSoundEngine.PostEvent("Music_Switch", gameObject);
@@ -29,7 +28,7 @@ public class RespawnManager : MonoBehaviour
         //trigger audio que for pre-death
         AkSoundEngine.SetState("Music_Switch", "Death");
         AkSoundEngine.PostEvent("Music_Switch", gameObject);//Wwise Audio Trigger upon death
-        
+
         //EquipmentManager.current.rightHandEquipped = false;
         Invoke("DeathAnimationAfterDelay", delayBeforeDeathAnim);
     }
@@ -71,8 +70,8 @@ public class RespawnManager : MonoBehaviour
 
     private void OnCandleBurnedOut()
     {
-         TriggerDeath();
-         DeathCount++;
+        TriggerDeath();
+        DeathCount++;
     }
 
     private void OnEnable()
