@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8930,6 +8930,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1672144933, guid: f805f6b7ae485ee4192ba04b4970a64a, type: 3}
+      propertyPath: shadowPointLight
+      value: 
+      objectReference: {fileID: 5464483406486249752}
     - target: {fileID: 1852952813170393627, guid: f805f6b7ae485ee4192ba04b4970a64a,
         type: 3}
       propertyPath: m_IsActive
@@ -9060,3 +9064,9 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &5464483406486249752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6549715539601748764, guid: f805f6b7ae485ee4192ba04b4970a64a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5464483406486249748}
+  m_PrefabAsset: {fileID: 0}
