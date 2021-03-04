@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Note : InteractiveObject
 {
+    public bool IsOpen = false;
     public static event Action<string, bool> OpenedNote;
+    public static event Action ClosedNote;
 
     [SerializeField] bool showOverlayImage = false;
 
@@ -13,7 +15,25 @@ public class Note : InteractiveObject
 
     public override void Interact()
     {
-        OpenedNote?.Invoke(noteText, showOverlayImage);
-        audioSource.Play();
+        if (!IsOpen)
+        {
+            OpenedNote?.Invoke(noteText, showOverlayImage);
+            audioSource.Play();
+            IsOpen = true;
+        }
+        
+    }
+
+    private void Update()
+    {
+        if (IsOpen)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) //TODO: change to input axes to make rebindable
+            {
+                ClosedNote?.Invoke();
+                audioSource.Play();
+                IsOpen = false;
+            }
+        }
     }
 }

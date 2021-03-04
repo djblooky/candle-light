@@ -31,14 +31,13 @@ public class NoteUI : MonoBehaviour
         canvasGroup.alpha = 1;
         canvasGroup.interactable = true;
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        //Cursor.lockState = CursorLockMode.None;
+        //Cursor.visible = true;
 
         noteText.text = text;
     }
 
-    // links to button event
-    public void CloseNote()
+    public void OnClosedNote()
     {
         player.lockMovement = false;
         player.lockCamera = false;
@@ -53,10 +52,12 @@ public class NoteUI : MonoBehaviour
     private void OnEnable()
     {
         Note.OpenedNote += OnOpenedNote;
+        Note.ClosedNote += OnClosedNote;
     }
 
     private void OnDisable()
     {
         Note.OpenedNote -= OnOpenedNote;
+        Note.ClosedNote -= OnClosedNote;
     }
 }
