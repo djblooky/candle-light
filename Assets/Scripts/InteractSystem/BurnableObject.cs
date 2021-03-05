@@ -3,6 +3,7 @@
 public class BurnableObject : InteractiveObject
 {
     [Header("BurnableObject.cs")]
+    [SerializeField] private GameObject gameObjectToDestroy;
     [SerializeField] private AnimationCurve fadeIn;
     [SerializeField] private float spawnEffectTime = 1f;
 
@@ -20,6 +21,9 @@ public class BurnableObject : InteractiveObject
 
         var main = ps.main;
         main.duration = spawnEffectTime;
+
+        if (gameObjectToDestroy == null)
+            gameObjectToDestroy = gameObject;
     }
 
     private void Update()
@@ -32,7 +36,7 @@ public class BurnableObject : InteractiveObject
             if (timer > spawnEffectTime)
             {
                 isBurning = false;
-                Destroy(gameObject);
+                Destroy(gameObjectToDestroy);
             }
         }
     }
@@ -55,12 +59,14 @@ public class BurnableObject : InteractiveObject
 
     private void OnEnable()
     {
-        //TODO: add object burning from other sources
+        if(gameObject.GetComponentInParent<Note>())
+            Note.ClosedNote += BurnObject;
     }
 
     private void OnDisable()
     {
-
+        if (gameObject.GetComponentInParent<Note>())
+            Note.ClosedNote -= BurnObject;
     }
 
 
