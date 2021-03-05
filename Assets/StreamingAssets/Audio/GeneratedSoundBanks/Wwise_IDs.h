@@ -37,6 +37,7 @@ namespace AK
                 static const AkUniqueID CANDLE_RUNNINGOUT = 2305435894U;
                 static const AkUniqueID DEATH = 779278001U;
                 static const AkUniqueID GAME_START = 733168346U;
+                static const AkUniqueID INTRO = 1125500713U;
                 static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE

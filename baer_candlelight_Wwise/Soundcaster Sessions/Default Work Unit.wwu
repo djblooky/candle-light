@@ -55,7 +55,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Death" ID="{18EF26EA-9B1B-47A2-AB53-DDF4B623F987}"/>
+						<CurrentStateRef Name="Intro" ID="{0FAFD729-7DAD-41E3-A9B2-42837EAC60D2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Blood" ID="{6660EA3E-6A7A-41C2-8806-59E9BF00FF12}"/>

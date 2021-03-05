@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="442453602" Language="SFX" Hash="917347636">
+		<SoundBank Id="442453602" Language="SFX" Hash="1338810568">
 			<ObjectPath>\SoundBanks\Default Work Unit\Footstep_Switch</ObjectPath>
 			<ShortName>Footstep_Switch</ShortName>
 			<Path>Footstep_Switch.bnk</Path>
@@ -171,7 +171,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="535830432" Language="SFX" Hash="3579989997">
+		<SoundBank Id="535830432" Language="SFX" Hash="1463624976">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Door_Open</ObjectPath>
 			<ShortName>Door_Open</ShortName>
 			<Path>Door_Open.bnk</Path>
@@ -186,7 +186,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="547805114" Language="SFX" Hash="625722698">
+		<SoundBank Id="547805114" Language="SFX" Hash="3922653838">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_MouseOver</ObjectPath>
 			<ShortName>Menu_MouseOver</ShortName>
 			<Path>Menu_MouseOver.bnk</Path>
@@ -201,7 +201,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="761761105" Language="SFX" Hash="2396740968">
+		<SoundBank Id="761761105" Language="SFX" Hash="1529446900">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_PickUp</ObjectPath>
 			<ShortName>Key_PickUp</ShortName>
 			<Path>Key_PickUp.bnk</Path>
@@ -216,7 +216,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="778631128" Language="SFX" Hash="3412061585">
+		<SoundBank Id="778631128" Language="SFX" Hash="2576665942">
 			<ObjectPath>\SoundBanks\Default Work Unit\Phonograph_Play</ObjectPath>
 			<ShortName>Phonograph_Play</ShortName>
 			<Path>Phonograph_Play.bnk</Path>
@@ -236,7 +236,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1399404176" Language="SFX" Hash="1129867519">
+		<SoundBank Id="1399404176" Language="SFX" Hash="3205855571">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Burn_Object</ObjectPath>
 			<ShortName>Burn_Object</ShortName>
 			<Path>Burn_Object.bnk</Path>
@@ -251,7 +251,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2054027409" Language="SFX" Hash="1703070432">
+		<SoundBank Id="2054027409" Language="SFX" Hash="2462782698">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_Unlock</ObjectPath>
 			<ShortName>Key_Unlock</ShortName>
 			<Path>Key_Unlock.bnk</Path>
@@ -266,7 +266,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2719257531" Language="SFX" Hash="2402613381">
+		<SoundBank Id="2719257531" Language="SFX" Hash="2904216330">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Clock_Tick</ObjectPath>
 			<ShortName>Clock_Tick</ShortName>
 			<Path>Clock_Tick.bnk</Path>
@@ -281,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="3821269127">
+		<SoundBank Id="2724869341" Language="SFX" Hash="1284965830">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>
@@ -322,13 +322,17 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D20000E7-7F4D-43D2-9DC4-693895A1CDE8}">
 							<Media>
-								<File Id="655697665"/>
 								<File Id="843782473"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7C530ECC-B1DC-469A-91BA-E08C340224BA}">
 							<Media>
 								<File Id="100068964"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0FAFD729-7DAD-41E3-A9B2-42837EAC60D2}">
+							<Media>
+								<File Id="655697665"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -342,11 +346,12 @@
 						<State Id="2305435894" Name="Candle_RunningOut" ObjectPath="\States\Default Work Unit\Music_Switch\Candle_RunningOut"/>
 						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Music_Switch\Death"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music_Switch\Menu"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music_Switch\Intro"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3860585191" Language="SFX" Hash="2978544301">
+		<SoundBank Id="3860585191" Language="SFX" Hash="1416010148">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_GameStart</ObjectPath>
 			<ShortName>Menu_GameStart</ShortName>
 			<Path>Menu_GameStart.bnk</Path>
@@ -361,7 +366,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4203375351" Language="SFX" Hash="1077905983">
+		<SoundBank Id="4203375351" Language="SFX" Hash="979683027">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_Select</ObjectPath>
 			<ShortName>Menu_Select</ShortName>
 			<Path>Menu_Select.bnk</Path>

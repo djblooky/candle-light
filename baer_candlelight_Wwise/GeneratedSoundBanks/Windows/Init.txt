@@ -5,6 +5,7 @@ State	ID	Name	State Group			Notes
 	733168346	Game_Start	Music_Switch			
 	748895195	None	Music_Switch			
 	779278001	Death	Music_Switch			
+	1125500713	Intro	Music_Switch			
 	2305435894	Candle_RunningOut	Music_Switch			
 	2607556080	Menu	Music_Switch			
 

@@ -9,6 +9,8 @@ public class IntroShotController : MonoBehaviour
     void Start()
     {
         Invoke("SwitchScenes", 20f);
+        AkSoundEngine.SetState("Music_Switch", "Intro");
+        AkSoundEngine.PostEvent("Music_Switch", gameObject);
     }
 
     // Update is called once per frame

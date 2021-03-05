@@ -691,7 +691,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6f23777ae9d2934e9c672b38be1a36a2
     GuidInternal: 
-    m_lastTime: -8585868819646719108
+    m_lastTime: -8585866753454037752
     List:
     - name: Music_Switch
       guid: 8af2e1e12071334f887866bd351d128a
@@ -720,6 +720,12 @@ MonoBehaviour:
         id: 733168346
         PathAndIcons:
         - ElementName: Game_Start
+          ObjectType: 8
+      - name: Intro
+        guid: 29d7af0fad7de341a9b242837eac60d2
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
           ObjectType: 8
       - name: Menu
         guid: cc0e537cdcb19a4691bae08c340224ba
