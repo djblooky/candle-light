@@ -14290,9 +14290,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: Read note?
   objectName: Note
+  hoverText: Read note?
   audioSource: {fileID: 7273402957688567075}
+  ragtimeMusic: {fileID: 0}
   IsOpen: 0
   showOverlayImage: 0
   noteText: This is madness. Normal means of medication does not help me and the
@@ -14647,15 +14648,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6403202341043887182}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8270576eebd4dc4fad3050fabccf63c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: Burn note?
   objectName: 
+  hoverText: Burn note?
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   gameObjectToDestroy: {fileID: 2689059622773171351}
   fadeIn:
     serializedVersion: 2
@@ -14682,6 +14684,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   spawnEffectTime: 1
+  burnObject: {fileID: 0}
+  burnAudioSource: {fileID: 0}
 --- !u!1001 &7137881548194576818
 PrefabInstance:
   m_ObjectHideFlags: 0

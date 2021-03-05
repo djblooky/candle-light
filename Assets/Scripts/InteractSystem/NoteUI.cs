@@ -4,14 +4,16 @@ using UnityEngine.UI;
 
 public class NoteUI : MonoBehaviour
 {
-    [SerializeField] private RushCharacterController player;
+    
     [SerializeField] private Image paperTexture, noteOverlayImage;
     [SerializeField] private TMP_Text noteText;
 
+    private RushCharacterController player;
     private CanvasGroup canvasGroup;
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<RushCharacterController>();
         canvasGroup = GetComponent<CanvasGroup>();
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
