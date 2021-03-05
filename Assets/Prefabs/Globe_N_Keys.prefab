@@ -1384,7 +1384,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2459198359562384610, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
+  - {fileID: 343821693335509759, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1463,7 +1463,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4838592239347580867, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
+  - {fileID: -3941583355024626588, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2978,6 +2978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8307083233038891899}
   - component: {fileID: 7168083600527737926}
+  - component: {fileID: 3484704269214417296}
   m_Layer: 0
   m_Name: Globe_N_Keys
   m_TagString: Untagged
@@ -3025,3 +3026,22 @@ MonoBehaviour:
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
   animator: {fileID: 0}
+--- !u!95 &3484704269214417296
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647861935067537857}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
