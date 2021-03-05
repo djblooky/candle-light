@@ -15,7 +15,13 @@ public class BurnableObject : InteractiveObject
     private int shaderProperty;
     private float timer = 0;
 
+
     private void Start()
+    {
+        Init();    
+    }
+
+    private void Init()
     {
         burnAudioSource.GetComponent<AudioSource>();
 
@@ -64,14 +70,23 @@ public class BurnableObject : InteractiveObject
 
     private void OnEnable()
     {
-        if(gameObject.GetComponentInParent<Note>())
+        NoteSpawner.NoteSpawned += Init;
+
+        if (gameObject.GetComponentInParent<Note>())
+        {
             Note.ClosedNote += BurnObject;
+            
+        }      
     }
 
     private void OnDisable()
     {
+        NoteSpawner.NoteSpawned -= Init;
+
         if (gameObject.GetComponentInParent<Note>())
+        {
             Note.ClosedNote -= BurnObject;
+        } 
     }
 
 
