@@ -232,7 +232,9 @@ PrefabInstance:
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: noteText
-      value: Note 3
+      value: What must I do to spare my wife and daughter the sights of a deteriorating
+        man? Like all of the other political disputes that were in need of resolving,
+        perhaps it falls onto me yet again to see the job done.
       objectReference: {fileID: 0}
     - target: {fileID: 7242568103269980039, guid: 210736380f602624d90946655c59cb8b,
         type: 3}

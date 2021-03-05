@@ -67,6 +67,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: noteText
+      value: This is madness. Normal means of medication do not help me and the finest
+        physicians in the country cannot discern this illness and give name to the
+        cure! I have been nothing but patient and yet my patience is rewarded with
+        a progressively weakening body.
+      objectReference: {fileID: 0}
     - target: {fileID: 5240136024224706536, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_IsActive
