@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Globe : Openable
 {
+    [SerializeField] Door doorToUnlock;
     [SerializeField] GameObject keyItemInside;
 
     private int piecesRemaining = 3;
@@ -28,6 +29,7 @@ public class Globe : Openable
             Debug.Log("Globe opened");
             IsOpen = true;
             StartCoroutine(MakeKeyItemInteractable());
+            doorToUnlock.isLocked = false;
         }
     }
 
