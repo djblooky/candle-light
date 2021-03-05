@@ -8,4 +8,5 @@ public class Door : Openable
         audioSource = GetComponent<AudioSource>();
     }
 
+    
 }

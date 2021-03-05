@@ -796,6 +796,7 @@ MonoBehaviour:
   ExpandedItems:
   - /baer_candlelight
   - /baer_candlelight/SoundBanks
+  - /baer_candlelight/SoundBanks/Default Work Unit
   - /baer_candlelight/States
   - /baer_candlelight/States/Default Work Unit
   - /baer_candlelight/States/Default Work Unit/Music_Switch

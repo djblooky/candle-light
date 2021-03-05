@@ -3,7 +3,13 @@ guid: 0b7e625e6d9db944d90a74515553d17b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - ragtimeMusic: {instanceID: 0}
+  - openSound: {fileID: 8300000, guid: 975a16b532381174c8b663c02af4f86b, type: 3}
+  - closeSound: {instanceID: 0}
+  - lockSound: {instanceID: 0}
+  - animator: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

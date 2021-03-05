@@ -6,6 +6,8 @@ public class BurnableObject : InteractiveObject
     [SerializeField] private GameObject gameObjectToDestroy;
     [SerializeField] private AnimationCurve fadeIn;
     [SerializeField] private float spawnEffectTime = 1f;
+    [SerializeField] protected AudioClip burnObject;
+    [SerializeField] protected AudioSource burnAudioSource;
 
     private ParticleSystem ps;
     private bool isBurning = false;
@@ -15,6 +17,8 @@ public class BurnableObject : InteractiveObject
 
     private void Start()
     {
+        burnAudioSource.GetComponent<AudioSource>();
+
         shaderProperty = Shader.PropertyToID("_cutoff");
         _renderer = GetComponent<Renderer>();
         ps = GetComponentInChildren<ParticleSystem>();
@@ -55,6 +59,7 @@ public class BurnableObject : InteractiveObject
         tag = "Untagged";
         ps.Play();
         isBurning = true;
+        audioSource.PlayOneShot(burnObject);
     }
 
     private void OnEnable()

@@ -7,6 +7,7 @@ public class PlayObject : InteractiveObject
     protected override void OnHoveredOver(InteractiveObject i)
     {
         base.OnHoveredOver(i);
+        hoverText = "Play?";
     }
 
     public override void Interact()
