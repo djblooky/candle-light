@@ -4,8 +4,7 @@ public class EquippableObject : InteractiveObject
 {
     [Header("EquippableObject.cs")]
     public Vector3 EquippedRotation, PlacedRotation;
-
-    [SerializeField] private string pickUpObjectText;
+    public float yPositionOffset = 0f;
 
     protected override void OnHoveredOver(InteractiveObject i)
     {
@@ -14,7 +13,7 @@ public class EquippableObject : InteractiveObject
         if (EquipmentManager.current.leftHandEquipped)
             hoverText = "";
         else
-            hoverText = pickUpObjectText;
+            hoverText = "Pick up " + objectName + " ?";
     }
 
     public override void Interact()
@@ -22,6 +21,4 @@ public class EquippableObject : InteractiveObject
         base.Interact();
 
     }
-
-
 }

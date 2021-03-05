@@ -20,6 +20,7 @@ public class Note : InteractiveObject
             OpenedNote?.Invoke(noteText, showOverlayImage);
             audioSource.Play();
             IsOpen = true;
+            hoverText = "";
         }
         
     }

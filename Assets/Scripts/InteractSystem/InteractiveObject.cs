@@ -4,9 +4,11 @@ public class InteractiveObject : MonoBehaviour
 {
     [Header("InteractiveObject.cs")]
     public bool displayTextOnHover = true;
+    public string objectName;
+
+    [Tooltip("The currently displayed hover text")]
     public string hoverText;
 
-    [SerializeField] protected string objectName;
     [SerializeField] protected AudioSource audioSource;
 
     protected virtual void OnHoveredOver(InteractiveObject i)

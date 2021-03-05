@@ -52,9 +52,9 @@ public class BurnableObject : InteractiveObject
 
     private void BurnObject()
     {
+        tag = "Untagged";
         ps.Play();
         isBurning = true;
-        tag = "Untagged";
     }
 
     private void OnEnable()

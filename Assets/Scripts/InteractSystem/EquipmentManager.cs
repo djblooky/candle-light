@@ -37,12 +37,18 @@ public class EquipmentManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && PlayerRaycast.objectLookingAt is PlaceObjectTrigger)
         {
-            if (PlaceObjectTrigger.IsEmpty && leftHandEquipped)
+            if (PlaceObjectTrigger.IsEmpty && leftHandEquipped )
             {
                 nextSpotToPlace = PlayerRaycast.objectLookingAt as PlaceObjectTrigger;
-                objectToUnequip = currentLeftObject;
-                objectToUnequip.tag = "Untagged"; //no longer interactive
-                nextSpotToPlace.tag = "Untagged";
+
+                if(current.currentLeftObject.objectName == nextSpotToPlace.fitsPieceWithName)
+                {
+                    objectToUnequip = currentLeftObject;
+                    objectToUnequip.tag = "Untagged"; //no longer interactive
+                    nextSpotToPlace.tag = "Untagged";
+                }
+                else nextSpotToPlace = null;
+
             }
         }
     }
@@ -113,7 +119,7 @@ public class EquipmentManager : MonoBehaviour
             t.gameObject.layer = 8;
         }
 
-        objectToEquip.transform.localPosition = Vector3.zero;
+        objectToEquip.transform.localPosition = new Vector3(0,0 + objectToEquip.yPositionOffset,0);
         objectToEquip.transform.localEulerAngles = objectToEquip.EquippedRotation;
 
         objectToEquip = null;
