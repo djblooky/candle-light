@@ -3,12 +3,7 @@ guid: 26df75913b0501640a5951cd6c70db60
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ribbons
-    second: {fileID: 2100000, guid: c3bc32f080863c84fa88c96dbd796aee, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
