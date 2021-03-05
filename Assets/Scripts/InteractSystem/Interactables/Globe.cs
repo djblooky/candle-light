@@ -5,6 +5,9 @@ public class Globe : Openable
 {
     [SerializeField] Door doorToUnlock;
     [SerializeField] GameObject keyItemInside;
+    [SerializeField] protected AudioSource globeAudioSource;
+    [SerializeField] protected AudioClip globeUnlock;
+
 
     private int piecesRemaining = 3;
 
@@ -25,11 +28,13 @@ public class Globe : Openable
     {
         if (piecesRemaining <= 0)
         {
+           
             isLocked = false;
             Debug.Log("Globe opened");
             IsOpen = true;
             StartCoroutine(MakeKeyItemInteractable());
             doorToUnlock.isLocked = false;
+            globeAudioSource.PlayOneShot(globeUnlock);
         }
     }
 
