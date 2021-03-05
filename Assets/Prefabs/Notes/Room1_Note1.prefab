@@ -20,17 +20,17 @@ PrefabInstance:
     - target: {fileID: 3322150015049006637, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7106
+      value: 6.507909
       objectReference: {fileID: 0}
     - target: {fileID: 3322150015049006637, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.871875
       objectReference: {fileID: 0}
     - target: {fileID: 3322150015049006637, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.262964
+      value: -13.641
       objectReference: {fileID: 0}
     - target: {fileID: 3322150015049006637, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
@@ -67,13 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+    - target: {fileID: 5240136024224706536, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
-      propertyPath: noteText
-      value: This is madness. Normal means of medication does not help me and the
-        finest physicians in the country cannot discern this illness and give name
-        to the cure! I have been nothing but patient and yet my patience is rewarded
-        with a progressively weakening body.
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210736380f602624d90946655c59cb8b, type: 3}
