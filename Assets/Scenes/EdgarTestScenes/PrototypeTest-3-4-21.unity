@@ -14612,7 +14612,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-43300
+  m_Name: pb_Mesh-2560
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22068,12 +22068,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: pick up Cube?
   objectName: Cube
+  hoverText: pick up Cube?
   audioSource: {fileID: 0}
   EquippedRotation: {x: 0, y: -83, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
-  pickUpObjectText: 
+  yPositionOffset: 0
 --- !u!64 &597583394
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23953,12 +23953,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: 
   objectName: Cube
+  hoverText: 
   audioSource: {fileID: 0}
   EquippedRotation: {x: 0, y: -83, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
-  pickUpObjectText: pick up Cube?
+  yPositionOffset: 0
 --- !u!64 &650049740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30204,8 +30204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: 
   objectName: 
+  hoverText: 
   audioSource: {fileID: 0}
   isLocked: 0
   canBeClosed: 1
@@ -48946,7 +48946,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-43446
+  m_Name: pb_Mesh-2916
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59437,7 +59437,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-43428
+  m_Name: pb_Mesh-2902
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -68040,7 +68040,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-43282
+  m_Name: pb_Mesh-2546
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
