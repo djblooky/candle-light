@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class NoteManager : MonoBehaviour
+public class NoteSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] notes;
 
