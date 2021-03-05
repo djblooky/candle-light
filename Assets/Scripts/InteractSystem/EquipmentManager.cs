@@ -119,7 +119,7 @@ public class EquipmentManager : MonoBehaviour
             t.gameObject.layer = 8;
         }
 
-        objectToEquip.transform.localPosition = new Vector3(0,0 + objectToEquip.yPositionOffset,0);
+        objectToEquip.transform.localPosition = new Vector3(0 + objectToEquip.xPositionOffset, 0 + objectToEquip.yPositionOffset,0 + objectToEquip.zPositionOffset);
         objectToEquip.transform.localEulerAngles = objectToEquip.EquippedRotation;
 
         objectToEquip = null;

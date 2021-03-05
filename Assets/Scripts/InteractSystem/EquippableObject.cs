@@ -4,7 +4,7 @@ public class EquippableObject : InteractiveObject
 {
     [Header("EquippableObject.cs")]
     public Vector3 EquippedRotation, PlacedRotation;
-    public float yPositionOffset = 0f;
+    public float xPositionOffset = 0f, yPositionOffset = 0f, zPositionOffset = 0f;
 
     protected override void OnHoveredOver(InteractiveObject i)
     {

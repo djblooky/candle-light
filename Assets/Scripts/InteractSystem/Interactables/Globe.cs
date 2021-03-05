@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Globe : Openable
 {
+    [SerializeField] GameObject keyItemInside;
+
     private int piecesRemaining = 3;
 
     private void Start()
@@ -23,11 +26,16 @@ public class Globe : Openable
         {
             isLocked = false;
             Debug.Log("Globe opened");
-            //animate globe open
+            IsOpen = true;
+            StartCoroutine(MakeKeyItemInteractable());
         }
     }
 
-
+    IEnumerator MakeKeyItemInteractable()
+    {
+        yield return new WaitForSeconds(1); //TODO: change to length of open animation
+        keyItemInside.tag = "InteractiveObject";
+    }
 
     private void OnEnable()
     {
