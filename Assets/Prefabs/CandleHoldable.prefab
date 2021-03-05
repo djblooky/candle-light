@@ -5169,6 +5169,7 @@ GameObject:
   - component: {fileID: 5936514452125473453}
   - component: {fileID: 4079333124508809430}
   - component: {fileID: 3577878958204045202}
+  - component: {fileID: 4394831197498279954}
   m_Layer: 9
   m_Name: CandleHoldable
   m_TagString: InteractiveObject
@@ -5223,8 +5224,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.07468186, y: 0.23043168, z: 0.074891}
-  m_Center: {x: 0.00092770177, y: 0.14657182, z: 0.007972095}
+  m_Size: {x: 0.07468186, y: 0.28699028, z: 0.074891}
+  m_Center: {x: 0.0009277018, y: 0.11829251, z: 0.007972095}
+--- !u!65 &4394831197498279954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5936514452125473442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39542377, y: 0.036854267, z: 0.39867473}
+  m_Center: {x: 0.00068737596, y: -0.044254225, z: 0.0091615915}
 --- !u!1 &5953680146061640544
 GameObject:
   m_ObjectHideFlags: 0
