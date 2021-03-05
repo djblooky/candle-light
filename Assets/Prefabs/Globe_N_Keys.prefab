@@ -1618,7 +1618,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1444460858095362738, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
+  - {fileID: 8368722655750445499, guid: 36e05ef2dc2b75d4a89299479147a079, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1697,7 +1697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1444460858095362738, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
+  - {fileID: 8368722655750445499, guid: 36e05ef2dc2b75d4a89299479147a079, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1776,7 +1776,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1444460858095362738, guid: 26df75913b0501640a5951cd6c70db60, type: 3}
+  - {fileID: 8368722655750445499, guid: 36e05ef2dc2b75d4a89299479147a079, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2988,7 +2988,7 @@ Transform:
   m_GameObject: {fileID: 8647861935067537857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.061328124, y: 0.061328124, z: 0.061328124}
   m_Children:
   - {fileID: 5749907254038528174}
   - {fileID: 2951542124644835914}
@@ -3008,3 +3008,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d329bc17eb15447b3b0e21cdc5aade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayTextOnHover: 1
+  objectName: 
+  hoverText: 
+  audioSource: {fileID: 0}
+  isLocked: 0
+  canBeClosed: 1
+  openSound: {fileID: 0}
+  closeSound: {fileID: 0}
+  lockSound: {fileID: 0}
+  animator: {fileID: 0}
