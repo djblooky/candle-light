@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class NoteSpawner : MonoBehaviour
 {
+    public static event Action NoteSpawned; 
+
     [SerializeField] private GameObject[] notes;
 
     private GameObject noteToCreate;
@@ -11,6 +14,7 @@ public class NoteSpawner : MonoBehaviour
     {
         noteToCreate = Instantiate(notes[0], notes[0].transform.position, notes[0].transform.rotation); //on start spawn first note
         noteToCreate.transform.parent = gameObject.transform; //child to note spawner
+        NoteSpawned?.Invoke();
     }
 
     private void OnRespawn()
