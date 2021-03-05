@@ -524,6 +524,7 @@ MonoBehaviour:
   objectName: Circle Piece
   hoverText: 
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   yPositionOffset: 0.27
@@ -868,6 +869,7 @@ MonoBehaviour:
   objectName: PlaceObjectTrigger
   hoverText: place?
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   fitsPieceWithName: Circle Piece
 --- !u!1 &3376106743628119143
 GameObject:
@@ -1243,6 +1245,7 @@ MonoBehaviour:
   objectName: PlaceObjectTrigger
   hoverText: place?
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   fitsPieceWithName: Triangle Piece
 --- !u!1 &4337847649602269546
 GameObject:
@@ -1907,6 +1910,7 @@ MonoBehaviour:
   objectName: Square Piece
   hoverText: 
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   yPositionOffset: 0.27
@@ -2299,6 +2303,7 @@ MonoBehaviour:
   objectName: Triangle Piece
   hoverText: 
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   yPositionOffset: 0.27
@@ -2848,6 +2853,7 @@ MonoBehaviour:
   objectName: PlaceObjectTrigger
   hoverText: place?
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   fitsPieceWithName: Square Piece
 --- !u!1 &8582754397250388767
 GameObject:
@@ -3012,6 +3018,7 @@ MonoBehaviour:
   objectName: 
   hoverText: 
   audioSource: {fileID: 0}
+  ragtimeMusic: {fileID: 0}
   isLocked: 0
   canBeClosed: 1
   openSound: {fileID: 0}

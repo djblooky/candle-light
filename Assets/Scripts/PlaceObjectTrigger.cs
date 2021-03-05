@@ -36,7 +36,7 @@ public class PlaceObjectTrigger : InteractiveObject
 
         if (EquipmentManager.current.leftHandEquipped && EquipmentManager.current.currentLeftObject.objectName == fitsPieceWithName)
         {
-            IsEmpty = false;
+            //IsEmpty = false;
             PiecePlaced?.Invoke();
         }
     }
