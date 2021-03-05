@@ -37,10 +37,10 @@ public class EquipmentManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && PlayerRaycast.objectLookingAt is PlaceObjectTrigger)
         {
+            nextSpotToPlace = PlayerRaycast.objectLookingAt as PlaceObjectTrigger;
+
             if (PlaceObjectTrigger.IsEmpty && leftHandEquipped )
             {
-                nextSpotToPlace = PlayerRaycast.objectLookingAt as PlaceObjectTrigger;
-
                 if(current.currentLeftObject.objectName == nextSpotToPlace.fitsPieceWithName)
                 {
                     objectToUnequip = currentLeftObject;
