@@ -11,6 +11,14 @@ public class InteractiveObject : MonoBehaviour
 
     [SerializeField] protected AudioSource audioSource;
 
+    [SerializeField]
+    protected AudioClip ragtimeMusic;
+
+    private void Start()
+    {
+        audioSource = audioSource.GetComponent<AudioSource>();
+    }
+
     protected virtual void OnHoveredOver(InteractiveObject i)
     {
         //Debug.Log("Hovered over " + i);

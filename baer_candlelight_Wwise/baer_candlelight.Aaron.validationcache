@@ -45,49 +45,49 @@
 	<ValidationCacheItem File="C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1613519961" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1613520641" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Sound\Sound Projects\Wwise\Game Studio II\baer_candlelight\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614051080" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Triggers\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Switches\Default Work Unit.wwu" DateLow="1613710950" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\States\Default Work Unit.wwu" DateLow="1613522632" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1614052240" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1614051080" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Queries\Factory Queries.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Queries\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Factory Reflect.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Modulators\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1613520641" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1614052240" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1613519961" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Factory Motion.wwu" DateLow="1613519958" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Events\Default Work Unit.wwu" DateLow="1614051080" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Reflect.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory McDSP Effects.wwu" DateLow="1613519967" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Mastering Suite.wwu" DateLow="1613519955" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Filters.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Delay.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1613519968" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Effects.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Auro Headphone.wwu" DateLow="1613519963" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\baer_candlelight.wproj" DateLow="1613526153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\baer_candlelight.Aaron.wsettings" DateLow="1614052257" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1613520641" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1613520221" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1613519959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1613519961" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1613520641" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614051080" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Triggers\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Switches\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\States\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Queries\Factory Queries.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Queries\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Factory Reflect.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Presets\Default Work Unit.wwu" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Modulators\Default Work Unit.wwu" DateLow="1614368563" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1614368563" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614368563" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1614368563" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Factory Motion.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Events\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Reflect.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory McDSP Effects.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Mastering Suite.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Filters.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Delay.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Effects.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Factory Auro Headphone.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Effects\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\baer_candlelight.wproj" DateLow="1614368565" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\baer_candlelight.Aaron.wsettings" DateLow="1614729942" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614368562" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1614368562" DateHigh="0"/>
 </ValidationCache>
