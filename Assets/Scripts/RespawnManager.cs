@@ -52,7 +52,9 @@ public class RespawnManager : MonoBehaviour
         AkSoundEngine.SetState("Music_Switch", "Game_Start");//reset music state when respawning
         AkSoundEngine.PostEvent("Music_Switch", gameObject);
 
-        RespawnTriggered?.Invoke();
+        playerCamera.transform.position = new Vector3(0, 1.41f, 0);
+        playerCamera.transform.localEulerAngles = Vector3.zero;
+        Debug.Log("Camera position reset");
 
         CandlePivotPointer.transform.localScale = new Vector3(0f, 0f, 0f);
         gameObject.transform.position = RespawnPosition;
@@ -65,6 +67,7 @@ public class RespawnManager : MonoBehaviour
         playerCamera.GetComponent<Rigidbody>().isKinematic = true;
         playerCamera.GetComponent<PlayerRaycast>().enabled = true;
 
+        RespawnTriggered?.Invoke();
         //set camera back to correct spot
     }
 
