@@ -22,7 +22,7 @@ public class IntroShotController : MonoBehaviour
     void SwitchScenes()
     {
 
-        SceneManager.LoadScene("Prototype V2");
+        SceneManager.LoadScene(2);
     
     }
 }
