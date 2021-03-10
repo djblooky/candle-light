@@ -12,18 +12,17 @@ public class NoteSpawner : MonoBehaviour
 
     private void Start()
     {
-        noteToCreate = Instantiate(notes[0], notes[0].transform.position, notes[0].transform.rotation); //on start spawn first note
-        noteToCreate.transform.parent = gameObject.transform; //child to note spawner
-        NoteSpawned?.Invoke();
+        OnRespawn();
     }
 
     private void OnRespawn()
     {
-        if(currentNote < notes.Length - 1)
+        if(currentNote < notes.Length)
         {
             noteToCreate = Instantiate(notes[currentNote], notes[currentNote].transform.position, notes[currentNote].transform.rotation);
             noteToCreate.transform.parent = gameObject.transform; //child to note spawner
             currentNote++;
+            NoteSpawned?.Invoke();
         }
     }
 
