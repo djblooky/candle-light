@@ -26,7 +26,7 @@ public class LightController : MonoBehaviour
         shadowPointLight.SetActive(false);
         candleSpotLight.SetActive(false);
         auraQualitySettings.displayVolumetricLightingBuffer = false;
-        auraBaseSettings.density = candleOffLightingDensity;
+        auraBaseSettings.density = 20f;
         auraBaseSettings.ambientLightingStrength = candleOnAmbientLightingStrength;
     }
 

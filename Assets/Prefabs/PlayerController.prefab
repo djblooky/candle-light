@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47efa44fec78c254489271219d144ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  candleOnLightingDensity: 5
+  candleOnLightingDensity: 10
   candleOnAmbientLightingStrength: 0
   candleOffLightingDensity: 0.25
   candleOffAmbientLightingStrength: 1.5
