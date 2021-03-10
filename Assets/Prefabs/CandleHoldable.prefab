@@ -5215,7 +5215,7 @@ MonoBehaviour:
   xPositionOffset: 0
   yPositionOffset: 0
   zPositionOffset: 0
-  RespawnPoint: {x: 6.429453, y: 0.953125, z: -13.55961}
+  RespawnPoint: {x: 6.106, y: 0.988, z: -15.12}
 --- !u!65 &3577878958204045202
 BoxCollider:
   m_ObjectHideFlags: 0

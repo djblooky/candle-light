@@ -21,6 +21,9 @@ public class RespawnManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Music_Switch", "Game_Start");//set music state for start of game in Wwise
         AkSoundEngine.PostEvent("Music_Switch", gameObject);
+
+        var camRB = playerCamera.GetComponent<Rigidbody>();
+        camRB.isKinematic = true;
     }
 
     private void TriggerDeath()
@@ -39,7 +42,7 @@ public class RespawnManager : MonoBehaviour
         var camRB = playerCamera.GetComponent<Rigidbody>();
         camRB.isKinematic = false;
         camRB.useGravity = true;
-        camRB.AddForce(Vector3.forward, ForceMode.Impulse);
+        camRB.AddForce(Vector3.forward * 10, ForceMode.Impulse);
 
         playerCamera.GetComponent<PlayerRaycast>().enabled = false;
         GetComponent<CharacterController>().enabled = false;
