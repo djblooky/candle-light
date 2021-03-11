@@ -22071,12 +22071,9 @@ MonoBehaviour:
   objectName: Cube
   hoverText: pick up Cube?
   audioSource: {fileID: 0}
-  ragtimeMusic: {fileID: 0}
   EquippedRotation: {x: 0, y: -83, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
-  xPositionOffset: 0
   yPositionOffset: 0
-  zPositionOffset: 0
 --- !u!64 &597583394
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23959,12 +23956,9 @@ MonoBehaviour:
   objectName: Cube
   hoverText: 
   audioSource: {fileID: 0}
-  ragtimeMusic: {fileID: 0}
   EquippedRotation: {x: 0, y: -83, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
-  xPositionOffset: 0
   yPositionOffset: 0
-  zPositionOffset: 0
 --- !u!64 &650049740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30213,7 +30207,6 @@ MonoBehaviour:
   objectName: 
   hoverText: 
   audioSource: {fileID: 0}
-  ragtimeMusic: {fileID: 0}
   isLocked: 0
   canBeClosed: 1
   openSound: {fileID: 0}
