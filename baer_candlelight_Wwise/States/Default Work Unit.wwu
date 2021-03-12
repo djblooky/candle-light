@@ -11,6 +11,7 @@
 						<State Name="Death" ID="{18EF26EA-9B1B-47A2-AB53-DDF4B623F987}"/>
 						<State Name="Menu" ID="{7C530ECC-B1DC-469A-91BA-E08C340224BA}"/>
 						<State Name="Intro" ID="{0FAFD729-7DAD-41E3-A9B2-42837EAC60D2}"/>
+						<State Name="Intro_WithVO" ID="{FB853B41-5B36-4251-B92E-91F76AD813BA}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

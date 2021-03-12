@@ -541,6 +541,112 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Into With VO" ID="{A73801BE-AAF2-47B0-890A-CD708346C35E}" ShortID="787227495">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="vo_MC_candlightIntro" ID="{E4AEE06B-DBF4-49E4-A93C-CA56BA69156E}" ShortID="480750691">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="38056.9614512472"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="vo_MC_candlightIntro" ID="{1D5DD89B-29C0-4B77-9084-DDF9AA957B1A}" ShortID="541970356">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vo_MC_candlightIntro" ID="{3680462C-C7CC-4B6A-A4C8-24CF2DA9A132}">
+													<Language>SFX</Language>
+													<AudioFile>vo_MC_candlightIntro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="545397888"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3BCEFAED-D771-4F3A-87B4-EDFFB3F73A20}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{870E0BCC-8414-435A-8EA6-CA2E8CA1DC6A}">
+													<ClipList>
+														<MusicClip Name="vo_MC_candlightIntro" ID="{895867F2-8E49-49A7-A3A9-555BCED45599}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="38056.9614512472"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="vo_MC_candlightIntro" ID="{3680462C-C7CC-4B6A-A4C8-24CF2DA9A132}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D44C7E98-9822-4CB9-90E6-AC41208823FA}"/>
+										<MusicCue Name="Exit Cue" ID="{429BCB40-1905-451B-A56D-AF65679654B0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="38056.9614512472"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9E6D1B98-C6FF-4C15-A525-D440297E0B72}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3A0C09CF-4353-40B0-9D3B-1099BD1969F9}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{68D4390A-6885-439A-9759-C16E015D5D4C}" ShortID="300385210">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{307ADA65-D88F-499A-8228-C50485CDDB6A}" ShortID="923179233">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="vo_MC_candlightIntro" ID="{E4AEE06B-DBF4-49E4-A93C-CA56BA69156E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{1F24428C-74C3-4352-A7FA-04D276C711C6}">
@@ -622,6 +728,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Intro" ID="{C384EBBE-E58B-48E4-8984-463A159C7254}" WorkUnitID="{D8765DD3-4778-4F82-8A15-0BC87EDA97CE}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Intro_WithVO" ID="{FB853B41-5B36-4251-B92E-91F76AD813BA}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Into With VO" ID="{A73801BE-AAF2-47B0-890A-CD708346C35E}" WorkUnitID="{D8765DD3-4778-4F82-8A15-0BC87EDA97CE}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

@@ -281,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="1284965830">
+		<SoundBank Id="2724869341" Language="SFX" Hash="2151043422">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>
@@ -291,6 +291,10 @@
 						<File Id="100068964" Language="SFX">
 							<ShortName>mus_menu_loop.wav</ShortName>
 							<Path>SFX\mus_menu_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="545397888" Language="SFX">
+							<ShortName>vo_MC_candlightIntro.wav</ShortName>
+							<Path>SFX\vo_MC_candlightIntro_D79FB2B7.wem</Path>
 						</File>
 						<File Id="655697665" Language="SFX">
 							<ShortName>mus_house_gameStart.wav</ShortName>
@@ -335,6 +339,11 @@
 								<File Id="655697665"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FB853B41-5B36-4251-B92E-91F76AD813BA}">
+							<Media>
+								<File Id="545397888"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
@@ -347,6 +356,7 @@
 						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Music_Switch\Death"/>
 						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music_Switch\Menu"/>
 						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Music_Switch\Intro"/>
+						<State Id="992797065" Name="Intro_WithVO" ObjectPath="\States\Default Work Unit\Music_Switch\Intro_WithVO"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

@@ -8,8 +8,8 @@ public class IntroShotController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("SwitchScenes", 20f);
-        AkSoundEngine.SetState("Music_Switch", "Intro");
+        Invoke("SwitchScenes", 39f);
+        AkSoundEngine.SetState("Music_Switch", "Intro_WithVO");
         AkSoundEngine.PostEvent("Music_Switch", gameObject);
     }
 

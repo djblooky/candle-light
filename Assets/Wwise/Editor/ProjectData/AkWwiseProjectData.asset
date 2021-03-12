@@ -691,7 +691,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6f23777ae9d2934e9c672b38be1a36a2
     GuidInternal: 
-    m_lastTime: -8585866277242783945
+    m_lastTime: -8585860914273508031
     List:
     - name: Music_Switch
       guid: 8af2e1e12071334f887866bd351d128a
@@ -726,6 +726,12 @@ MonoBehaviour:
         id: 1125500713
         PathAndIcons:
         - ElementName: Intro
+          ObjectType: 8
+      - name: Intro_WithVO
+        guid: 413b85fb365b5142b92e91f76ad813ba
+        id: 992797065
+        PathAndIcons:
+        - ElementName: Intro_WithVO
           ObjectType: 8
       - name: Menu
         guid: cc0e537cdcb19a4691bae08c340224ba
@@ -801,6 +807,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /baer_candlelight
+  - /baer_candlelight/Events
   - /baer_candlelight/SoundBanks
   - /baer_candlelight/SoundBanks/Default Work Unit
   - /baer_candlelight/States
