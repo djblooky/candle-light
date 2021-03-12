@@ -291,7 +291,7 @@ MonoBehaviour:
   candleCanBurnDown: 1
   addToCandleDurationAfterRespawn: 0
   CandleScale: 1
-  BurnDurationSeconds: 100
+  BurnDurationSeconds: 200
   BurnSecondsRemaining: 0
   CandlePivotPointer: {fileID: 0}
 --- !u!114 &5464483406486249750
