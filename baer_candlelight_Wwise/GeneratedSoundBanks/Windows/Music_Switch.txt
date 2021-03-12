@@ -8,12 +8,14 @@ State	ID	Name	State Group			Notes
 	733168346	Game_Start	Music_Switch			
 	748895195	None	Music_Switch			
 	779278001	Death	Music_Switch			
+	992797065	Intro_WithVO	Music_Switch			
 	1125500713	Intro	Music_Switch			
 	2305435894	Candle_RunningOut	Music_Switch			
 	2607556080	Menu	Music_Switch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	100068964	mus_menu_loop	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\mus_menu_loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Menu Music\mus_menu_loop\mus_menu_loop		22932064
+	545397888	vo_MC_candlightIntro	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_candlightIntro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Into With VO\vo_MC_candlightIntro\vo_MC_candlightIntro		6713312
 	655697665	mus_house_gameStart	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\mus_house_gameStart_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Intro\mus_house_gameStart\mus_house_gameStart		3550116
 	693220448	mus_house_death	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\mus_house_death_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Death\mus_house_death\mus_house_death		2822464
 	843782473	amb_house_explore_loop	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\amb_house_explore_loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch Container\Level Ambience\amb_house_explore_loop\amb_house_explore_loop		19051264
