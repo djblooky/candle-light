@@ -8,10 +8,10 @@ public class PeripheralVisionTest : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        Child = transform.Find("mannequin_01 (1)");
+        //Child = transform.Find("mannequin_01 (1)");
     }
 
-    private Transform Child;
+    public Transform Child;
     private bool ISLOOKING = false;
     [SerializeField] private float VanishTime = 0.1f;
 
