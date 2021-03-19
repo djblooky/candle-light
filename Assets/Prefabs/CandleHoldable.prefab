@@ -9774,15 +9774,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5718065536761993629}
-  m_LocalRotation: {x: -0, y: -0.26015064, z: -0, w: 0.96556807}
-  m_LocalPosition: {x: 2.686136, y: 0.0024999976, z: -0.5429083}
+  m_LocalRotation: {x: -0, y: -0.38395646, z: -0, w: 0.92335117}
+  m_LocalPosition: {x: 2.7333, y: 0.002500005, z: 0.1751}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2145546047874323831}
   - {fileID: 7657950074193706257}
   m_Father: {fileID: 2984320434513969540}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -45.158, z: 0}
 --- !u!95 &5220621964534147314
 Animator:
   serializedVersion: 3
@@ -9827,14 +9827,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5936514451171164481}
-  m_LocalRotation: {x: -0, y: -0.9916236, z: -0, w: 0.12916133}
-  m_LocalPosition: {x: -0.0031000022, y: 0.112500004, z: 0.015625}
+  m_LocalRotation: {x: -0, y: -0.6098541, z: -0, w: 0.7925137}
+  m_LocalPosition: {x: 0.0031118523, y: 0.112500004, z: 0.0031132007}
   m_LocalScale: {x: 0.51227, y: 0.24615476, z: 0.51227}
   m_Children:
   - {fileID: 5936514451771673477}
   m_Father: {fileID: 2984320434513969540}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -165.158, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -75.158005, z: 0}
 --- !u!33 &5936514451171164482
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10016,12 +10016,12 @@ MonoBehaviour:
   hoverText: pick up candle?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
-  EquippedRotation: {x: 0, y: 165, z: 0}
+  EquippedRotation: {x: 0, y: 135, z: 0}
   PlacedRotation: {x: 0, y: 0, z: 0}
   xPositionOffset: 0
   yPositionOffset: 0
   zPositionOffset: 0
-  RespawnPoint: {x: 6.106, y: 0.988, z: -15.12}
+  RespawnPoint: {x: 6.106, y: 1, z: -15.12}
 --- !u!65 &3577878958204045202
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PlayerRaycast : MonoBehaviour
 {
@@ -12,9 +13,34 @@ public class PlayerRaycast : MonoBehaviour
     [SerializeField] private float distanceToSee = 3;
     [SerializeField] private LayerMask layerMask;
 
+    //Dynamic depth of field vars
+
+    [Range(5,12)]
+    [SerializeField] private float focusSpeed = 8f;
+    private PostProcessVolume volume;
+    private float hitDistance;
+    private DepthOfField depthOfField;
+
+    private void Start()
+    {
+        volume = GameObject.FindGameObjectWithTag("PostProcessing").GetComponent<PostProcessVolume>();
+        volume.profile.TryGetSettings(out depthOfField);
+    }
+
     private void Update()
     {
+        CastDepthOfFieldRay();
         CastRay();
+    }
+
+    private void CastDepthOfFieldRay()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, layerMask)) //if ray hit something
+        {
+            hitDistance = Vector3.Distance(hit.point, transform.position);
+            SetFocus();
+        }
     }
 
     private void CastRay()
@@ -23,6 +49,7 @@ public class PlayerRaycast : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, distanceToSee, layerMask)) //if ray hit something
         {
+
             if (hit.collider.CompareTag("InteractiveObject")) //if the thing it hit was interactable
             {
                 objectLookingAt = hit.collider.gameObject.GetComponent<InteractiveObject>();
@@ -39,5 +66,11 @@ public class PlayerRaycast : MonoBehaviour
         {
             HoveredOff?.Invoke();
         }
+    }
+
+    private void SetFocus()
+    {
+        depthOfField.focusDistance.value = Mathf.Lerp(depthOfField.focusDistance.value, hitDistance, focusSpeed * Time.deltaTime);
+        Debug.Log("Set focus distance to: " + hitDistance);
     }
 }
