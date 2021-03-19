@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 3910467808343279087}
   - component: {fileID: 3941675079642535583}
   - component: {fileID: 4681506911877395066}
+  - component: {fileID: 7036453668217552478}
   m_Layer: 0
   m_Name: EquipmentCamera
   m_TagString: Untagged
@@ -202,7 +203,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 85
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -233,6 +234,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 4497587215602076192}
+--- !u!114 &7036453668217552478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729079686732881253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 3910467808343279087}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!114 &66269825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +479,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 512
+  focusSpeed: 8
 --- !u!114 &1672144927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,6 +516,66 @@ MonoBehaviour:
   auraQualitySettings: {fileID: 11400000, guid: 20fb94a00170d9249925d158350d8dd9,
     type: 2}
   auraBaseSettings: {fileID: 11400000, guid: 9571429cb98eac84ebb4bf88947d2f45, type: 2}
+--- !u!114 &5116113445870847044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478673370011727780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 4481723908200274292}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 3
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 0
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &4851702237230607689
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,12 +849,17 @@ PrefabInstance:
     - target: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
         type: 3}
       propertyPath: field of view
-      value: 60
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
+      value: 3639
       objectReference: {fileID: 0}
     - target: {fileID: 4110095961636689058, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
         type: 3}
@@ -807,12 +934,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4160807637672591828, guid: fd7bcc399ca24a14e878ccae14f2e8b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fd7bcc399ca24a14e878ccae14f2e8b1, type: 3}
---- !u!4 &4481723908200274292 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4075475192779011754, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 485464338596196318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4478673370011727780 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4079072196837349498, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
@@ -822,6 +943,12 @@ GameObject:
 --- !u!20 &4497587215602076192 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 485464338596196318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4481723908200274292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4075475192779011754, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
     type: 3}
   m_PrefabInstance: {fileID: 485464338596196318}
   m_PrefabAsset: {fileID: 0}
