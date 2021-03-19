@@ -71,6 +71,6 @@ public class PlayerRaycast : MonoBehaviour
     private void SetFocus()
     {
         depthOfField.focusDistance.value = Mathf.Lerp(depthOfField.focusDistance.value, hitDistance, focusSpeed * Time.deltaTime);
-        Debug.Log("Set focus distance to: " + hitDistance);
+        //Debug.Log("Set focus distance to: " + hitDistance);
     }
 }
