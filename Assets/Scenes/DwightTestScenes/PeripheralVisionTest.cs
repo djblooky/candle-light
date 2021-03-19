@@ -18,7 +18,7 @@ public class PeripheralVisionTest : MonoBehaviour
     // Disable the behaviour when it becomes invisible...
     void OnBecameInvisible()
     {
-        Debug.Log("invis");
+        //Debug.Log("invis");
         Child.localScale = new Vector3(0f, 0f, 0f);
 
     }
@@ -26,7 +26,7 @@ public class PeripheralVisionTest : MonoBehaviour
     // ...and enable it again when it becomes visible.
     void OnBecameVisible()
     {
-        Debug.Log("VISIBLE");
+        //Debug.Log("VISIBLE");
         Child.localScale = new Vector3(2.71135f, 0.7335142f, 2.859676f);
         Invoke("VanishMode", VanishTime);
 
@@ -35,7 +35,7 @@ public class PeripheralVisionTest : MonoBehaviour
     void VanishMode()
     {
         
-        Debug.Log("VANISH");
+        //Debug.Log("VANISH");
         Child.localScale = new Vector3(0f,0f,0f);
 
     }

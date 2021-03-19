@@ -9,7 +9,7 @@ public class InteractiveObject : MonoBehaviour
 
     [Tooltip("The currently displayed hover text")]
     public string hoverText;
-    public static event Action CandlePickedUp;
+    //public static event Action CandlePickedUp;
 
     [SerializeField] protected AudioSource audioSource;
 
@@ -34,8 +34,8 @@ public class InteractiveObject : MonoBehaviour
     public virtual void Interact()
     {
         Debug.Log($"Interacted with {objectName}");
-        if (objectName == "Candle")
-            CandlePickedUp?.Invoke();
+        //if (objectName == "Candle")
+            //CandlePickedUp?.Invoke();
     }
 
     private void OnEnable()

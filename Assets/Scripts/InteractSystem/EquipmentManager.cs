@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
 {
-    public static event Action ObjectPlaced, CandlePickedUp;
+    public static event Action ObjectPlaced, CandlePickedUp, CandleUnequipped;
 
     public static EquipmentManager current;
     public GameObject leftHandEquipmentHolder, rightHandEquipmentHolder;
@@ -143,10 +143,15 @@ public class EquipmentManager : MonoBehaviour
         {
             t.gameObject.layer = layer;
         }
+       
+         objectToUnequip.transform.localPosition = Vector3.zero;
+         objectToUnequip.transform.localEulerAngles = objectToUnequip.PlacedRotation;
 
-        objectToUnequip.transform.localPosition = Vector3.zero;
-        objectToUnequip.transform.localEulerAngles = objectToUnequip.PlacedRotation;
-
+        if(objectToUnequip is Candle)
+        {
+            CandleUnequipped?.Invoke();
+        }
+       
         objectToUnequip = null;
         nextSpotToPlace = null;
     }
