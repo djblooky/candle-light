@@ -59,7 +59,7 @@ public class StarterZoneTriggerController : MonoBehaviour
     private void OnEnable()
     {
 
-        InteractiveObject.CandlePickedUp += CandleUp;
+        CandleBurnDown.CandlePickedUp += CandleUp;
         RespawnManager.RespawnTriggered += ResetTrigger;
 
     }
@@ -67,21 +67,19 @@ public class StarterZoneTriggerController : MonoBehaviour
     private void OnDisable()
     {
 
-        InteractiveObject.CandlePickedUp -= CandleUp;
+        CandleBurnDown.CandlePickedUp -= CandleUp;
         RespawnManager.RespawnTriggered -= ResetTrigger;
 
     }
 
     public void CandleUp()
     {
-        //Debug.Log("CANDLEUP!");
+        Debug.Log("CANDLEUP!");
         isActive = false;
 
         Child1_C.enabled = false;
         Child2_C.enabled = false;
         Child3_C.enabled = false;
-
-        // PLAY VO AUDIO HERE
 
     }
 

@@ -14,6 +14,8 @@ public class CandleBurnDown : MonoBehaviour
     [SerializeField] private float BurnDurationSeconds = 300f;
     [SerializeField] private float BurnSecondsRemaining;
     [SerializeField] private GameObject CandlePivotPointer;
+    public static event Action CandlePickedUp;
+    [SerializeField] private bool AlreadyCalled = false;
 
     private void Start()
     {
@@ -47,6 +49,12 @@ public class CandleBurnDown : MonoBehaviour
             
         }
 
+        if (BurnSecondsRemaining < BurnDurationSeconds && !AlreadyCalled)
+        {
+            CandlePickedUp?.Invoke();
+            AlreadyCalled = true;
+        }
+
 
     }
 
@@ -59,6 +67,8 @@ public class CandleBurnDown : MonoBehaviour
 
         BurnDurationSeconds = BurnSecondsRemaining;
         CandleScale = 1;
+
+        AlreadyCalled = false;
 
         // EquipmentManager.current.rightHandEquipped = false;
         //TODO: equiptment manager unequip candle
