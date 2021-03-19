@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿      using UnityEngine;
 
 public class Candle : EquippableObject
 {
     public Vector3 RespawnPoint;
-
-    Renderer[] renderers;
+    private Renderer[] renderers;
 
     private void Start()
     {
@@ -26,7 +24,7 @@ public class Candle : EquippableObject
         }
     }
 
-    void OnRespawn()
+    private void OnRespawn()
     {
         foreach (Renderer renderer in renderers)
         {

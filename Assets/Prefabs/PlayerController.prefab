@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 3941675079642535583}
   - component: {fileID: 4681506911877395066}
   - component: {fileID: 7036453668217552478}
+  - component: {fileID: 821266195408143838}
   m_Layer: 0
   m_Name: EquipmentCamera
   m_TagString: Untagged
@@ -294,6 +295,18 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &821266195408143838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729079686732881253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7004f9f1769ef0947b5d15229585e24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &66269825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,6 +368,7 @@ MonoBehaviour:
   BurnDurationSeconds: 200
   BurnSecondsRemaining: 0
   CandlePivotPointer: {fileID: 0}
+  AlreadyCalled: 0
 --- !u!114 &5464483406486249750
 MonoBehaviour:
   m_ObjectHideFlags: 0
