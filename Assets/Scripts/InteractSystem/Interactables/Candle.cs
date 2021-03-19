@@ -50,6 +50,4 @@ public class Candle : EquippableObject
         EquipmentManager.CandleUnequipped -= OnCandleUnequipped;
         RespawnManager.RespawnTriggered -= OnRespawn;
     }
-
-
 }
