@@ -7,6 +7,9 @@ public class TriggerTest : MonoBehaviour
 {
 
     public static event Action Jump1;
+    public static event Action Jump2;
+    public static event Action Jump3;
+    public static event Action JumpCancel;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,27 @@ public class TriggerTest : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Jump1?.Invoke();
+
+        if (gameObject.name == "ScareTriggerCube_1")
+        {
+            Jump1?.Invoke();
+        }
+
+        if (gameObject.name == "ScareTriggerCube_2")
+        {
+            Jump2?.Invoke();
+        }
+
+        if (gameObject.name == "ScareTriggerCube_3")
+        {
+            Jump3?.Invoke();
+        }
+
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        JumpCancel?.Invoke();
     }
 }

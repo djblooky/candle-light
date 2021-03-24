@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Child: {fileID: 0}
-  VanishTime: 0.12
+  VanishTime: 0.15
 --- !u!1001 &8598791660262237421
 PrefabInstance:
   m_ObjectHideFlags: 0
