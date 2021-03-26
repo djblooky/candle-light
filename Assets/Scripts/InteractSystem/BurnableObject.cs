@@ -51,7 +51,7 @@ public class BurnableObject : InteractiveObject
     {
         base.Interact();
 
-        BurnObject();
+        //BurnObject();
     }
 
 

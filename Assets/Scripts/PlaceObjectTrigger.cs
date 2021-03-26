@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlaceObjectTrigger : InteractiveObject
 {
     public static event Action PiecePlaced;
+    public static event Action Key1Placed;
 
     public static bool IsEmpty = true;
 
@@ -38,6 +39,16 @@ public class PlaceObjectTrigger : InteractiveObject
         {
             //IsEmpty = false;
             PiecePlaced?.Invoke();
+
+            // DOOR ZONE
+
+            if (EquipmentManager.current.currentLeftObject.objectName == "Photo")
+            {
+                Key1Placed?.Invoke();
+            }
+
+            // DOOR ZONE
+
         }
     }
 }
