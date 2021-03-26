@@ -25,6 +25,7 @@ public class Note : InteractiveObject
     {
         if (!IsOpen)
         {
+            HasBeenRead = true;
             OpenedNote?.Invoke(noteText, showOverlayImage);
             noteAudioSource.PlayOneShot(notePickUp);
             IsOpen = true;

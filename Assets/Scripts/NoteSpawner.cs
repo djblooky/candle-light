@@ -12,18 +12,29 @@ public class NoteSpawner : MonoBehaviour
 
     private void Start()
     {
-        OnRespawn();
+        SpawnNote();
     }
 
     private void OnRespawn()
     {
-        if(currentNote < notes.Length)
+        bool LastNoteRead = notes[currentNote].GetComponent<Note>().HasBeenRead;
+
+        if (currentNote < notes.Length) //if there are notes left to spawn
         {
-            noteToCreate = Instantiate(notes[currentNote], notes[currentNote].transform.position, notes[currentNote].transform.rotation);
-            noteToCreate.transform.parent = gameObject.transform; //child to note spawner
-            currentNote++;
-            NoteSpawned?.Invoke();
+            if (LastNoteRead)
+            {
+                currentNote++;
+                SpawnNote();
+            }
         }
+    }
+
+    private void SpawnNote()
+    {
+        Debug.Log("Spawned Note #" + currentNote +1);
+        noteToCreate = Instantiate(notes[currentNote], notes[currentNote].transform.position, notes[currentNote].transform.rotation);
+        noteToCreate.transform.parent = gameObject.transform; //child to note spawner
+        NoteSpawned?.Invoke();
     }
 
     private void OnEnable()
