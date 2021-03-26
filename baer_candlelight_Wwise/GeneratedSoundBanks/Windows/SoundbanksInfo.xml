@@ -281,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="1993113218">
+		<SoundBank Id="2724869341" Language="SFX" Hash="3930499949">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>
