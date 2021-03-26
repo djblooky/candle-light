@@ -3,7 +3,12 @@ guid: b8270576eebd4dc4fad3050fabccf63c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - ragtimeMusic: {instanceID: 0}
+  - gameObjectToDestroy: {instanceID: 0}
+  - burnObject: {fileID: 8300000, guid: a6f558733e551f84588f01065b06833c, type: 3}
+  - burnAudioSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

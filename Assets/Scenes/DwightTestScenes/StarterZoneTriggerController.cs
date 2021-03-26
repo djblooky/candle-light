@@ -9,11 +9,11 @@ public class StarterZoneTriggerController : MonoBehaviour
     [SerializeField] private Transform Child1;
     [SerializeField] private Transform Child2;
     [SerializeField] private Transform Child3;
+    [SerializeField] private GameObject Voidwall;
 
     [SerializeField] private BoxCollider Child1_C;
     [SerializeField] private BoxCollider Child2_C;
     [SerializeField] private BoxCollider Child3_C;
-
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +53,7 @@ public class StarterZoneTriggerController : MonoBehaviour
         Child1_C.enabled = true;
         Child2_C.enabled = true;
         Child3_C.enabled = true;
+        Voidwall.SetActive(true);
 
     }
 
@@ -80,6 +81,7 @@ public class StarterZoneTriggerController : MonoBehaviour
         Child1_C.enabled = false;
         Child2_C.enabled = false;
         Child3_C.enabled = false;
+        Voidwall.SetActive(false);
 
     }
 

@@ -8,17 +8,24 @@ public class Note : InteractiveObject
     public static event Action ClosedNote;
 
     [SerializeField] bool showOverlayImage = false;
+    [SerializeField] protected AudioClip notePickUp, notePutDown, burnNote;
+    [SerializeField] protected AudioSource noteAudioSource;
 
     [SerializeField]
-    [TextArea(1,10)]
+    [TextArea(1, 10)]
     private string noteText;
+
+    private void Start()
+    {
+        noteAudioSource.GetComponent<AudioSource>();
+    }
 
     public override void Interact()
     {
         if (!IsOpen)
         {
             OpenedNote?.Invoke(noteText, showOverlayImage);
-            audioSource.Play();
+            noteAudioSource.PlayOneShot(notePickUp);
             IsOpen = true;
             hoverText = "";
         }
@@ -32,7 +39,8 @@ public class Note : InteractiveObject
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) //TODO: change to input axes to make rebindable
             {
                 ClosedNote?.Invoke();
-                audioSource.Play();
+                noteAudioSource.PlayOneShot(notePutDown);
+                //noteAudioSource.PlayOneShot(burnNote);
                 IsOpen = false;
             }
         }

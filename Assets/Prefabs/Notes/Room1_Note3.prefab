@@ -169,6 +169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1939480290, guid: 210736380f602624d90946655c59cb8b, type: 3}
+      propertyPath: burnObject
+      value: 
+      objectReference: {fileID: 8300000, guid: f5afa7fc3fac1804db483aff94e960d3, type: 3}
+    - target: {fileID: 1939480290, guid: 210736380f602624d90946655c59cb8b, type: 3}
+      propertyPath: burnAudioSource
+      value: 
+      objectReference: {fileID: 1007318843519774742}
     - target: {fileID: 2689059622773171351, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_Name
@@ -236,6 +244,26 @@ PrefabInstance:
         man? Like all of the other political disputes that were in need of resolving,
         perhaps it falls onto me yet again to see the job done.
       objectReference: {fileID: 0}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: notePickUp
+      value: 
+      objectReference: {fileID: 8300000, guid: 59c6c02e8f560a448bf827526ec230c1, type: 3}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: notePutDown
+      value: 
+      objectReference: {fileID: 8300000, guid: 273f509cc13db8a4183fe18b4f803f54, type: 3}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: noteAudioSource
+      value: 
+      objectReference: {fileID: 2542711023228745566}
+    - target: {fileID: 5351226776280642155, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7242568103269980039, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -246,11 +274,33 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 52.307472
       objectReference: {fileID: 0}
+    - target: {fileID: 7273402957688567075, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273402957688567075, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210736380f602624d90946655c59cb8b, type: 3}
+--- !u!82 &2542711023228745566 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7273402957688567075, guid: 210736380f602624d90946655c59cb8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5168398717720035965}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7049055516186201352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2768185333286752117, guid: 210736380f602624d90946655c59cb8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5168398717720035965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1007318843519774742 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5351226776280642155, guid: 210736380f602624d90946655c59cb8b,
     type: 3}
   m_PrefabInstance: {fileID: 5168398717720035965}
   m_PrefabAsset: {fileID: 0}
