@@ -75,7 +75,7 @@ public class StarterZoneTriggerController : MonoBehaviour
 
     public void CandleUp()
     {
-        Debug.Log("CANDLEUP!");
+        //Debug.Log("CANDLEUP!");
         isActive = false;
 
         Child1_C.enabled = false;
