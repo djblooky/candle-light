@@ -53,7 +53,7 @@ public class StarterZoneTriggerController : MonoBehaviour
         Child1_C.enabled = true;
         Child2_C.enabled = true;
         Child3_C.enabled = true;
-        Voidwall.active = true;
+        Voidwall.SetActive(true);
 
     }
 
@@ -81,7 +81,7 @@ public class StarterZoneTriggerController : MonoBehaviour
         Child1_C.enabled = false;
         Child2_C.enabled = false;
         Child3_C.enabled = false;
-        Voidwall.active = false;
+        Voidwall.SetActive(false);
 
     }
 
