@@ -4,6 +4,7 @@ using UnityEngine;
 public class Note : InteractiveObject
 {
     public bool IsOpen = false;
+    public bool HasBeenRead = false;
     public static event Action<string, bool> OpenedNote;
     public static event Action ClosedNote;
 
@@ -29,7 +30,6 @@ public class Note : InteractiveObject
             IsOpen = true;
             hoverText = "";
         }
-        
     }
 
     private void Update()
