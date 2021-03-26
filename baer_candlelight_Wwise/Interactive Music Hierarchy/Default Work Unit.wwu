@@ -558,9 +558,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="vo_MC_candlightIntro" ID="{E4AEE06B-DBF4-49E4-A93C-CA56BA69156E}" ShortID="480750691">
+								<MusicSegment Name="Candlelight Intro" ID="{C6620399-9A27-4603-8F21-EE723F13EF2C}" ShortID="874542475">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="38056.9614512472"/>
+										<Property Name="EndPosition" Type="Real64" Value="38000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -571,23 +571,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="vo_MC_candlightIntro" ID="{1D5DD89B-29C0-4B77-9084-DDF9AA957B1A}" ShortID="541970356">
+										<MusicTrack Name="mus_candlightIntro" ID="{896D06B1-6E02-459B-B137-4F3B98A3AA42}" ShortID="59030738">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="vo_MC_candlightIntro" ID="{3680462C-C7CC-4B6A-A4C8-24CF2DA9A132}">
+												<AudioFileSource Name="mus_candlightIntro" ID="{70B37C29-6FF8-45AC-A91F-F6E3A4787F31}">
 													<Language>SFX</Language>
-													<AudioFile>vo_MC_candlightIntro.wav</AudioFile>
+													<AudioFile>Candlelight Intro\mus_candlightIntro.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="545397888"/>
+														<MediaID ID="340923160"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{3BCEFAED-D771-4F3A-87B4-EDFFB3F73A20}">
+												<MusicTransition Name="Root" ID="{DC940275-4118-4589-B347-E02E058D1088}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -595,15 +602,53 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{870E0BCC-8414-435A-8EA6-CA2E8CA1DC6A}">
+												<MusicTrackSequence Name="" ID="{7B2B8E0F-B988-47CA-943B-86F8099BAF32}">
 													<ClipList>
-														<MusicClip Name="vo_MC_candlightIntro" ID="{895867F2-8E49-49A7-A3A9-555BCED45599}">
+														<MusicClip Name="mus_candlightIntro" ID="{C2767DCD-6508-48D9-9236-D29F5F22C227}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="38056.9614512472"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="38000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="vo_MC_candlightIntro" ID="{3680462C-C7CC-4B6A-A4C8-24CF2DA9A132}"/>
+															<AudioSourceRef Name="mus_candlightIntro" ID="{70B37C29-6FF8-45AC-A91F-F6E3A4787F31}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="vo_candlightIntro" ID="{5216F66E-30C5-400A-9169-D5AAF452BBBD}" ShortID="666409085">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vo_candlightIntro" ID="{4C249575-FB35-4E34-A58C-3BC1168F0822}">
+													<Language>SFX</Language>
+													<AudioFile>Candlelight Intro\vo_candlightIntro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="555985296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D6AFE189-876C-453D-A426-3C73935A3C51}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0475CBAB-3C7D-4A36-B03D-0B704692FB37}">
+													<ClipList>
+														<MusicClip Name="vo_candlightIntro" ID="{1FE113F3-402E-4EA5-8ED5-2CCB70173145}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="38000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="vo_candlightIntro" ID="{4C249575-FB35-4E34-A58C-3BC1168F0822}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -611,11 +656,11 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{D44C7E98-9822-4CB9-90E6-AC41208823FA}"/>
-										<MusicCue Name="Exit Cue" ID="{429BCB40-1905-451B-A56D-AF65679654B0}">
+										<MusicCue Name="Entry Cue" ID="{D4154874-7DBD-44E9-A509-6DD307A342E7}"/>
+										<MusicCue Name="Exit Cue" ID="{58B588C0-D272-4661-9D61-C2D193CF8E28}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="38056.9614512472"/>
+												<Property Name="TimeMs" Type="Real64" Value="1000"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -637,11 +682,11 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{68D4390A-6885-439A-9759-C16E015D5D4C}" ShortID="300385210">
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{307ADA65-D88F-499A-8228-C50485CDDB6A}" ShortID="923179233">
+										<MusicPlaylistItem Name="" ID="{7189B937-9646-4A24-B192-CCE5D07BB36A}" ShortID="137481234">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="vo_MC_candlightIntro" ID="{E4AEE06B-DBF4-49E4-A93C-CA56BA69156E}"/>
+											<SegmentRef Name="Candlelight Intro" ID="{C6620399-9A27-4603-8F21-EE723F13EF2C}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
