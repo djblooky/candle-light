@@ -229,7 +229,7 @@ MonoBehaviour:
   audioSource: {fileID: 6103113196511842993}
   ragtimeMusic: {fileID: 0}
   isLocked: 0
-  canBeClosed: 0
+  canBeClosed: 1
   openSound: {fileID: 0}
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
@@ -506,7 +506,7 @@ MonoBehaviour:
   audioSource: {fileID: 2507208210111256206}
   ragtimeMusic: {fileID: 0}
   isLocked: 0
-  canBeClosed: 0
+  canBeClosed: 1
   openSound: {fileID: 0}
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
@@ -758,7 +758,7 @@ MonoBehaviour:
   audioSource: {fileID: 2652597182397594261}
   ragtimeMusic: {fileID: 0}
   isLocked: 0
-  canBeClosed: 0
+  canBeClosed: 1
   openSound: {fileID: 0}
   closeSound: {fileID: 0}
   lockSound: {fileID: 0}
