@@ -36,6 +36,9 @@ public class PauseFunction : MonoBehaviour
         pause.SetActive(true);
         Time.timeScale = 0f;
         Rcc.lockCamera = true;
+        Rcc.cursorManagement = false;
+        Cursor.visible = true; //Cursor is hidden.
+        Cursor.lockState = CursorLockMode.None; //Cursor is locked.
         check = true;
     }
 
@@ -44,7 +47,10 @@ public class PauseFunction : MonoBehaviour
         pause.SetActive(false);
         Time.timeScale = 1f;
         Rcc.lockCamera = false;
+        Cursor.visible = false; //Cursor is hidden.
+        Cursor.lockState = CursorLockMode.Locked; //Cursor is locked.
         check = false;
+        Rcc.cursorManagement = true;
 
     }
 
