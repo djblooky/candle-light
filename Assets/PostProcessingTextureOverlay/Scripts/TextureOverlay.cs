@@ -18,10 +18,14 @@ namespace DitzelGames.PostProcessingTextureOverlay
         public Vector2Parameter offset = new Vector2Parameter { value = new Vector2(0, 0) };
         [Tooltip("Keep Aspect Ratio")]
         public BoolParameter keepAspectRatio = new BoolParameter { value = false };
+        [Range(0f, 1f), Header("Transparency")]
+        public FloatParameter transparency = new FloatParameter { value = 1f };
 
         [Header("Alpha Cutout")]
         [Tooltip("Active")]
         public BoolParameter alphaIsTransparent = new BoolParameter { value = true };
+
+       
         /*
         [Header("Color Cutout")]
         [Tooltip("Active")]
@@ -49,6 +53,8 @@ namespace DitzelGames.PostProcessingTextureOverlay
             sheet.properties.SetVector("_Offset", settings.offset);
             sheet.properties.SetInt("_KeepAspectRatio", BoolToInt(settings.keepAspectRatio));
             sheet.properties.SetInt("_AlphaIsTransparent", BoolToInt(settings.alphaIsTransparent));
+            sheet.properties.SetFloat("_Alpha", settings.transparency);
+
             /*
             sheet.properties.SetInt("_ColorCutout", BoolToInt(settings.colorCutout));
             sheet.properties.SetVector("_ColorCutoutTColor", settings.colorCutoutColor);
