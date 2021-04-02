@@ -11,6 +11,7 @@
 	float2  _Offset;
 	int _KeepAspectRatio;
 	int _AlphaIsTransparent;
+	float _Alpha;
 	/*
 	int _ColorCutout;
 	float4 _ColorCutoutColor;
@@ -37,6 +38,10 @@
 		if (_AlphaIsTransparent == 0) {
 			//alpha
 			colorOverlay.a = 1;
+		}
+		else
+		{
+			colorOverlay.a = _Alpha;
 		}
 
 		/*
