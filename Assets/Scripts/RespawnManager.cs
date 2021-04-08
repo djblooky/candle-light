@@ -9,8 +9,8 @@ public class RespawnManager : MonoBehaviour
 
     [SerializeField] private GameObject playerCamera;
 
-    [SerializeField] private float delayBeforeDeathAnim = 5f;
-    [SerializeField] private float delayBeforeRespawn = 2f;
+    [SerializeField] private float delayBeforeDeathAnim = 10f;
+    [SerializeField] private float delayBeforeRespawn = 10f;
 
     [SerializeField] private Vector3 RespawnPosition = new Vector3(4.86f, 0.25f, -13.58f);
     [SerializeField] private Vector3 RespawnRotation = new Vector3(0f, 90f, 0f);

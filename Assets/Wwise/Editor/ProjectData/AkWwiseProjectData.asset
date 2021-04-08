@@ -810,9 +810,6 @@ MonoBehaviour:
   - /baer_candlelight/Events
   - /baer_candlelight/SoundBanks
   - /baer_candlelight/SoundBanks/Default Work Unit
-  - /baer_candlelight/States
-  - /baer_candlelight/States/Default Work Unit
-  - /baer_candlelight/States/Default Work Unit/Music_Switch
   - /baer_candlelight/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
