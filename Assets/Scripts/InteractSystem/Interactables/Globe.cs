@@ -33,7 +33,8 @@ public class Globe : Openable
             Debug.Log("Globe opened");
             IsOpen = true;
             StartCoroutine(MakeKeyItemInteractable());
-            doorToUnlock.isLocked = false;
+            doorToUnlock.isLocked = false; 
+            //globeAudioSource = doorToUnlock.GetComponents<AudioSource>();
             globeAudioSource.PlayOneShot(globeUnlock);
         }
     }

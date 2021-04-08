@@ -138,6 +138,11 @@
 								<MusicSegment Name="amb_house_explore_loop" ID="{28ED0899-C0DD-41C4-B73B-2309A4112883}" ShortID="15878818">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="108000"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -203,6 +208,73 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
+								<MusicSegment Name="amb_house_explore2_loop" ID="{2535B38F-7BEC-466F-9AFF-366ED87510F0}" ShortID="255100709">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="108005.011337868"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="amb_house_explore2_loop" ID="{3C2BC0E9-41C5-44B7-8184-2539EC3C0157}" ShortID="143943044">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_house_explore2_loop" ID="{EBE0FEEC-195F-4137-BF62-3E22FE28C343}">
+													<Language>SFX</Language>
+													<AudioFile>amb_house_explore2_loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816423888"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1897D37E-4E9E-46B4-A356-88CB2EE03F32}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7AC1F0EC-1666-4779-AEEB-34454ABBCA2C}">
+													<ClipList>
+														<MusicClip Name="amb_house_explore2_loop" ID="{31BEC31C-1835-4612-BDFB-2D13A3329498}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="108005.011337868"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="amb_house_explore2_loop" ID="{EBE0FEEC-195F-4137-BF62-3E22FE28C343}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2F569689-09CE-4413-8502-206E71F16F01}"/>
+										<MusicCue Name="Exit Cue" ID="{AB5820FD-9F89-4B27-BE53-AEF8500476F0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="108005.011337868"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{C7774334-A5BE-4194-BD70-F3C26950A65F}">
@@ -219,13 +291,21 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{213429FD-B335-48DE-BB5A-3E4848FFA08F}" ShortID="683388469">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{FA3C1A2F-A09C-46FB-A767-31C97993CDCC}" ShortID="141863637">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="amb_house_explore_loop" ID="{28ED0899-C0DD-41C4-B73B-2309A4112883}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8A17F48B-E970-4807-A92B-537134AB5540}" ShortID="957424874">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="amb_house_explore2_loop" ID="{2535B38F-7BEC-466F-9AFF-366ED87510F0}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>

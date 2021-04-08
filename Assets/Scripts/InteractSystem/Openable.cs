@@ -24,7 +24,7 @@ public class Openable : InteractiveObject
     private string openText = "open", closeText = "close";
 
     [SerializeField]
-    private AudioClip openSound, closeSound, lockSound;
+    private AudioClip openSound, closeSound, lockedSound, slamSound, unlockSound;
 
     [SerializeField]
     protected Animator animator;
@@ -62,7 +62,7 @@ public class Openable : InteractiveObject
         if (isLocked)
         {
             hoverText = "Locked";
-            audioSource.PlayOneShot(lockSound);
+            audioSource.PlayOneShot(lockedSound);
         }
         else
         {

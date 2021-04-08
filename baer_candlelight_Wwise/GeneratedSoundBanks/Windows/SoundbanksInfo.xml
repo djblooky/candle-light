@@ -281,7 +281,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2724869341" Language="SFX" Hash="2839240138">
+		<SoundBank Id="2724869341" Language="SFX" Hash="226041952">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music_Switch</ObjectPath>
 			<ShortName>Music_Switch</ShortName>
 			<Path>Music_Switch.bnk</Path>
@@ -308,9 +308,9 @@
 							<ShortName>mus_house_death.wav</ShortName>
 							<Path>SFX\mus_house_death_D79FB2B7.wem</Path>
 						</File>
-						<File Id="843782473" Language="SFX">
-							<ShortName>amb_house_explore_loop.wav</ShortName>
-							<Path>SFX\amb_house_explore_loop_D79FB2B7.wem</Path>
+						<File Id="816423888" Language="SFX">
+							<ShortName>amb_house_explore2_loop.wav</ShortName>
+							<Path>SFX\amb_house_explore2_loop_D79FB2B7.wem</Path>
 						</File>
 						<File Id="902195368" Language="SFX">
 							<ShortName>mus_house_candleRunningOut_loop.wav</ShortName>
@@ -330,7 +330,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D20000E7-7F4D-43D2-9DC4-693895A1CDE8}">
 							<Media>
-								<File Id="843782473"/>
+								<File Id="816423888"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{7C530ECC-B1DC-469A-91BA-E08C340224BA}">
