@@ -5,6 +5,14 @@ using System;
 
 public class DestroyTest : MonoBehaviour
 {
+    [SerializeField] protected AudioSource ghostAudioSource;
+    [SerializeField] protected AudioClip ghostLaugh;
+
+    private void Start()
+    {
+        ghostAudioSource.GetComponent<AudioSource>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -25,7 +33,7 @@ public class DestroyTest : MonoBehaviour
 
     // Disable the behaviour when it becomes invisible...
     void OnBecameInvisible()
-    {
+    { 
         ISLOOKING = false;
     }
 
@@ -37,6 +45,8 @@ public class DestroyTest : MonoBehaviour
 
     void DestroyTime()
     {
+        if(ghostAudioSource.isPlaying == false)
+            ghostAudioSource.PlayOneShot(ghostLaugh);
 
         //Destroy(gameObject);
         transform.localScale = new Vector3(0f,0f,0f);
