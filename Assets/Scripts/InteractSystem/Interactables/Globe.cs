@@ -35,8 +35,9 @@ public class Globe : Openable
             StartCoroutine(MakeKeyItemInteractable());
             doorToUnlock.isLocked = false;
             var dooraudioscource = doorToUnlock.gameObject.GetComponent<AudioSource>();
-            dooraudioscource.PlayOneShot(doorUnlock);
             globeAudioSource.PlayOneShot(globeUnlock);
+            new WaitForSeconds(1);
+            dooraudioscource.PlayOneShot(doorUnlock);
         }
     }
 
