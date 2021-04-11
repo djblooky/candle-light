@@ -1,4 +1,4 @@
-﻿      using UnityEngine;
+﻿using UnityEngine;
 
 public class Candle : EquippableObject
 {
@@ -12,8 +12,6 @@ public class Candle : EquippableObject
 
     public void OnCandleUnequipped()
     {
-     
-
         //unparent the candle from the player's hand and reset its position to spawn
         gameObject.transform.SetParent(null);
         gameObject.transform.position = RespawnPoint;
@@ -29,7 +27,6 @@ public class Candle : EquippableObject
 
     public void OnRespawn()
     {
-        
         tag = "InteractiveObject";
 
         foreach (Renderer renderer in renderers)
@@ -39,15 +36,22 @@ public class Candle : EquippableObject
         Debug.Log("Candle unhidden");
     }
 
+    private void OnTutorialNoteRead()
+    {
+        tag = "InteractiveObject";
+    }
+
     private void OnEnable()
     {
         EquipmentManager.CandleUnequipped += OnCandleUnequipped;
         RespawnManager.RespawnTriggered += OnRespawn;
+        Note.TutorialNoteRead += OnTutorialNoteRead;
     }
 
     private void OnDisable()
     {
         EquipmentManager.CandleUnequipped -= OnCandleUnequipped;
         RespawnManager.RespawnTriggered -= OnRespawn;
+        Note.TutorialNoteRead -= OnTutorialNoteRead;
     }
 }

@@ -6,9 +6,9 @@ public class Note : InteractiveObject
     public bool IsOpen = false;
     public bool HasBeenRead = false;
     public static event Action<string, bool> OpenedNote;
-    public static event Action ClosedNote;
+    public static event Action ClosedNote, TutorialNoteRead;
 
-    [SerializeField] bool showOverlayImage = false;
+    [SerializeField] private bool showOverlayImage = false;
     [SerializeField] protected AudioClip notePickUp, notePutDown, burnNote;
     [SerializeField] protected AudioSource noteAudioSource;
 
@@ -37,8 +37,11 @@ public class Note : InteractiveObject
     {
         if (IsOpen)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space)) //TODO: change to input axes to make rebindable
+            if (Input.anyKeyDown) //TODO: change to input axes to make rebindable
             {
+                if (objectName == "TutorialNote")
+                    TutorialNoteRead?.Invoke();
+
                 ClosedNote?.Invoke();
                 noteAudioSource.PlayOneShot(notePutDown);
                 //noteAudioSource.PlayOneShot(burnNote);

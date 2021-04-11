@@ -93,6 +93,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 59c6c02e8f560a448bf827526ec230c1, type: 3}
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
+      propertyPath: objectName
+      value: TutorialNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
       propertyPath: notePutDown
       value: 
       objectReference: {fileID: 8300000, guid: 273f509cc13db8a4183fe18b4f803f54, type: 3}

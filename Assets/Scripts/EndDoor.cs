@@ -52,7 +52,7 @@ public class EndDoor : Openable
         }
     }
 
-    IEnumerator SetDoorInactiveAfterDelay()
+    private IEnumerator SetDoorInactiveAfterDelay()
     {
         yield return new WaitForSeconds(lockUnlockedClip.length);
         Destroy(gameObject);
