@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 11b7c8132400004fb4a4de373062324b
     GuidInternal: 
-    m_lastTime: -8585834142861769764
+    m_lastTime: -8585831749112228558
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585834142861759794
+    m_lastTime: -8585831749112218619
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 82401a02e10f3542acba2fcf3bc21658
     GuidInternal: 
-    m_lastTime: -8585834142882119540
+    m_lastTime: -8585831749116571097
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585834142861833871
+    m_lastTime: -8585831749112258451
     List:
     - name: Burn_Object
       guid: b293796154151043a24b98b1952f80b8
@@ -373,7 +373,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585834142907990117
+    m_lastTime: -8585831749124175844
     List:
     - name: Burn_Object
       guid: 7ba22f813a10704c9ff11ccec2ff57dd
@@ -387,8 +387,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Burn_Object
       maxAttenuation: 0
-      maxDuration: 5.5
-      minDuration: 5.5
+      maxDuration: -1
+      minDuration: -1
     - name: Clock_Tick
       guid: 55271ce1bc9a6d468f8c936f43869ee1
       id: 2719257531
@@ -401,8 +401,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Clock_Tick
       maxAttenuation: 0
-      maxDuration: 66.39229
-      minDuration: 66.39229
+      maxDuration: -1
+      minDuration: -1
     - name: Door_Open
       guid: a9190fe519bd794ca824adcf7cb6090b
       id: 535830432
@@ -415,8 +415,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Door_Open
       maxAttenuation: 0
-      maxDuration: 1
-      minDuration: 1
+      maxDuration: -1
+      minDuration: -1
     - name: Footstep_Switch
       guid: 835389442b873940a7c171a56a46c9c0
       id: 442453602
@@ -427,8 +427,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Footstep_Switch
       maxAttenuation: 0
-      maxDuration: 1.042337
-      minDuration: 0.307148
+      maxDuration: -1
+      minDuration: -1
     - name: General SFX Events
       guid: 324e70c114044f42b4d889eee1214a00
       id: 471171385
@@ -453,8 +453,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Key_PickUp
       maxAttenuation: 0
-      maxDuration: 0.937506
-      minDuration: 0.937506
+      maxDuration: -1
+      minDuration: -1
     - name: Key_Unlock
       guid: 33d4370b91dc1149b8cf275e50bf719c
       id: 2054027409
@@ -467,8 +467,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Key_Unlock
       maxAttenuation: 0
-      maxDuration: 1.033288
-      minDuration: 1.033288
+      maxDuration: -1
+      minDuration: -1
     - name: Menu Events
       guid: 9f2eccee0c25f740b0999c9b134531cd
       id: 1247142219
@@ -493,8 +493,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_GameStart
       maxAttenuation: 0
-      maxDuration: 2.25
-      minDuration: 2.25
+      maxDuration: -1
+      minDuration: -1
     - name: Menu_MouseOver
       guid: b9e102596d90244f801cbaa2a1217013
       id: 547805114
@@ -507,8 +507,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_MouseOver
       maxAttenuation: 0
-      maxDuration: 0.562517
-      minDuration: 0.562517
+      maxDuration: -1
+      minDuration: -1
     - name: Menu_Select
       guid: 279b333dbdcabf46886922bef014824d
       id: 4203375351
@@ -521,8 +521,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_Select
       maxAttenuation: 0
-      maxDuration: 0.937506
-      minDuration: 0.937506
+      maxDuration: -1
+      minDuration: -1
     - name: Music_Switch
       guid: 9a356941c39ffb4dafe698c75fedaaa9
       id: 2724869341
@@ -555,7 +555,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ddbe94bfb202c64fb065904a17dc1034
     GuidInternal: 
-    m_lastTime: -8585834142907950217
+    m_lastTime: -8585831749124165873
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -564,7 +564,7 @@ MonoBehaviour:
     ParentPath: Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585834142907870445
+    m_lastTime: -8585831749124155902
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -591,7 +591,7 @@ MonoBehaviour:
     ParentPath: Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585834142907850180
+    m_lastTime: -8585831749124155902
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -691,7 +691,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6f23777ae9d2934e9c672b38be1a36a2
     GuidInternal: 
-    m_lastTime: -8585834142861809548
+    m_lastTime: -8585831749112248771
     List:
     - name: Music_Switch
       guid: 8af2e1e12071334f887866bd351d128a
@@ -756,7 +756,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 056e9f6547921843923e1353fe9ae3c4
     GuidInternal: 
-    m_lastTime: -8585834142861799684
+    m_lastTime: -8585831749112238580
     List:
     - name: Footstep_Switch
       guid: 645d65804ae04a499ea4e067037ab037
@@ -803,7 +803,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ca43334bbe2cbf4190b19b2559a6f73c
     GuidInternal: 
-    m_lastTime: -8585834142861789703
+    m_lastTime: -8585831749112228558
     List: []
   ExpandedItems:
   - /baer_candlelight
