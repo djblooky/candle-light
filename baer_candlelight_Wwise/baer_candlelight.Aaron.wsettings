@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Sound\Sound Projects\Pro Tools\Game Studio II\baer_candlelight\Bounced Files\"/>
 				<Property Name="Event Action List\{0B37D433-DC91-4911-B8CF-275E50BF719C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{208422C1-A821-4DCA-8321-4627D1537D95}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2230ABE7-0FFA-4B49-988C-62A837571F53}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3D339B27-CABD-46BF-8869-22BEF014824D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4169359A-9FC3-4DFB-AFE6-98C75FEDAAA9}\x64_Expand States" Type="string" Value=""/>
@@ -19,6 +20,7 @@
 				<Property Name="Event Action List\{E50F19A9-BD19-4C79-A824-ADCF7CB6090B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E7F183AB-9D11-4094-B53F-D2E93B1D7827}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E955119A-E0C4-4CBB-B8AC-3DD3A043B969}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EF3A8C8E-C047-49C2-A0B3-2362E0B9916A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -35,7 +37,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="spN5YVQVEEOiS5ixlS+AuAGXH3HkHRJJul+6G/eADwjqxaEvRHb5RLuTQUnAhk+70ss1t6ZBWUq/PCUqdbLiP8qZ8YN1jFZMqlJyGBT1rU99JUNiBfGUTptoOfkfTss1fjWr8AAyhE+nTj/v00i8bTAgS5WmQstGipmDsL02ioW80Cx8HNVDQaIS/0RE5y2bJUiq+sz1ikmCvRcstXXfl1dzl4n2ZeROi/W8DG6SsMA="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="spN5YVQVEEOiS5ixlS+AuAGXH3HkHRJJul+6G/eADwjqxaEvRHb5RLuTQUnAhk+70ss1t6ZBWUq/PCUqdbLiP8qZ8YN1jFZMqlJyGBT1rU9TcVLtZrNfSK93z2Eh3illJNaniZNZ2EuFEDxTKKlquH0lQ2IF8ZROm2g5+R9OyzV+NavwADKET6dOP+/TSLxtMCBLlaZCy0aKmYOwvTaKhbzQLHwc1UNBohL/RETnLZslSKr6zPWKSYK9Fyy1dd+XV3OXifZl5E6L9bwMbpKwwA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{1832AD61-4141-4AF9-980E-BE8BEC31F2B4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6uqqqqqmkRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{19ABCB28-C9E6-42BA-909E-C835DF3861BE} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9VKrdRKrR5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

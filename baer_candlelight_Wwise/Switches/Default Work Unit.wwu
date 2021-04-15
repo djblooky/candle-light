@@ -11,6 +11,15 @@
 						<Switch Name="Blood" ID="{6660EA3E-6A7A-41C2-8806-59E9BF00FF12}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Notes_VO_Switch" ID="{C8D2454B-8F46-4327-ACA6-2FD73DC81E30}">
+					<ChildrenList>
+						<Switch Name="tutorial" ID="{18DC05D2-E598-4B40-B0B7-EF169CE55D89}"/>
+						<Switch Name="strangeIndividuals" ID="{36ECE100-1CB1-400E-BAC3-1A58830842C8}"/>
+						<Switch Name="medicalBills" ID="{CC66007D-D36F-4FC7-BD47-12F227416339}"/>
+						<Switch Name="informants" ID="{8916E68B-49A3-4B7E-AAA5-263486B4E9E8}"/>
+						<Switch Name="financialProblems" ID="{4D470156-2C3E-4944-84C5-8648BDC51145}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

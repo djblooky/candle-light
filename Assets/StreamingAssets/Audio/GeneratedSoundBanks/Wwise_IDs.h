@@ -23,6 +23,8 @@ namespace AK
         static const AkUniqueID MENU_MOUSEOVER = 547805114U;
         static const AkUniqueID MENU_SELECT = 4203375351U;
         static const AkUniqueID MUSIC_SWITCH = 2724869341U;
+        static const AkUniqueID NOTES_VO_SWITCH_PLAY = 1458708234U;
+        static const AkUniqueID NOTES_VO_SWITCH_STOP = 2862910260U;
         static const AkUniqueID PHONOGRAPH_PLAY = 778631128U;
     } // namespace EVENTS
 
@@ -61,6 +63,20 @@ namespace AK
             } // namespace SWITCH
         } // namespace FOOTSTEP_SWITCH
 
+        namespace NOTES_VO_SWITCH
+        {
+            static const AkUniqueID GROUP = 281217489U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID FINANCIALPROBLEMS = 3393675978U;
+                static const AkUniqueID INFORMANTS = 1361332832U;
+                static const AkUniqueID MEDICALBILLS = 2159367436U;
+                static const AkUniqueID STRANGEINDIVIDUALS = 618103957U;
+                static const AkUniqueID TUTORIAL = 3762955427U;
+            } // namespace SWITCH
+        } // namespace NOTES_VO_SWITCH
+
     } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
@@ -92,6 +108,8 @@ namespace AK
         static const AkUniqueID MENU_MOUSEOVER = 547805114U;
         static const AkUniqueID MENU_SELECT = 4203375351U;
         static const AkUniqueID MUSIC_SWITCH = 2724869341U;
+        static const AkUniqueID NOTES_VO_SWITCH_PLAY = 1458708234U;
+        static const AkUniqueID NOTES_VO_SWITCH_STOP = 2862910260U;
         static const AkUniqueID PHONOGRAPH_PLAY = 778631128U;
     } // namespace BANKS
 
