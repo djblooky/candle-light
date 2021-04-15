@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585831749112258451
+    m_lastTime: -8585830837318107890
     List:
     - name: Burn_Object
       guid: b293796154151043a24b98b1952f80b8
@@ -356,6 +356,28 @@ MonoBehaviour:
       - ElementName: Music_Switch
         ObjectType: 7
       Path: Default Work Unit\Music_Switch
+    - name: Notes_VO_Switch_Play
+      guid: 537152ed66b35f48af77cf6121de2965
+      id: 1458708234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Notes_VO_Switch_Play
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Notes_VO_Switch_Play
+    - name: Notes_VO_Switch_Stop
+      guid: 24d6a7899359d84b85103c5328a96ab8
+      id: 2862910260
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Notes_VO_Switch_Stop
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Notes_VO_Switch_Stop
     - name: Phonograph_Play
       guid: 57739789f665e44e8bf5bc0c6e92b0c0
       id: 778631128
@@ -373,7 +395,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585831749124175844
+    m_lastTime: -8585830838129808639
     List:
     - name: Burn_Object
       guid: 7ba22f813a10704c9ff11ccec2ff57dd
@@ -387,8 +409,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Burn_Object
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.5
+      minDuration: 5.5
     - name: Clock_Tick
       guid: 55271ce1bc9a6d468f8c936f43869ee1
       id: 2719257531
@@ -401,8 +423,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Clock_Tick
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 66.39229
+      minDuration: 66.39229
     - name: Door_Open
       guid: a9190fe519bd794ca824adcf7cb6090b
       id: 535830432
@@ -415,8 +437,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Door_Open
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1
+      minDuration: 1
     - name: Footstep_Switch
       guid: 835389442b873940a7c171a56a46c9c0
       id: 442453602
@@ -427,8 +449,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Footstep_Switch
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.042337
+      minDuration: 0.307148
     - name: General SFX Events
       guid: 324e70c114044f42b4d889eee1214a00
       id: 471171385
@@ -453,8 +475,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Key_PickUp
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.937506
+      minDuration: 0.937506
     - name: Key_Unlock
       guid: 33d4370b91dc1149b8cf275e50bf719c
       id: 2054027409
@@ -467,8 +489,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\General SFX Events\Key_Unlock
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.033288
+      minDuration: 1.033288
     - name: Menu Events
       guid: 9f2eccee0c25f740b0999c9b134531cd
       id: 1247142219
@@ -493,8 +515,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_GameStart
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.25
+      minDuration: 2.25
     - name: Menu_MouseOver
       guid: b9e102596d90244f801cbaa2a1217013
       id: 547805114
@@ -507,8 +529,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_MouseOver
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.562517
+      minDuration: 0.562517
     - name: Menu_Select
       guid: 279b333dbdcabf46886922bef014824d
       id: 4203375351
@@ -521,8 +543,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Menu Events\Menu_Select
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.937506
+      minDuration: 0.937506
     - name: Music_Switch
       guid: 9a356941c39ffb4dafe698c75fedaaa9
       id: 2724869341
@@ -535,6 +557,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Notes_VO_Switch_Play
+      guid: 8e8c3aef47c0c249a0b32362e0b9916a
+      id: 1458708234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch_Play
+        ObjectType: 3
+      Path: Default Work Unit\Notes_VO_Switch_Play
+      maxAttenuation: 0
+      maxDuration: 22.01644
+      minDuration: 8.203673
+    - name: Notes_VO_Switch_Stop
+      guid: c122842021a8ca4d83214627d1537d95
+      id: 2862910260
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Notes_VO_Switch_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Phonograph_Play
       guid: ab83f1e7119d9440b53fd2e93b1d7827
       id: 778631128
@@ -756,7 +802,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 056e9f6547921843923e1353fe9ae3c4
     GuidInternal: 
-    m_lastTime: -8585831749112238580
+    m_lastTime: -8585830839437630015
     List:
     - name: Footstep_Switch
       guid: 645d65804ae04a499ea4e067037ab037
@@ -795,6 +841,49 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Notes_VO_Switch
+      guid: 4b45d2c8468f2743aca62fd73dc81e30
+      id: 281217489
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch
+        ObjectType: 11
+      Path: Default Work Unit\Notes_VO_Switch
+      values:
+      - name: financialProblems
+        guid: 5601474d3e2c444984c58648bdc51145
+        id: 3393675978
+        PathAndIcons:
+        - ElementName: financialProblems
+          ObjectType: 10
+      - name: informants
+        guid: 8be61689a3497e4baaa5263486b4e9e8
+        id: 1361332832
+        PathAndIcons:
+        - ElementName: informants
+          ObjectType: 10
+      - name: medicalBills
+        guid: 7d0066cc6fd3c74fbd4712f227416339
+        id: 2159367436
+        PathAndIcons:
+        - ElementName: medicalBills
+          ObjectType: 10
+      - name: strangeIndividuals
+        guid: 00e1ec36b11c0e40bac31a58830842c8
+        id: 618103957
+        PathAndIcons:
+        - ElementName: strangeIndividuals
+          ObjectType: 10
+      - name: tutorial
+        guid: d205dc1898e5404bb0b7ef169ce55d89
+        id: 3762955427
+        PathAndIcons:
+        - ElementName: tutorial
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -807,9 +896,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /baer_candlelight
-  - /baer_candlelight/Events
   - /baer_candlelight/SoundBanks
   - /baer_candlelight/SoundBanks/Default Work Unit
+  - /baer_candlelight/SoundBanks/Default Work Unit/General SoundBanks
   - /baer_candlelight/Switches
+  - /baer_candlelight/Switches/Default Work Unit
+  - /baer_candlelight/Switches/Default Work Unit/Notes_VO_Switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -17,8 +17,8 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	108346752	vo_MC_note_financialProblems	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_financialProblems_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Financial Problems Note\vo_MC_note_financialProblems		1447192
-	246654633	vo_MC_note_strangeIndividuals	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_strangeIndividuals_DA90E829.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Strange Individuals Note\vo_MC_note_strangeIndividuals		3170772
-	246736424	vo_MC_note_medicalBills	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_medicalBills_FDB1B969.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Medical Bills Note\vo_MC_note_medicalBills		3883764
+	246654633	vo_MC_note_strangeIndividuals	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_strangeIndividuals_262C5F97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Strange Individuals Note\vo_MC_note_strangeIndividuals		3170772
+	246736424	vo_MC_note_medicalBills	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_medicalBills_A1E97092.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Medical Bills Note\vo_MC_note_medicalBills		3883764
 	784402514	vo_MC_note_tutorial	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_tutorial_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Tutorial Note\vo_MC_note_tutorial		1791976
 	1002611578	vo_MC_note_informants	C:\Sound\Sound Projects\Unity\candle-light\baer_candlelight_Wwise\.cache\Windows\SFX\vo_MC_note_informants_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Note VO Switch\Informants Note\vo_MC_note_informants		1852264
 

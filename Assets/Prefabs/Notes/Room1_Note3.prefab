@@ -81,6 +81,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3784591365726570037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7127124783802885866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662fd61e956ec804b9460b537dc2e50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7d69d41f727a51d438856e92ec0a9fd8,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &6461569315287690658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7127124783802885866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133f79713666f834690c0efce2b8343f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 013300f7b34844744a64917ce6331d66,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &6310602928167908221
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,9 +290,10 @@ PrefabInstance:
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: noteText
-      value: What must I do to spare my wife and daughter the sights of a deteriorating
-        man? Like all of the other political disputes that were in need of resolving,
-        perhaps it falls onto me yet again to see the job done.
+      value: In my desperation have I stumbled across a strange group of individuals.
+        They speak in odd tongues, don robes emblazoned with the mark of an avian
+        creature of corvid nature, and tell of invocations that heal and mend the
+        soul. Perhaps they shall prove a strong ally.
       objectReference: {fileID: 0}
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
@@ -286,6 +337,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210736380f602624d90946655c59cb8b, type: 3}
+--- !u!1 &7127124783802885866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2689059622773171351, guid: 210736380f602624d90946655c59cb8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5168398717720035965}
+  m_PrefabAsset: {fileID: 0}
 --- !u!82 &2542711023228745566 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7273402957688567075, guid: 210736380f602624d90946655c59cb8b,

@@ -251,7 +251,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1458708234" Language="SFX" Hash="3276678260">
+		<SoundBank Id="1458708234" Language="SFX" Hash="4090796022">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Notes_VO_Switch_Play</ObjectPath>
 			<ShortName>Notes_VO_Switch_Play</ShortName>
 			<Path>Notes_VO_Switch_Play.bnk</Path>
@@ -264,11 +264,11 @@
 						</File>
 						<File Id="246654633" Language="SFX">
 							<ShortName>vo_MC_note_strangeIndividuals.wav</ShortName>
-							<Path>SFX\vo_MC_note_strangeIndividuals_DA90E829.wem</Path>
+							<Path>SFX\vo_MC_note_strangeIndividuals_262C5F97.wem</Path>
 						</File>
 						<File Id="246736424" Language="SFX">
 							<ShortName>vo_MC_note_medicalBills.wav</ShortName>
-							<Path>SFX\vo_MC_note_medicalBills_FDB1B969.wem</Path>
+							<Path>SFX\vo_MC_note_medicalBills_A1E97092.wem</Path>
 						</File>
 						<File Id="784402514" Language="SFX">
 							<ShortName>vo_MC_note_tutorial.wav</ShortName>
