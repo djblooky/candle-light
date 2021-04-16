@@ -9,26 +9,52 @@ public class PauseFunction : MonoBehaviour
     public bool check = true;
     public GameObject playerCon;
     public RushCharacterController Rcc;
-
+    public GameObject IntroNote;
+    private Note NoteCheck;
+    private bool NoteBool;
+    
     void Start()
     {
 
         Rcc = playerCon.GetComponent<RushCharacterController>();
+
+        NoteCheck = IntroNote.GetComponent<Note>();
     
     }
 
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Escape)) && (check == false))
+        if ((Input.GetKeyDown(KeyCode.Escape)) && (check == false) && !NoteBool)
         {
             OpenPauseMenu();
             Debug.Log("tick on ");
         }
-        else if ((Input.GetKeyDown(KeyCode.Escape)) && (check == true))
+        else if ((Input.GetKeyDown(KeyCode.Escape)) && (check == true) && !NoteBool)
         {
             ClosePauseMenu();
             Debug.Log("tick off");
         }
+        else if ((Input.GetKeyDown(KeyCode.Escape)) && (check == false) && NoteBool)
+        {
+            NoteBool = false;
+        }
+
+        if (NoteCheck.IsOpen)
+        {
+            NoteBool = true;
+        }
+        else
+        {
+            Invoke("SetNote", 1f);
+        }
+
+    }
+
+    private void SetNote()
+    {
+
+        NoteBool = false;
+
     }
 
     public void OpenPauseMenu()
