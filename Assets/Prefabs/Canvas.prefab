@@ -567,6 +567,7 @@ MonoBehaviour:
   check: 0
   playerCon: {fileID: 0}
   Rcc: {fileID: 0}
+  IntroNote: {fileID: 0}
 --- !u!1 &5965179279790791681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,7 +1809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0.14901961}
+  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0.29803923}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
