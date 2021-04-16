@@ -52,14 +52,13 @@ public class BurnableObject : InteractiveObject
         }
     }
 
+    /*
     public override void Interact()
     {
         base.Interact();
 
         //BurnObject();
-    }
-
-
+    }*/
 
     private void BurnObject()
     {

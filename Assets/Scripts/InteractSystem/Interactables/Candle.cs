@@ -7,6 +7,7 @@ public class Candle : EquippableObject
 
     private void Start()
     {
+        InteractObjInit();
         renderers = GetComponentsInChildren<Renderer>();
     }
 

@@ -10,9 +10,9 @@ public class PlayObject : InteractiveObject
         hoverText = "Play?";
     }
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
-        base.Interact();
+        base.Interact(i);
         audioData = GetComponent<AudioSource>();
         audioData.Play(0);
     }

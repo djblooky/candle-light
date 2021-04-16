@@ -39,7 +39,7 @@ public class InteractCrosshairUI : MonoBehaviour
         }
     }
 
-    private void OnHoveredOffInteractable()
+    private void OnHoveredOffInteractable(InteractiveObject i)
     {
         image.sprite = defaultCrosshair;
         SetScale(defaultScale);

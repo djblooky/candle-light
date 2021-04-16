@@ -22,7 +22,7 @@ public class InteractText : MonoBehaviour
         }
     }
 
-    private void OnHoveredOffInteractable()
+    private void OnHoveredOffInteractable(InteractiveObject i)
     {
         canvasGroup.alpha = 0;
     }

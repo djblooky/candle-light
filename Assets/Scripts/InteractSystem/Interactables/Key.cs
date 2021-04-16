@@ -16,7 +16,7 @@ public class Key : InteractiveObject
         meshRenderer = GetComponentInChildren<MeshRenderer>();
     }
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
         audioSource.PlayOneShot(pickupSound);
         objectToUnlock.GetComponentInChildren<Openable>().isLocked = false;

@@ -5,7 +5,7 @@ using UnityEngine.Rendering.PostProcessing;
 public class PlayerRaycast : MonoBehaviour
 {
     public static event Action<InteractiveObject> HoveredOver;
-    public static event Action HoveredOff;
+    public static event Action<InteractiveObject> HoveredOff;
 
     public static GameObject lastObjectInteractedWith;
     public static InteractiveObject objectLookingAt;
@@ -55,16 +55,16 @@ public class PlayerRaycast : MonoBehaviour
                 objectLookingAt = hit.collider.gameObject.GetComponent<InteractiveObject>();
                 HoveredOver?.Invoke(objectLookingAt);
                 if (Input.GetMouseButtonDown(0))
-                    objectLookingAt.Interact(); lastObjectInteractedWith = hit.transform.gameObject;
+                    objectLookingAt.Interact(objectLookingAt); lastObjectInteractedWith = hit.transform.gameObject;
             }
             else //if hit something that's not interactable
             {
-                HoveredOff?.Invoke();
+                HoveredOff?.Invoke(objectLookingAt);
             }
         }
-        else //if didn't hit anything
+        else if(objectLookingAt != null) //if didn't hit anything
         {
-            HoveredOff?.Invoke();
+            HoveredOff?.Invoke(objectLookingAt);
         }
     }
 

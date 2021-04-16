@@ -12,7 +12,7 @@ public class Toggleable : InteractiveObject
     [SerializeField]
     private AudioClip switchSound;
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
         Toggle();
     }

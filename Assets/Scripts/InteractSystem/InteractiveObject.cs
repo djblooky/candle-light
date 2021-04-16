@@ -15,39 +15,42 @@ public class InteractiveObject : MonoBehaviour
     [SerializeField]
     protected AudioClip ragtimeMusic;
 
+    private InteractiveObject currentInteractiveObject;
     private GameObject hoverIcon;
 
     private void Start()
     {
-        StartMethod();
+        InteractObjInit();
     }
 
-    protected void StartMethod()
+    protected void InteractObjInit()
     {
-        audioSource = audioSource.GetComponent<AudioSource>();
         hoverIcon = GetComponentInChildren<HoverIcon>(true).gameObject;
-        hoverIcon.SetActive(false);
-        Debug.Log("Hover Icon got from child: " + hoverIcon);
+        if (hoverIcon != null) hoverIcon.SetActive(false);
+        Debug.Log("Hover Icon: " + hoverIcon + " is a child of: " + gameObject);
+
+        audioSource = audioSource.GetComponent<AudioSource>();
     }
 
     protected virtual void OnHoveredOver(InteractiveObject i)
     {
-        //Debug.Log("Hovered over " + objectName);
-        if (hoverIcon != null)
-            hoverIcon.SetActive(true);
+        Debug.Log("Hovered over " + i.objectName);
+        if (i.hoverIcon != null)
+            i.hoverIcon.SetActive(true);
     }
 
-    protected virtual void OnHoveredOff()
+    protected virtual void OnHoveredOff(InteractiveObject i)
     {
-        //Debug.Log("Hovered off " + objectName);
-        if(hoverIcon != null)
-            hoverIcon.SetActive(false);
+        //Debug.Log("Hovered off " + i.objectName);
+        if(i.hoverIcon != null)
+            i.hoverIcon.SetActive(false);
     }
 
-    public virtual void Interact()
+    public virtual void Interact(InteractiveObject i)
     {
-        Debug.Log($"Interacted with {objectName}");
-        hoverIcon.SetActive(false);
+        //Debug.Log($"Interacted with {i.objectName}");
+        if (i.hoverIcon != null) 
+            i.hoverIcon.SetActive(false);
     }
 
     private void OnEnable()

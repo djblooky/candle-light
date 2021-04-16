@@ -21,7 +21,7 @@ public class Note : InteractiveObject
         noteAudioSource.GetComponent<AudioSource>();
     }
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
         if (!IsOpen)
         {
@@ -30,7 +30,7 @@ public class Note : InteractiveObject
             noteAudioSource.PlayOneShot(notePickUp);
             AkSoundEngine.PostEvent("Notes_VO_Switch_Play", gameObject);
             IsOpen = true;
-            hoverText = "";
+            i.hoverText = "";
         }
     }
 

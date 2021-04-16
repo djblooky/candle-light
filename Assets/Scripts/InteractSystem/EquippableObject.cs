@@ -8,7 +8,7 @@ public class EquippableObject : InteractiveObject
 
     private void Start()
     {
-        StartMethod();
+        InteractObjInit();
         Debug.Log("EquippableObj start");
     }
 
@@ -21,9 +21,9 @@ public class EquippableObject : InteractiveObject
         else
             hoverText = "Pick up " + objectName + " ?";
     }
-
+    /*
     public override void Interact()
     {
         base.Interact();
-    }
+    }*/
 }

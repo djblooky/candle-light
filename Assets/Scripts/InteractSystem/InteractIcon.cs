@@ -39,7 +39,7 @@ public class InteractIcon : MonoBehaviour
         }
     }
 
-    private void OnHoveredOffInteractable()
+    private void OnHoveredOffInteractable(InteractiveObject i)
     {
         image.sprite = defaultCrosshair;
         SetScale(defaultScale);

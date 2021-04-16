@@ -31,9 +31,9 @@ public class PlaceObjectTrigger : InteractiveObject
           
     }
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
-        base.Interact();
+        base.Interact(i);
 
         if (EquipmentManager.current.leftHandEquipped && EquipmentManager.current.currentLeftObject.objectName == fitsPieceWithName)
         {

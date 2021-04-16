@@ -32,7 +32,7 @@ public class Openable : InteractiveObject
     protected bool isOpen = false;
     private readonly int isOpenAnimatorParam = Animator.StringToHash("isOpen");
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
         ToggleOpen();
     }

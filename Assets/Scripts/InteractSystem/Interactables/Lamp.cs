@@ -9,9 +9,9 @@ public class Lamp : Toggleable
         lights = GetComponentsInChildren<Light>();
     }
 
-    public override void Interact()
+    public override void Interact(InteractiveObject i)
     {
-        base.Interact();
+        base.Interact(i);
         ToggleLight();
     }
 
