@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585830773217321511
+    m_lastTime: -8585830699817597900
     List:
     - name: Burn_Object
       guid: b293796154151043a24b98b1952f80b8
@@ -395,7 +395,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585830773227832244
+    m_lastTime: -8585830699818455605
     List:
     - name: Burn_Object
       guid: 7ba22f813a10704c9ff11ccec2ff57dd
@@ -802,7 +802,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 056e9f6547921843923e1353fe9ae3c4
     GuidInternal: 
-    m_lastTime: -8585830773217082694
+    m_lastTime: -8585830699817587926
     List:
     - name: Footstep_Switch
       guid: 645d65804ae04a499ea4e067037ab037
