@@ -6,6 +6,12 @@ public class EquippableObject : InteractiveObject
     public Vector3 EquippedRotation, PlacedRotation;
     public float xPositionOffset = 0f, yPositionOffset = 0f, zPositionOffset = 0f;
 
+    private void Start()
+    {
+        StartMethod();
+        Debug.Log("EquippableObj start");
+    }
+
     protected override void OnHoveredOver(InteractiveObject i)
     {
         base.OnHoveredOver(i);
@@ -19,6 +25,5 @@ public class EquippableObject : InteractiveObject
     public override void Interact()
     {
         base.Interact();
-
     }
 }
