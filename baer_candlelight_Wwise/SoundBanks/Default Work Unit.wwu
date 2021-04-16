@@ -79,6 +79,19 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="Notes_VO_Switch_Play" ID="{ED527153-B366-485F-AF77-CF6121DE2965}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Notes_VO_Switch_Play" ID="{EF3A8C8E-C047-49C2-A0B3-2362E0B9916A}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Notes_VO_Switch_Stop" ID="{208422C1-A821-4DCA-8321-4627D1537D95}" WorkUnitID="{AC77C16D-65C0-448B-AFC5-BA35B2D9598F}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Notes_VO_Switch_Stop" ID="{89A7D624-5993-4BD8-8510-3C5328A96AB8}">
+							<ObjectInclusionList/>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 				<SoundBank Name="Phonograph_Play" ID="{89977357-65F6-4EE4-8BF5-BC0C6E92B0C0}">

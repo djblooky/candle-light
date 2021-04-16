@@ -28,6 +28,7 @@ public class Note : InteractiveObject
             HasBeenRead = true;
             OpenedNote?.Invoke(noteText, showOverlayImage);
             noteAudioSource.PlayOneShot(notePickUp);
+            AkSoundEngine.PostEvent("Notes_VO_Switch_Play", gameObject);
             IsOpen = true;
             hoverText = "";
         }
@@ -44,7 +45,7 @@ public class Note : InteractiveObject
 
                 ClosedNote?.Invoke();
                 noteAudioSource.PlayOneShot(notePutDown);
-                //noteAudioSource.PlayOneShot(burnNote);
+                AkSoundEngine.PostEvent("Notes_VO_Switch_Stop", gameObject);
                 IsOpen = false;
             }
         }

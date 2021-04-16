@@ -231,7 +231,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2091269345">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3869576448">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -250,6 +250,76 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1458708234" Language="SFX" Hash="4090796022">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Notes_VO_Switch_Play</ObjectPath>
+			<ShortName>Notes_VO_Switch_Play</ShortName>
+			<Path>Notes_VO_Switch_Play.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1458708234" Name="Notes_VO_Switch_Play" ObjectPath="\Events\Default Work Unit\Notes_VO_Switch_Play" DurationType="OneShot" DurationMin="8.203673" DurationMax="22.016439">
+					<IncludedMemoryFiles>
+						<File Id="108346752" Language="SFX">
+							<ShortName>vo_MC_note_financialProblems.wav</ShortName>
+							<Path>SFX\vo_MC_note_financialProblems_10C4C929.wem</Path>
+						</File>
+						<File Id="246654633" Language="SFX">
+							<ShortName>vo_MC_note_strangeIndividuals.wav</ShortName>
+							<Path>SFX\vo_MC_note_strangeIndividuals_262C5F97.wem</Path>
+						</File>
+						<File Id="246736424" Language="SFX">
+							<ShortName>vo_MC_note_medicalBills.wav</ShortName>
+							<Path>SFX\vo_MC_note_medicalBills_A1E97092.wem</Path>
+						</File>
+						<File Id="784402514" Language="SFX">
+							<ShortName>vo_MC_note_tutorial.wav</ShortName>
+							<Path>SFX\vo_MC_note_tutorial_10C4C929.wem</Path>
+						</File>
+						<File Id="1002611578" Language="SFX">
+							<ShortName>vo_MC_note_informants.wav</ShortName>
+							<Path>SFX\vo_MC_note_informants_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{36ECE100-1CB1-400E-BAC3-1A58830842C8}">
+							<Media>
+								<File Id="246654633"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4D470156-2C3E-4944-84C5-8648BDC51145}">
+							<Media>
+								<File Id="108346752"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8916E68B-49A3-4B7E-AAA5-263486B4E9E8}">
+							<Media>
+								<File Id="1002611578"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CC66007D-D36F-4FC7-BD47-12F227416339}">
+							<Media>
+								<File Id="246736424"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{18DC05D2-E598-4B40-B0B7-EF169CE55D89}">
+							<Media>
+								<File Id="784402514"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2862910260" Name="Notes_VO_Switch_Stop" ObjectPath="\Events\Default Work Unit\Notes_VO_Switch_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="281217489" Name="Notes_VO_Switch" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch">
+					<Switches>
+						<Switch Id="3762955427" Name="tutorial" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch\tutorial"/>
+						<Switch Id="618103957" Name="strangeIndividuals" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch\strangeIndividuals"/>
+						<Switch Id="2159367436" Name="medicalBills" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch\medicalBills"/>
+						<Switch Id="1361332832" Name="informants" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch\informants"/>
+						<Switch Id="3393675978" Name="financialProblems" ObjectPath="\Switches\Default Work Unit\Notes_VO_Switch\financialProblems"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2054027409" Language="SFX" Hash="2462782698">
 			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Key_Unlock</ObjectPath>
@@ -365,6 +435,11 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2862910260" Language="SFX" Hash="1131041185">
+			<ObjectPath>\SoundBanks\Default Work Unit\General SoundBanks\Notes_VO_Switch_Stop</ObjectPath>
+			<ShortName>Notes_VO_Switch_Stop</ShortName>
+			<Path>Notes_VO_Switch_Stop.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3860585191" Language="SFX" Hash="1416010148">
 			<ObjectPath>\SoundBanks\Default Work Unit\Menu SoundBanks\Menu_GameStart</ObjectPath>

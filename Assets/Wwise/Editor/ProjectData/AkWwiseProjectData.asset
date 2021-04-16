@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 11b7c8132400004fb4a4de373062324b
     GuidInternal: 
-    m_lastTime: -8585842177024147067
+    m_lastTime: -8585831749112228558
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     PathAndIcons:
@@ -29,7 +29,7 @@ MonoBehaviour:
     ParentPath: Factory Reflect Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585842177024137093
+    m_lastTime: -8585831749112218619
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 82401a02e10f3542acba2fcf3bc21658
     GuidInternal: 
-    m_lastTime: -8585842177029896762
+    m_lastTime: -8585831749116571097
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 285f1d634dc2924fa678316f1b9e6fd9
     GuidInternal: 
-    m_lastTime: -8585842177024426319
+    m_lastTime: -8585830633933558679
     List:
     - name: Burn_Object
       guid: b293796154151043a24b98b1952f80b8
@@ -356,6 +356,28 @@ MonoBehaviour:
       - ElementName: Music_Switch
         ObjectType: 7
       Path: Default Work Unit\Music_Switch
+    - name: Notes_VO_Switch_Play
+      guid: 537152ed66b35f48af77cf6121de2965
+      id: 1458708234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Notes_VO_Switch_Play
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Notes_VO_Switch_Play
+    - name: Notes_VO_Switch_Stop
+      guid: 24d6a7899359d84b85103c5328a96ab8
+      id: 2862910260
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General SoundBanks
+        ObjectType: 4
+      - ElementName: Notes_VO_Switch_Stop
+        ObjectType: 7
+      Path: Default Work Unit\General SoundBanks\Notes_VO_Switch_Stop
     - name: Phonograph_Play
       guid: 57739789f665e44e8bf5bc0c6e92b0c0
       id: 778631128
@@ -373,7 +395,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6dc177acc0658b44afc5ba35b2d9598f
     GuidInternal: 
-    m_lastTime: -8585842177038084393
+    m_lastTime: -8585830633968540680
     List:
     - name: Burn_Object
       guid: 7ba22f813a10704c9ff11ccec2ff57dd
@@ -535,6 +557,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Notes_VO_Switch_Play
+      guid: 8e8c3aef47c0c249a0b32362e0b9916a
+      id: 1458708234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch_Play
+        ObjectType: 3
+      Path: Default Work Unit\Notes_VO_Switch_Play
+      maxAttenuation: 0
+      maxDuration: 22.01644
+      minDuration: 8.203673
+    - name: Notes_VO_Switch_Stop
+      guid: c122842021a8ca4d83214627d1537d95
+      id: 2862910260
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Notes_VO_Switch_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Phonograph_Play
       guid: ab83f1e7119d9440b53fd2e93b1d7827
       id: 778631128
@@ -555,7 +601,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ddbe94bfb202c64fb065904a17dc1034
     GuidInternal: 
-    m_lastTime: -8585842177038074420
+    m_lastTime: -8585831749124165873
     List: []
   - PhysicalPath: Game Parameters\Factory Motion.wwu
     PathAndIcons:
@@ -564,7 +610,7 @@ MonoBehaviour:
     ParentPath: Factory Motion
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585842177038074420
+    m_lastTime: -8585831749124155902
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -591,7 +637,7 @@ MonoBehaviour:
     ParentPath: Factory SoundSeed Air Game Syncs
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585842177038064451
+    m_lastTime: -8585831749124155902
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -691,7 +737,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6f23777ae9d2934e9c672b38be1a36a2
     GuidInternal: 
-    m_lastTime: -8585842177024167013
+    m_lastTime: -8585831749112248771
     List:
     - name: Music_Switch
       guid: 8af2e1e12071334f887866bd351d128a
@@ -756,7 +802,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 056e9f6547921843923e1353fe9ae3c4
     GuidInternal: 
-    m_lastTime: -8585842177024157039
+    m_lastTime: -8585830633933548678
     List:
     - name: Footstep_Switch
       guid: 645d65804ae04a499ea4e067037ab037
@@ -795,6 +841,49 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Notes_VO_Switch
+      guid: 4b45d2c8468f2743aca62fd73dc81e30
+      id: 281217489
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Notes_VO_Switch
+        ObjectType: 11
+      Path: Default Work Unit\Notes_VO_Switch
+      values:
+      - name: financialProblems
+        guid: 5601474d3e2c444984c58648bdc51145
+        id: 3393675978
+        PathAndIcons:
+        - ElementName: financialProblems
+          ObjectType: 10
+      - name: informants
+        guid: 8be61689a3497e4baaa5263486b4e9e8
+        id: 1361332832
+        PathAndIcons:
+        - ElementName: informants
+          ObjectType: 10
+      - name: medicalBills
+        guid: 7d0066cc6fd3c74fbd4712f227416339
+        id: 2159367436
+        PathAndIcons:
+        - ElementName: medicalBills
+          ObjectType: 10
+      - name: strangeIndividuals
+        guid: 00e1ec36b11c0e40bac31a58830842c8
+        id: 618103957
+        PathAndIcons:
+        - ElementName: strangeIndividuals
+          ObjectType: 10
+      - name: tutorial
+        guid: d205dc1898e5404bb0b7ef169ce55d89
+        id: 3762955427
+        PathAndIcons:
+        - ElementName: tutorial
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -803,13 +892,15 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ca43334bbe2cbf4190b19b2559a6f73c
     GuidInternal: 
-    m_lastTime: -8585842177024147067
+    m_lastTime: -8585831749112228558
     List: []
   ExpandedItems:
   - /baer_candlelight
-  - /baer_candlelight/Events
   - /baer_candlelight/SoundBanks
   - /baer_candlelight/SoundBanks/Default Work Unit
+  - /baer_candlelight/SoundBanks/Default Work Unit/General SoundBanks
   - /baer_candlelight/Switches
+  - /baer_candlelight/Switches/Default Work Unit
+  - /baer_candlelight/Switches/Default Work Unit/Notes_VO_Switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -904,6 +904,284 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<SwitchContainer Name="Note VO Switch" ID="{46E4A522-AA1B-46D2-A8B8-B4836EF6CEE6}" ShortID="510059307">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{E5F0F5D1-A192-4373-8560-2214C8AB98ED}" WorkUnitID="{1B719043-D081-427A-9EF6-FEC0CBACAF67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Notes_VO_Switch" ID="{C8D2454B-8F46-4327-ACA6-2FD73DC81E30}" WorkUnitID="{659F6E05-9247-4318-923E-1353FE9AE3C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Strange Individuals Note" ID="{C218E9CC-3530-4DB6-B276-7AA47B4ECB7C}" ShortID="355389937">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vo_MC_note_strangeIndividuals" ID="{4F3C1446-5A8F-46B2-9F73-ABDCA5BEDB94}" ShortID="1024506686">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vo_MC_note_strangeIndividuals" ID="{A6EF8D5B-D302-437C-B59E-9675E013B3E3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0237444321630016"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vo_MC_note_strangeIndividuals.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246654633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vo_MC_note_strangeIndividuals" ID="{A6EF8D5B-D302-437C-B59E-9675E013B3E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="vo_MC_note_strangeIndividuals" ID="{4F3C1446-5A8F-46B2-9F73-ABDCA5BEDB94}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Financial Problems Note" ID="{DE78CC32-5CDC-49ED-9ACB-0F4BC66CEA05}" ShortID="660895570">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vo_MC_note_financialProblems" ID="{77082AD8-417F-4A94-8EBE-0E562AA798E0}" ShortID="301127169">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vo_MC_note_financialProblems" ID="{E64CDFCC-5AA3-424D-8675-B0F60F7D6C99}">
+											<Language>SFX</Language>
+											<AudioFile>vo_MC_note_financialProblems.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108346752"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vo_MC_note_financialProblems" ID="{E64CDFCC-5AA3-424D-8675-B0F60F7D6C99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="vo_MC_note_financialProblems" ID="{77082AD8-417F-4A94-8EBE-0E562AA798E0}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Informants Note" ID="{B01AA8BC-3692-4C93-9DE7-B354C1C9BE9B}" ShortID="557726431">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vo_MC_note_informants" ID="{3F16A256-B8F3-4022-8E44-B9F7ECEA1062}" ShortID="28994174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vo_MC_note_informants" ID="{4A8CEFDB-3091-4596-8B98-D82338D26F6B}">
+											<Language>SFX</Language>
+											<AudioFile>vo_MC_note_informants.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002611578"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vo_MC_note_informants" ID="{4A8CEFDB-3091-4596-8B98-D82338D26F6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="vo_MC_note_informants" ID="{3F16A256-B8F3-4022-8E44-B9F7ECEA1062}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Medical Bills Note" ID="{6FB34EA4-FADD-48B5-A0F6-0D3FD36765B0}" ShortID="653482171">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vo_MC_note_medicalBills" ID="{75C91F07-EF39-48B9-9561-C659E8673869}" ShortID="417758481">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vo_MC_note_medicalBills" ID="{45A4F021-1A2C-4E85-9C3C-25E6EC9488FA}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.058167608743189"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>vo_MC_note_medicalBills.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="246736424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vo_MC_note_medicalBills" ID="{45A4F021-1A2C-4E85-9C3C-25E6EC9488FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="vo_MC_note_medicalBills" ID="{75C91F07-EF39-48B9-9561-C659E8673869}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Tutorial Note" ID="{72B5EF2B-2181-4ECD-A762-BE5EF492CD6C}" ShortID="947791054">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="vo_MC_note_tutorial" ID="{42A2DF8F-4255-4F49-BCA7-407B08D44618}" ShortID="778121340">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4E5C4239-3A86-4FB6-A348-8A0BAFDA8FE4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{021A4082-0FE1-4235-ACBA-2FCF3BC21658}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="vo_MC_note_tutorial" ID="{B9CB7847-4A3D-406A-8426-BBDC7597AEF9}">
+											<Language>SFX</Language>
+											<AudioFile>vo_MC_note_tutorial.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784402514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="vo_MC_note_tutorial" ID="{B9CB7847-4A3D-406A-8426-BBDC7597AEF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="vo_MC_note_tutorial" ID="{42A2DF8F-4255-4F49-BCA7-407B08D44618}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Tutorial Note" ID="{72B5EF2B-2181-4ECD-A762-BE5EF492CD6C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Financial Problems Note" ID="{DE78CC32-5CDC-49ED-9ACB-0F4BC66CEA05}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Medical Bills Note" ID="{6FB34EA4-FADD-48B5-A0F6-0D3FD36765B0}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Informants Note" ID="{B01AA8BC-3692-4C93-9DE7-B354C1C9BE9B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Strange Individuals Note" ID="{C218E9CC-3530-4DB6-B276-7AA47B4ECB7C}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="strangeIndividuals" ID="{36ECE100-1CB1-400E-BAC3-1A58830842C8}"/>
+								<ItemList>
+									<ItemRef Name="Strange Individuals Note" ID="{C218E9CC-3530-4DB6-B276-7AA47B4ECB7C}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="financialProblems" ID="{4D470156-2C3E-4944-84C5-8648BDC51145}"/>
+								<ItemList>
+									<ItemRef Name="Financial Problems Note" ID="{DE78CC32-5CDC-49ED-9ACB-0F4BC66CEA05}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="medicalBills" ID="{CC66007D-D36F-4FC7-BD47-12F227416339}"/>
+								<ItemList>
+									<ItemRef Name="Medical Bills Note" ID="{6FB34EA4-FADD-48B5-A0F6-0D3FD36765B0}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="informants" ID="{8916E68B-49A3-4B7E-AAA5-263486B4E9E8}"/>
+								<ItemList>
+									<ItemRef Name="Informants Note" ID="{B01AA8BC-3692-4C93-9DE7-B354C1C9BE9B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="tutorial" ID="{18DC05D2-E598-4B40-B0B7-EF169CE55D89}"/>
+								<ItemList>
+									<ItemRef Name="Tutorial Note" ID="{72B5EF2B-2181-4ECD-A762-BE5EF492CD6C}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
