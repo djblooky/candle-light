@@ -21,11 +21,11 @@ public class NoteSpawner : MonoBehaviour
 
         if (currentNote < notes.Length) //if there are notes left to spawn
         {
-            if (LastNoteRead)
-            {
+            //if (LastNoteRead)
+            //{
                 currentNote++;
                 SpawnNote();
-            }
+            //}
         }
     }
 
