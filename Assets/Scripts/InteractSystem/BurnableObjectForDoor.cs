@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 
 public class BurnableObjectForDoor : InteractiveObject
 {
@@ -12,6 +13,10 @@ public class BurnableObjectForDoor : InteractiveObject
     private Renderer _renderer;
     private int shaderProperty;
     private float timer = 0;
+    public Material PhotoMat;
+    public Material DisolveMat;
+
+    public static event Action Key1PlacedLockDrop;
 
 
     private void Start()
@@ -30,6 +35,9 @@ public class BurnableObjectForDoor : InteractiveObject
 
         if (gameObjectToDestroy == null)
             gameObjectToDestroy = gameObject;
+
+        _renderer.material = PhotoMat;
+
     }
 
     private void Update()
@@ -60,7 +68,9 @@ public class BurnableObjectForDoor : InteractiveObject
 
     private void BurnObject()
     {
+        Key1PlacedLockDrop?.Invoke();
         Debug.Log("PHOTO TRIGGER BURNOBJECT()");
+        _renderer.material = DisolveMat;
         tag = "Untagged";
         ps.Play();
         isBurning = true;

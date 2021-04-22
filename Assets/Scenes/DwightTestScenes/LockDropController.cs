@@ -22,19 +22,37 @@ public class LockDropController : MonoBehaviour
     private void Drop1()
     {
 
-        if (gameObject.name == "Lock1")
+        Debug.Log("LOCKDROP1MAIN");
+
+        Invoke("Drop1Delay", 0.1f);
+        
+        if (gameObject.name == "1BottomHalf")
         {
             rb = gameObject.GetComponent<Rigidbody>();
             rb.isKinematic = false;
             rb.useGravity = true;
         }
-    
+
+    }
+
+    private void Drop1Delay()
+    {
+
+        Debug.Log("LOCKDROP1DELAY");
+
+        if (gameObject.name == "1TopHalf")
+        {
+            rb = gameObject.GetComponent<Rigidbody>();
+            rb.isKinematic = false;
+            rb.useGravity = true;
+        }
+
     }
 
     private void OnEnable()
     {
 
-        PlaceObjectTrigger.Key1Placed += Drop1;
+        BurnableObjectForDoor.Key1PlacedLockDrop += Drop1;
 
         //NoteSpawner.NoteSpawned += Init;
 
@@ -48,7 +66,7 @@ public class LockDropController : MonoBehaviour
     private void OnDisable()
     {
 
-        PlaceObjectTrigger.Key1Placed -= Drop1;
+        BurnableObjectForDoor.Key1PlacedLockDrop -= Drop1;
 
         //NoteSpawner.NoteSpawned -= Init;
 
