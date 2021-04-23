@@ -43,7 +43,7 @@ public class BurnableObjectForDoor : InteractiveObject
         if (gameObjectToDestroy == null)
             gameObjectToDestroy = gameObject;
 
-        if (gameObject.name == "Photo")
+        if (gameObject.name == "Family_Picture")
             _renderer.material = PhotoMat; 
 
         if (gameObject.name == "CubeKey")
