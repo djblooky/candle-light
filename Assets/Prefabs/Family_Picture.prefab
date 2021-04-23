@@ -9558,7 +9558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  objectName: Photo
+  objectName: Family_Picture
   hoverText: Pick Up Photo?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
@@ -9611,7 +9611,11 @@ MonoBehaviour:
     m_RotationOrder: 4
   spawnEffectTime: 2
   PhotoMat: {fileID: 2100000, guid: 58220542b2ba43e4dac317d2a152e1e3, type: 2}
-  DisolveMat: {fileID: 2100000, guid: 0426be07ea2ec9e40ba6c7ce1baea217, type: 2}
+  Disolve1Mat: {fileID: 2100000, guid: 0426be07ea2ec9e40ba6c7ce1baea217, type: 2}
+  CubeKeyMat: {fileID: 0}
+  Disolve2Mat: {fileID: 0}
+  CubeKey2Mat: {fileID: 0}
+  Disolve3Mat: {fileID: 0}
 --- !u!82 &7557044886492300249
 AudioSource:
   m_ObjectHideFlags: 0

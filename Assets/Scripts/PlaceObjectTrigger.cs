@@ -5,6 +5,8 @@ public class PlaceObjectTrigger : InteractiveObject
 {
     public static event Action PiecePlaced;
     public static event Action Key1Placed;
+    public static event Action Key2Placed;
+    public static event Action Key3Placed;
 
     public static bool IsEmpty = true;
 
@@ -42,9 +44,17 @@ public class PlaceObjectTrigger : InteractiveObject
 
             // DOOR ZONE
 
-            if (EquipmentManager.current.currentLeftObject.objectName == "Photo")
+            if (EquipmentManager.current.currentLeftObject.objectName == "Family_Picture")
             {
                 Key1Placed?.Invoke();
+            }
+            if (EquipmentManager.current.currentLeftObject.objectName == "CubeKey")
+            {
+                Key2Placed?.Invoke();
+            }
+            if (EquipmentManager.current.currentLeftObject.objectName == "CubeKey2")
+            {
+                Key3Placed?.Invoke();
             }
 
             // DOOR ZONE
