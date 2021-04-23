@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -337,9 +337,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1981764604}
   - {fileID: 1372863470}
   - {fileID: 453444989}
+  - {fileID: 1981764604}
   m_Father: {fileID: 1861592736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -897,7 +897,7 @@ Transform:
   - {fileID: 1443893639}
   - {fileID: 322190824}
   m_Father: {fileID: 120380682}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458983690
 GameObject:
@@ -1871,7 +1871,7 @@ Transform:
   - {fileID: 31510009}
   - {fileID: 902754561}
   m_Father: {fileID: 120380682}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400314005
 GameObject:
@@ -11984,6 +11984,8 @@ GameObject:
   - component: {fileID: 1981764604}
   - component: {fileID: 1981764606}
   - component: {fileID: 1981764605}
+  - component: {fileID: 1981764607}
+  - component: {fileID: 1981764608}
   m_Layer: 5
   m_Name: Shadow
   m_TagString: Untagged
@@ -12003,11 +12005,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 120380682}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120.2, y: 8.7}
+  m_AnchoredPosition: {x: 120.19995, y: 8.69989}
   m_SizeDelta: {x: 2892.4204, y: 1506.831}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981764605
@@ -12024,12 +12026,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 38966e088493aa4468f8b409c8dc7a75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c7c6c0a9328f69c49acdbb484e8b330e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12047,6 +12049,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981764603}
   m_CullTransparentMesh: 0
+--- !u!95 &1981764607
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981764603}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5eb5ed19d55401745b5d4c7107406421, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1981764608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981764603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43ed2947415337458e670438a31660b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2022407560
 GameObject:
   m_ObjectHideFlags: 0
@@ -12130,6 +12163,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1981764608}
+        m_MethodName: OnStartButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: sfx_menu_gameStart
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1861592737}
         m_MethodName: PlayButton
         m_Mode: 1
@@ -12139,17 +12183,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: sfx_menu_gameStart
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2022407563

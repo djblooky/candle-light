@@ -23,7 +23,6 @@ public class TitleScreen : MonoBehaviour
     public void PlayButton()
     {
         menuAudioSource.PlayOneShot(gameStart);
-        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
