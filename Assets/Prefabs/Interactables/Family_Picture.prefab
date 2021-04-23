@@ -9580,11 +9580,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 0
-  objectName: 
+  objectName: Family_Picture
   hoverText: TEXT
   audioSource: {fileID: 7557044886492300249}
   ragtimeMusic: {fileID: 0}
-  gameObjectToDestroy: {fileID: 0}
+  gameObjectToDestroy: {fileID: 1863984993323926226}
   fadeIn:
     serializedVersion: 2
     m_Curve:
