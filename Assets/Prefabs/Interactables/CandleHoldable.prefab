@@ -10013,7 +10013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b747aa9a4e97149b61219944fbba2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTextOnHover: 1
+  displayTextOnHover: 0
   objectName: Candle
   hoverText: pick up candle?
   audioSource: {fileID: 4479981996840382022}
@@ -10377,7 +10377,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6179854820098268283}
   m_LocalRotation: {x: -0, y: 0.8667133, z: -0, w: 0.49880677}
-  m_LocalPosition: {x: -0.1161, y: 0, z: 0.1847}
+  m_LocalPosition: {x: -0.08928302, y: 0, z: 0.25065777}
   m_LocalScale: {x: 0.025049994, y: 0.0167, z: 0.025049994}
   m_Children: []
   m_Father: {fileID: 5936514452125473453}

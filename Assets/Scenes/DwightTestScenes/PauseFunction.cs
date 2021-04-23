@@ -82,8 +82,9 @@ public class PauseFunction : MonoBehaviour
 
     public void ReturnToMenu()
     {
+        Application.Quit();
 
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
 
     }
 

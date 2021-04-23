@@ -11,6 +11,7 @@ public class Note : InteractiveObject
     [SerializeField] private bool showOverlayImage = false;
     [SerializeField] protected AudioClip notePickUp, notePutDown, burnNote;
     [SerializeField] protected AudioSource noteAudioSource;
+    [SerializeField] GameObject[] objectsToDestroy;
 
     [SerializeField]
     [TextArea(1, 10)]
@@ -18,6 +19,7 @@ public class Note : InteractiveObject
 
     private void Start()
     {
+        InteractObjInit();
         noteAudioSource.GetComponent<AudioSource>();
     }
 
@@ -47,6 +49,11 @@ public class Note : InteractiveObject
                 noteAudioSource.PlayOneShot(notePutDown);
                 AkSoundEngine.PostEvent("Notes_VO_Switch_Stop", gameObject);
                 IsOpen = false;
+
+                foreach (GameObject o in objectsToDestroy)
+                    Destroy(o);
+
+                gameObject.tag = "Untagged";
             }
         }
     }
