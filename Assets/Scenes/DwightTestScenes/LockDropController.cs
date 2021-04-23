@@ -22,7 +22,7 @@ public class LockDropController : MonoBehaviour
     private void Drop1()
     {
 
-        Debug.Log("LOCKDROP1MAIN");
+        //Debug.Log("LOCKDROP1MAIN");
 
         Invoke("Drop1Delay", 0.1f);
 
@@ -37,7 +37,7 @@ public class LockDropController : MonoBehaviour
     private void Drop2()
     {
 
-        Debug.Log("LOCKDROP2MAIN");
+        //Debug.Log("LOCKDROP2MAIN");
 
         Invoke("Drop2Delay", 0.1f);
 
@@ -52,7 +52,7 @@ public class LockDropController : MonoBehaviour
     private void Drop3()
     {
 
-        Debug.Log("LOCKDROP3MAIN");
+        //Debug.Log("LOCKDROP3MAIN");
 
         Invoke("Drop3Delay", 0.1f);
 
@@ -68,7 +68,7 @@ public class LockDropController : MonoBehaviour
     private void Drop1Delay()
     {
 
-        Debug.Log("LOCKDROP1DELAY");
+        //Debug.Log("LOCKDROP1DELAY");
 
         if (gameObject.name == "1TopHalf")
         {
@@ -81,7 +81,7 @@ public class LockDropController : MonoBehaviour
     private void Drop2Delay()
     {
 
-        Debug.Log("LOCKDROP2DELAY");
+        //Debug.Log("LOCKDROP2DELAY");
 
         if (gameObject.name == "2TopHalf")
         {
@@ -94,7 +94,7 @@ public class LockDropController : MonoBehaviour
     private void Drop3Delay()
     {
 
-        Debug.Log("LOCKDROP3DELAY");
+        //Debug.Log("LOCKDROP3DELAY");
 
         if (gameObject.name == "3TopHalf")
         {
@@ -110,9 +110,9 @@ public class LockDropController : MonoBehaviour
 
         BurnableObjectForDoor.Key1PlacedLockDrop += Drop1;
 
-        BurnableObjectForDoor.Key1PlacedLockDrop += Drop2;
+        BurnableObjectForDoor.Key2PlacedLockDrop += Drop2;
 
-        BurnableObjectForDoor.Key1PlacedLockDrop += Drop3;
+        BurnableObjectForDoor.Key3PlacedLockDrop += Drop3;
 
         //NoteSpawner.NoteSpawned += Init;
 
@@ -128,9 +128,9 @@ public class LockDropController : MonoBehaviour
 
         BurnableObjectForDoor.Key1PlacedLockDrop -= Drop1;
 
-        BurnableObjectForDoor.Key1PlacedLockDrop -= Drop2;
+        BurnableObjectForDoor.Key2PlacedLockDrop -= Drop2;
 
-        BurnableObjectForDoor.Key1PlacedLockDrop -= Drop3;
+        BurnableObjectForDoor.Key3PlacedLockDrop -= Drop3;
 
         //NoteSpawner.NoteSpawned -= Init;
 

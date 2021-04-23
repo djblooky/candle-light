@@ -59,7 +59,6 @@ public class BurnableObjectForDoor : InteractiveObject
     {
         if (isBurning)
         {
-
             timer += Time.deltaTime;
             _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
 
