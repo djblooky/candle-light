@@ -9,13 +9,11 @@ public class BurnableObject : InteractiveObject
     [SerializeField] protected AudioClip burnObject;
     [SerializeField] protected AudioSource burnAudioSource;
 
-
     private ParticleSystem ps;
     private bool isBurning = false;
     private Renderer _renderer;
     private int shaderProperty;
     private float timer = 0;
-
 
     private void Start()
     {
@@ -31,7 +29,6 @@ public class BurnableObject : InteractiveObject
 
         var main = ps.main;
         main.duration = spawnEffectTime;
-
         
         if (gameObjectToDestroy == null)
             gameObjectToDestroy = gameObject;
@@ -75,7 +72,6 @@ public class BurnableObject : InteractiveObject
         if (gameObject.GetComponentInParent<Note>())
         {
             Note.ClosedNote += BurnObject;
-            
         }      
     }
 
@@ -88,6 +84,4 @@ public class BurnableObject : InteractiveObject
             Note.ClosedNote -= BurnObject;
         } 
     }
-
-
 }

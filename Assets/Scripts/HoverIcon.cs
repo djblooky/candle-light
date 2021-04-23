@@ -2,7 +2,13 @@
 
 public class HoverIcon : MonoBehaviour
 {
-    // Update is called once per frame
+    private GameObject playerHead;
+
+    private void Start()
+    {
+        playerHead = GameObject.FindGameObjectWithTag("MainCamera");
+    }
+
     private void Update()
     {
         RotateTowardsPlayer();
@@ -10,6 +16,6 @@ public class HoverIcon : MonoBehaviour
 
     private void RotateTowardsPlayer()
     {
-
+        transform.LookAt(playerHead.transform);
     }
 }

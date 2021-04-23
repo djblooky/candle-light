@@ -161,6 +161,21 @@ PrefabInstance:
       propertyPath: noteAudioSource
       value: 
       objectReference: {fileID: 9148990143583719442}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: objectsToDestroy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: objectsToDestroy.Array.data[0]
+      value: 
+      objectReference: {fileID: 5962586173031500505}
+    - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
+        type: 3}
+      propertyPath: objectsToDestroy.Array.data[1]
+      value: 
+      objectReference: {fileID: 6068969689263269327}
     - target: {fileID: 5351226776280642155, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: m_Volume
@@ -203,6 +218,18 @@ AudioSource:
 --- !u!82 &5783905178051860314 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5351226776280642155, guid: 210736380f602624d90946655c59cb8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1875731085016884529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5962586173031500505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5240136024224706536, guid: 210736380f602624d90946655c59cb8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1875731085016884529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6068969689263269327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5638120516212523262, guid: 210736380f602624d90946655c59cb8b,
     type: 3}
   m_PrefabInstance: {fileID: 1875731085016884529}
   m_PrefabAsset: {fileID: 0}
