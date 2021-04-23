@@ -138,8 +138,9 @@ PrefabInstance:
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
       propertyPath: noteText
-      value: There is a malevolent presence in the dark and the only way to stay
-        alive is to always stay in the light. The candle will be your lifeline.
+      value: "It seems that you have found yourself here once again. Take the candle.
+        Press on. Do not be fearful of the shadow. \n\n\n                                                                    
+        -Grai"
       objectReference: {fileID: 0}
     - target: {fileID: 5217737982084842773, guid: 210736380f602624d90946655c59cb8b,
         type: 3}
