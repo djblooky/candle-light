@@ -115,11 +115,11 @@ MonoBehaviour:
   ragtimeMusic: {fileID: 0}
   isLocked: 0
   canBeClosed: 1
-  openSound: {fileID: 8300000, guid: 975a16b532381174c8b663c02af4f86b, type: 3}
-  closeSound: {fileID: 0}
-  lockedSound: {fileID: 0}
-  slamSound: {fileID: 0}
-  unlockSound: {fileID: 0}
+  openSound: {fileID: 8300000, guid: 9f87ad40b0a52ec4c9c6fc335824b370, type: 3}
+  closeSound: {fileID: 8300000, guid: d2a120ca61129854889f05989fe99367, type: 3}
+  lockedSound: {fileID: 8300000, guid: 0052f7d85210ee049856a49917264ccd, type: 3}
+  slamSound: {fileID: 8300000, guid: fb058e05b03c24b4b8762f6f7d0cc664, type: 3}
+  unlockSound: {fileID: 8300000, guid: 71a704564f3895a43bac5141fde08665, type: 3}
   animator: {fileID: 9084012072081871432}
 --- !u!82 &6114744531405115498
 AudioSource:
@@ -133,7 +133,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -177,7 +177,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -322,9 +322,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5888651687036207369}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.0199995, y: 1.1576219, z: -9.4221}
-  m_LocalScale: {x: 1.85, y: 1.25, z: 1}
+  m_LocalScale: {x: -1.85, y: 1.25, z: 1}
   m_Children:
   - {fileID: 4624055674479861455}
   m_Father: {fileID: 0}

@@ -94,14 +94,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTextOnHover: 1
-  hoverText: open door?
   objectName: Door
+  hoverText: open door?
   audioSource: {fileID: 4998992184320890434}
+  ragtimeMusic: {fileID: 0}
   isLocked: 0
   canBeClosed: 1
-  openSound: {fileID: 8300000, guid: 975a16b532381174c8b663c02af4f86b, type: 3}
-  closeSound: {fileID: 0}
-  lockSound: {fileID: 0}
+  openSound: {fileID: 8300000, guid: 9f87ad40b0a52ec4c9c6fc335824b370, type: 3}
+  closeSound: {fileID: 8300000, guid: 326b703696f988a48aad973301fb819f, type: 3}
+  lockedSound: {fileID: 8300000, guid: 0052f7d85210ee049856a49917264ccd, type: 3}
+  slamSound: {fileID: 8300000, guid: fb058e05b03c24b4b8762f6f7d0cc664, type: 3}
+  unlockSound: {fileID: 8300000, guid: 71a704564f3895a43bac5141fde08665, type: 3}
   animator: {fileID: 4461763615174916828}
 --- !u!65 &497851710151473404
 BoxCollider:

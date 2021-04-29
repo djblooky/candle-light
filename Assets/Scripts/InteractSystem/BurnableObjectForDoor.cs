@@ -25,6 +25,8 @@ public class BurnableObjectForDoor : InteractiveObject
     public static event Action Key2PlacedLockDrop;
     public static event Action Key3PlacedLockDrop;
 
+    [SerializeField] protected AudioClip burnObject;
+
 
     private void Start()
     {
@@ -65,7 +67,7 @@ public class BurnableObjectForDoor : InteractiveObject
             if (timer > spawnEffectTime)
             {
                 isBurning = false;
-                Destroy(gameObjectToDestroy);
+                Destroy(gameObjectToDestroy, burnObject.length);
             }
         }
     }
@@ -81,7 +83,7 @@ public class BurnableObjectForDoor : InteractiveObject
             tag = "Untagged";
             ps.Play();
             isBurning = true;
-            audioSource.Play();
+            audioSource.PlayOneShot(burnObject);
         }
         
     }
@@ -96,7 +98,7 @@ public class BurnableObjectForDoor : InteractiveObject
             tag = "Untagged";
             ps.Play();
             isBurning = true;
-            audioSource.Play();
+            audioSource.PlayOneShot(burnObject);
         }
         
     }
@@ -111,7 +113,7 @@ public class BurnableObjectForDoor : InteractiveObject
             tag = "Untagged";
             ps.Play();
             isBurning = true;
-            audioSource.Play();
+            audioSource.PlayOneShot(burnObject);
         }
         
     }
