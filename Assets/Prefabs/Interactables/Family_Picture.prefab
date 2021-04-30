@@ -9557,7 +9557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038b98af94a0a034c88fa5b183f0b1c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTextOnHover: 1
+  displayTextOnHover: 0
   objectName: Family_Picture
   hoverText: Pick Up Photo?
   audioSource: {fileID: 0}
@@ -9616,6 +9616,7 @@ MonoBehaviour:
   Disolve2Mat: {fileID: 0}
   CubeKey2Mat: {fileID: 0}
   Disolve3Mat: {fileID: 0}
+  burnObject: {fileID: 0}
 --- !u!82 &7557044886492300249
 AudioSource:
   m_ObjectHideFlags: 0
