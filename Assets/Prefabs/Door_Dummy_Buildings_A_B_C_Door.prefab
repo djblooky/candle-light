@@ -113,10 +113,10 @@ MonoBehaviour:
   hoverText: 
   audioSource: {fileID: 6114744531405115498}
   ragtimeMusic: {fileID: 0}
-  isLocked: 0
+  isLocked: 1
   canBeClosed: 1
   openSound: {fileID: 8300000, guid: 9f87ad40b0a52ec4c9c6fc335824b370, type: 3}
-  closeSound: {fileID: 8300000, guid: d2a120ca61129854889f05989fe99367, type: 3}
+  closeSound: {fileID: 8300000, guid: c6e34d1f2e5a50c4f91041441b717016, type: 3}
   lockedSound: {fileID: 8300000, guid: 0052f7d85210ee049856a49917264ccd, type: 3}
   slamSound: {fileID: 8300000, guid: fb058e05b03c24b4b8762f6f7d0cc664, type: 3}
   unlockSound: {fileID: 8300000, guid: 71a704564f3895a43bac5141fde08665, type: 3}

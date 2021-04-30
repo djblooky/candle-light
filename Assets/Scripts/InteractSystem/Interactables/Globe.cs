@@ -6,7 +6,7 @@ public class Globe : Openable
     [SerializeField] Door doorToUnlock;
     [SerializeField] GameObject keyItemInside;
     [SerializeField] protected AudioSource globeAudioSource;
-    [SerializeField] protected AudioClip globeUnlock, doorUnlock;
+    [SerializeField] protected AudioClip globeUnlock, doorUnlock, piecePlaced;
 
 
     private int piecesRemaining = 3;
@@ -20,7 +20,7 @@ public class Globe : Openable
     {
         Debug.Log("Piece Placed");
         piecesRemaining--;
-        //play SFX
+        globeAudioSource.PlayOneShot(piecePlaced);
         CheckForUnlockedDoor();
     }
 

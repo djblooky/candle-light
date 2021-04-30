@@ -7,10 +7,13 @@ public class LockDropController : MonoBehaviour
 
     private Rigidbody rb;
 
+    [SerializeField] protected AudioClip lockDrop;
+    [SerializeField] protected AudioSource lockAudioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        lockAudioSource = lockAudioSource.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class LockDropController : MonoBehaviour
             rb = gameObject.GetComponent<Rigidbody>();
             rb.isKinematic = false;
             rb.useGravity = true;
+            //lockAudioSource.PlayOneShot(lockDrop);
         }
 
     }

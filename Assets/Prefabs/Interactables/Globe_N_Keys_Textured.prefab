@@ -1909,6 +1909,7 @@ MonoBehaviour:
   globeAudioSource: {fileID: 1945307795}
   globeUnlock: {fileID: 8300000, guid: ab746bef4fe8b304e82d8574db608962, type: 3}
   doorUnlock: {fileID: 8300000, guid: 71a704564f3895a43bac5141fde08665, type: 3}
+  piecePlaced: {fileID: 8300000, guid: e9731ced63f26794dafbde5c81ec9ae2, type: 3}
 --- !u!1 &2386432364033215426
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,6 +3886,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Family_Picture
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997570892960280158, guid: 1f949a97569912748bd670c869650640,
+        type: 3}
+      propertyPath: burnObject
+      value: 
+      objectReference: {fileID: 8300000, guid: f5afa7fc3fac1804db483aff94e960d3, type: 3}
+    - target: {fileID: 7557044886492300249, guid: 1f949a97569912748bd670c869650640,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f949a97569912748bd670c869650640, type: 3}

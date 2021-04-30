@@ -48,6 +48,7 @@ public class InteractiveObject : MonoBehaviour
 
     public virtual void Interact(InteractiveObject i)
     {
+        //audioSource.Play();
         //Debug.Log($"Interacted with {i.objectName}");
         if (i.hoverIcon != null) 
             i.hoverIcon.SetActive(false);
