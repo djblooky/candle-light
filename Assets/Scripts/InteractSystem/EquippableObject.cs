@@ -21,9 +21,10 @@ public class EquippableObject : InteractiveObject
         else
             hoverText = "Pick up " + objectName + " ?";
     }
-    /*
-    public override void Interact()
+    
+    public override void Interact(InteractiveObject i)
     {
-        base.Interact();
-    }*/
+        base.Interact(i);
+        if(hoverIcon != null) hoverIcon.SetActive(false);
+    }
 }

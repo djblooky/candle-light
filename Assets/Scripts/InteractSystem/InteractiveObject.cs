@@ -16,7 +16,7 @@ public class InteractiveObject : MonoBehaviour
     protected AudioClip ragtimeMusic;
 
     private InteractiveObject currentInteractiveObject;
-    private GameObject hoverIcon;
+    public GameObject hoverIcon;
 
     private void Start()
     {

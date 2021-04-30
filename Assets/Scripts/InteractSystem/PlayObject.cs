@@ -4,6 +4,11 @@ public class PlayObject : InteractiveObject
 {
     AudioSource audioData;
 
+    private void Start()
+    {
+        InteractObjInit();
+    }
+
     protected override void OnHoveredOver(InteractiveObject i)
     {
         base.OnHoveredOver(i);
