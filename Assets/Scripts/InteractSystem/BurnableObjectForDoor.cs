@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System;
 
-public class BurnableObjectForDoor : InteractiveObject
+public class BurnableObjectForDoor : MonoBehaviour
 {
     [Header("BurnableObjectForDoor.cs")]
     [SerializeField] private GameObject gameObjectToDestroy;
     [SerializeField] private AnimationCurve fadeIn;
     [SerializeField] private float spawnEffectTime = 1f;
+    [SerializeField] protected AudioSource audioSource;
 
     private ParticleSystem ps;
     private bool isBurning = false;
@@ -15,10 +16,12 @@ public class BurnableObjectForDoor : InteractiveObject
     private float timer = 0;
     //private int WhichOneIsBurning;
     public Material PhotoMat;
-    public Material Disolve1Mat; 
-    public Material CubeKeyMat;
-    public Material Disolve2Mat; 
-    public Material CubeKey2Mat;
+    public Material Disolve1Mat;
+    public Material CubeKeyMat1;
+    public Material CubeKeyMat2;
+    public Material Disolve2Mat;
+    public Material CubeKey2Mat1;
+    public Material CubeKey2Mat2;
     public Material Disolve3Mat;
 
     public static event Action Key1PlacedLockDrop;
@@ -48,11 +51,17 @@ public class BurnableObjectForDoor : InteractiveObject
         if (gameObject.name == "Family_Picture")
             _renderer.material = PhotoMat; 
 
-        if (gameObject.name == "CubeKey")
-            _renderer.material = CubeKeyMat; 
+        if (gameObject.name == "Death_Cert")
+        {
+            _renderer.materials[0] = CubeKeyMat1;
+            _renderer.materials[1] = CubeKeyMat2;
+        }
 
-        if (gameObject.name == "CubeKey2")
-            _renderer.material = CubeKey2Mat;
+        if (gameObject.name == "Ritual_Prop")
+        {
+            _renderer.materials[0] = CubeKey2Mat1;
+            _renderer.materials[1] = CubeKey2Mat2;
+        }
 
 
     }
@@ -61,13 +70,27 @@ public class BurnableObjectForDoor : InteractiveObject
     {
         if (isBurning)
         {
-            timer += Time.deltaTime;
-            _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
+
+            if (gameObject.name == "Family_Picture")
+            {
+                timer += Time.deltaTime;
+                _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
+            }
+            if (gameObject.name == "Death_Cert")
+            {
+                timer += Time.deltaTime;
+                _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
+            }
+            if (gameObject.name == "Ritual_Prop")
+            {
+                timer += Time.deltaTime;
+                _renderer.material.SetFloat(shaderProperty, fadeIn.Evaluate(Mathf.InverseLerp(0, spawnEffectTime, timer)));
+            }
 
             if (timer > spawnEffectTime)
             {
                 isBurning = false;
-                Destroy(gameObjectToDestroy, burnObject.length);
+                Destroy(gameObjectToDestroy, .5f);
             }
         }
     }
@@ -89,10 +112,10 @@ public class BurnableObjectForDoor : InteractiveObject
     }
     private void BurnObject2()
     {
-        if (gameObject.name == "CubeKey")
+        if (gameObject.name == "Death_Cert")
         {
             Key2PlacedLockDrop?.Invoke();
-            Debug.Log("CUBEKEY TRIGGER BURNOBJECT()");
+            Debug.Log("Death_Cert TRIGGER BURNOBJECT()");
             //WhichOneIsBurning = 2;
             _renderer.material = Disolve2Mat;
             tag = "Untagged";
@@ -104,10 +127,10 @@ public class BurnableObjectForDoor : InteractiveObject
     }
     private void BurnObject3()
     {
-        if (gameObject.name == "CubeKey2")
+        if (gameObject.name == "Ritual_Prop")
         {
             Key3PlacedLockDrop?.Invoke();
-            Debug.Log("CUBEKEY2 TRIGGER BURNOBJECT()");
+            Debug.Log("Ritual_Prop TRIGGER BURNOBJECT()");
             //WhichOneIsBurning = 3;
             _renderer.material = Disolve3Mat;
             tag = "Untagged";

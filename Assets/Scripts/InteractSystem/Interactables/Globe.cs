@@ -26,7 +26,7 @@ public class Globe : Openable
 
     private void CheckForUnlockedDoor()
     {
-        if (piecesRemaining <= 0)
+        if (piecesRemaining <= 0 && isLocked == true)
         {
            
             isLocked = false;

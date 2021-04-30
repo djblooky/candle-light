@@ -9456,11 +9456,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1339228069219211368}
+  - component: {fileID: 4997570892960280158}
   - component: {fileID: 2682526072649816013}
   - component: {fileID: 206822578031223559}
   - component: {fileID: 6197717628668816671}
   - component: {fileID: 76721097692725511}
-  - component: {fileID: 4997570892960280158}
   - component: {fileID: 7557044886492300249}
   m_Layer: 9
   m_Name: Family_Picture
@@ -9484,6 +9484,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4997570892960280158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863984993323926226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3eb0f41441312b4885af5edb37e7f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayTextOnHover: 0
+  objectName: Family_Picture
+  hoverText: TEXT
+  audioSource: {fileID: 7557044886492300249}
+  ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
+  gameObjectToDestroy: {fileID: 1863984993323926226}
+  fadeIn:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spawnEffectTime: 2
+  PhotoMat: {fileID: 2100000, guid: 58220542b2ba43e4dac317d2a152e1e3, type: 2}
+  Disolve1Mat: {fileID: 2100000, guid: 0426be07ea2ec9e40ba6c7ce1baea217, type: 2}
+  CubeKeyMat1: {fileID: 0}
+  CubeKeyMat2: {fileID: 0}
+  Disolve2Mat: {fileID: 0}
+  CubeKey2Mat1: {fileID: 0}
+  CubeKey2Mat2: {fileID: 0}
+  Disolve3Mat: {fileID: 0}
+  burnObject: {fileID: 8300000, guid: f5afa7fc3fac1804db483aff94e960d3, type: 3}
 --- !u!33 &2682526072649816013
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9562,61 +9615,12 @@ MonoBehaviour:
   hoverText: Pick Up Photo?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   EquippedRotation: {x: 21.89, y: -52.2, z: -3.5}
   PlacedRotation: {x: 0, y: 0, z: 0}
   xPositionOffset: -0.05
   yPositionOffset: 0.2
   zPositionOffset: 0.09
---- !u!114 &4997570892960280158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863984993323926226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3eb0f41441312b4885af5edb37e7f21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayTextOnHover: 0
-  objectName: Family_Picture
-  hoverText: TEXT
-  audioSource: {fileID: 7557044886492300249}
-  ragtimeMusic: {fileID: 0}
-  gameObjectToDestroy: {fileID: 1863984993323926226}
-  fadeIn:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spawnEffectTime: 2
-  PhotoMat: {fileID: 2100000, guid: 58220542b2ba43e4dac317d2a152e1e3, type: 2}
-  Disolve1Mat: {fileID: 2100000, guid: 0426be07ea2ec9e40ba6c7ce1baea217, type: 2}
-  CubeKeyMat: {fileID: 0}
-  Disolve2Mat: {fileID: 0}
-  CubeKey2Mat: {fileID: 0}
-  Disolve3Mat: {fileID: 0}
-  burnObject: {fileID: 0}
 --- !u!82 &7557044886492300249
 AudioSource:
   m_ObjectHideFlags: 0

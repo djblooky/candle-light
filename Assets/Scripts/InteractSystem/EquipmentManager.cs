@@ -61,7 +61,14 @@ public class EquipmentManager : MonoBehaviour
 
         if (lerpTimeElapsed >= lerpDuration - 0.7) //once it's done lerping
         {
-            ObjectPlaced?.Invoke(); //TODO: remove this and create invoke an event when the lock flames are lit instead
+            if (objectToUnequip.name == "Family_Picture" || objectToUnequip.name == "Death_Cert" || objectToUnequip.name == "Ritual_Prop")
+            {
+                //
+            }
+            else
+            {
+                ObjectPlaced?.Invoke(); //TODO: remove this and create invoke an event when the lock flames are lit instead
+            }
             objectToUnequip.transform.SetParent(nextSpotToPlace.transform);
             UnequipObject(0, true);
             lerpTimeElapsed = 0;

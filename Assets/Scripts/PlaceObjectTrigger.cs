@@ -40,6 +40,15 @@ public class PlaceObjectTrigger : InteractiveObject
         if (EquipmentManager.current.leftHandEquipped && EquipmentManager.current.currentLeftObject.objectName == fitsPieceWithName)
         {
             //IsEmpty = false;
+            //if (EquipmentManager.current.currentLeftObject.objectName == "Family_Picture" || EquipmentManager.current.currentLeftObject.objectName == "Death_Cert" || EquipmentManager.current.currentLeftObject.objectName == "Ritual_Prop")
+            //{
+            //    //
+            //}
+            //else
+            //{
+            //    PiecePlaced?.Invoke();
+            //}
+
             PiecePlaced?.Invoke();
 
             // DOOR ZONE
@@ -48,11 +57,11 @@ public class PlaceObjectTrigger : InteractiveObject
             {
                 Key1Placed?.Invoke();
             }
-            if (EquipmentManager.current.currentLeftObject.objectName == "CubeKey")
+            if (EquipmentManager.current.currentLeftObject.objectName == "Death_Cert")
             {
                 Key2Placed?.Invoke();
             }
-            if (EquipmentManager.current.currentLeftObject.objectName == "CubeKey2")
+            if (EquipmentManager.current.currentLeftObject.objectName == "Ritual_Prop")
             {
                 Key3Placed?.Invoke();
             }

@@ -342,6 +342,7 @@ MonoBehaviour:
   hoverText: place?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   fitsPieceWithName: Circle Piece
 --- !u!1 &382959199
 GameObject:
@@ -454,6 +455,7 @@ MonoBehaviour:
   hoverText: 
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   xPositionOffset: 0
@@ -801,6 +803,7 @@ MonoBehaviour:
   hoverText: place?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   fitsPieceWithName: Triangle Piece
 --- !u!1 &1000215140
 GameObject:
@@ -900,6 +903,7 @@ MonoBehaviour:
   hoverText: 
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   xPositionOffset: 0
@@ -1031,6 +1035,7 @@ MonoBehaviour:
   hoverText: 
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   EquippedRotation: {x: -1.36, y: 9.73, z: 46.17}
   PlacedRotation: {x: 0, y: 0, z: 0}
   xPositionOffset: 0
@@ -1378,6 +1383,7 @@ MonoBehaviour:
   hoverText: place?
   audioSource: {fileID: 0}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   fitsPieceWithName: Square Piece
 --- !u!1 &66807288640323111
 GameObject:
@@ -1896,6 +1902,7 @@ MonoBehaviour:
   hoverText: touch globe?
   audioSource: {fileID: 1945307795}
   ragtimeMusic: {fileID: 0}
+  hoverIcon: {fileID: 0}
   isLocked: 1
   canBeClosed: 0
   openSound: {fileID: 0}
@@ -3887,11 +3894,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Family_Picture
       objectReference: {fileID: 0}
-    - target: {fileID: 4997570892960280158, guid: 1f949a97569912748bd670c869650640,
-        type: 3}
-      propertyPath: burnObject
-      value: 
-      objectReference: {fileID: 8300000, guid: f5afa7fc3fac1804db483aff94e960d3, type: 3}
     - target: {fileID: 7557044886492300249, guid: 1f949a97569912748bd670c869650640,
         type: 3}
       propertyPath: m_audioClip
