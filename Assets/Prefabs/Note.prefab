@@ -14396,6 +14396,7 @@ MonoBehaviour:
   notePutDown: {fileID: 0}
   burnNote: {fileID: 0}
   noteAudioSource: {fileID: 0}
+  objectsToDestroy: []
   noteText: This is madness. Normal means of medication does not help me and the
     finest physicians in the country cannot discern this illness and give name to
     the cure! I have been nothing but patient and yet my patience is rewarded with
