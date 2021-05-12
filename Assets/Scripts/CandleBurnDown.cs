@@ -43,7 +43,7 @@ public class CandleBurnDown : MonoBehaviour
             //ResetCandle()
         }
 
-        if (BurnSecondsRemaining <= 88f && BurnSecondsRemaining > 87)
+        if (BurnSecondsRemaining <= 84.5f && BurnSecondsRemaining > 83.5)
         {
             AkSoundEngine.SetState("Music_Switch", "Candle_RunningOut");
             

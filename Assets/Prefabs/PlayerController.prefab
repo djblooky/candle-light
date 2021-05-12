@@ -44,8 +44,8 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.019607844, g: 0.015686275, b: 0.003921569, a: 0.43529412}
-  m_Intensity: 1.6025251
+  m_Color: {r: 0.01, g: 0.007999999, b: 0.0019999999, a: 0.43529412}
+  m_Intensity: 1
   m_Range: 3.7278183
   m_SpotAngle: 125
   m_InnerSpotAngle: 1
@@ -294,7 +294,13 @@ MonoBehaviour:
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  m_AfterStackBundles:
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.ColorEffect,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.HardLight, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.TextureOverlay,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &821266195408143838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,8 +326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4478673370011727780}
-  delayBeforeDeathAnim: 3
-  delayBeforeRespawn: 1
+  delayBeforeDeathAnim: 4
+  delayBeforeRespawn: 6
   RespawnPosition: {x: 4.86, y: 0.25, z: -13.58}
   RespawnRotation: {x: 0, y: 90, z: 0}
   CandlePivotPointer: {fileID: 0}
@@ -364,8 +370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   candleCanBurnDown: 1
   addToCandleDurationAfterRespawn: 0
-  CandleScale: 1
-  BurnDurationSeconds: 200
+  CandleScale: 0
+  BurnDurationSeconds: 150
   BurnSecondsRemaining: 0
   CandlePivotPointer: {fileID: 0}
   AlreadyCalled: 0
@@ -441,6 +447,14 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!81 &1573783270
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478673370011727780}
+  m_Enabled: 1
 --- !u!114 &474146201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,7 +603,13 @@ MonoBehaviour:
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  m_AfterStackBundles:
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.ColorEffect,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.HardLight, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - assemblyQualifiedName: DitzelGames.PostProcessingTextureOverlay.TextureOverlay,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &4851702237230607689
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,12 +973,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4160807637672591828, guid: fd7bcc399ca24a14e878ccae14f2e8b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fd7bcc399ca24a14e878ccae14f2e8b1, type: 3}
---- !u!1 &4478673370011727780 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4079072196837349498, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 485464338596196318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!20 &4497587215602076192 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 4095483451688986110, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
@@ -968,6 +982,12 @@ Camera:
 --- !u!4 &4481723908200274292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4075475192779011754, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 485464338596196318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4478673370011727780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4079072196837349498, guid: fd7bcc399ca24a14e878ccae14f2e8b1,
     type: 3}
   m_PrefabInstance: {fileID: 485464338596196318}
   m_PrefabAsset: {fileID: 0}
