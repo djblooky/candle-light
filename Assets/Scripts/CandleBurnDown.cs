@@ -16,6 +16,7 @@ public class CandleBurnDown : MonoBehaviour
     [SerializeField] private GameObject CandlePivotPointer;
     public static event Action CandlePickedUp;
     [SerializeField] private bool AlreadyCalled = false;
+    public bool InZoneTime = false;
 
     private void Start()
     {
@@ -43,6 +44,11 @@ public class CandleBurnDown : MonoBehaviour
             //ResetCandle()
         }
 
+        if (BurnSecondsRemaining > 85)
+        {
+            AkSoundEngine.SetState("Music_Switch", "Game_Start");
+        }
+
         if (BurnSecondsRemaining <= 84.5f && BurnSecondsRemaining > 83.5)
         {
             AkSoundEngine.SetState("Music_Switch", "Candle_RunningOut");
@@ -53,6 +59,11 @@ public class CandleBurnDown : MonoBehaviour
         {
             CandlePickedUp?.Invoke();
             AlreadyCalled = true;
+        }
+
+        if (InZoneTime && BurnSecondsRemaining <= 150)
+        {
+            BurnSecondsRemaining = BurnSecondsRemaining + .1f; /////////////////////////////// CANDLE UP
         }
 
 
@@ -74,13 +85,30 @@ public class CandleBurnDown : MonoBehaviour
         //TODO: equiptment manager unequip candle
     }
 
+    public void MakeCandleUp()
+    {
+
+        InZoneTime = true;
+
+    }
+    public void MakeCandleResume()
+    {
+
+        InZoneTime = false;
+
+    }
+
     private void OnEnable()
     {
         RespawnManager.RespawnTriggered += ResetCandle;
+        CandleUP.InZone += MakeCandleUp;
+        CandleUP.OutZone += MakeCandleResume;
     }
 
     private void OnDisable()
     {
         RespawnManager.RespawnTriggered -= ResetCandle;
+        CandleUP.OutZone -= MakeCandleResume;
+
     }
 }
