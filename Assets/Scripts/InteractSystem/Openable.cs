@@ -17,6 +17,7 @@ public class Openable : InteractiveObject
     [SerializeField]
     public bool isLocked = false;
 
+
     [SerializeField]
     private bool canBeClosed = true;
 
@@ -28,6 +29,9 @@ public class Openable : InteractiveObject
 
     [SerializeField]
     protected Animator animator;
+
+    [SerializeField] 
+    private Sprite lockedIcon, unlockedIcon, grabHandleIcon, fistIcon;
 
     protected bool isOpen = false;
     private readonly int isOpenAnimatorParam = Animator.StringToHash("isOpen");
@@ -47,6 +51,8 @@ public class Openable : InteractiveObject
 
     private void SetHoverText()
     {
+        hoverIcon.GetComponent<SpriteRenderer>().sprite = grabHandleIcon;
+
         if (IsOpen)
         {
             hoverText = closeText + " " + objectName;
@@ -62,10 +68,13 @@ public class Openable : InteractiveObject
         if (isLocked)
         {
             hoverText = "Locked";
+            hoverIcon.GetComponent<SpriteRenderer>().sprite = lockedIcon;
             audioSource.PlayOneShot(lockedSound);
         }
         else
         {
+            hoverIcon.GetComponent<SpriteRenderer>().sprite = fistIcon;
+
             if (isOpen && canBeClosed)
             {
                 IsOpen = false;
